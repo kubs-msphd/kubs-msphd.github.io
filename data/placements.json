@@ -1,0 +1,22 @@
+{
+  "area": "LSOM",
+  "degree": "PhD",
+  "source": "Programme lead supplied alumni list, 2026-09-06",
+  "affiliation_note": "Affiliations supplied by the programme lead; not verified as first placements. Graduation years are not yet available.",
+  "alumni": [
+    {"name": "유승호", "institution_ko": "한양대학교", "institution_en": "Hanyang University", "graduation_year": null, "first_placement": null},
+    {"name": "조부연", "institution_ko": "제주대학교", "institution_en": "Jeju National University", "graduation_year": null, "first_placement": null},
+    {"name": "편제범", "institution_ko": "호서대학교", "institution_en": "Hoseo University", "graduation_year": null, "first_placement": null},
+    {"name": "이성희", "institution_ko": "호서대학교", "institution_en": "Hoseo University", "graduation_year": null, "first_placement": null},
+    {"name": "이평수", "institution_ko": "경기대학교", "institution_en": "Kyonggi University", "graduation_year": null, "first_placement": null},
+    {"name": "박진수", "institution_ko": "전주대학교", "institution_en": "Jeonju University", "graduation_year": null, "first_placement": null},
+    {"name": "박수훈", "institution_ko": "전남대학교", "institution_en": "Chonnam National University", "graduation_year": null, "first_placement": null},
+    {"name": "이남경", "institution_ko": "강남대학교", "institution_en": "Kangnam University", "graduation_year": null, "first_placement": null},
+    {"name": "이상준", "institution_ko": "동국대학교", "institution_en": "Dongguk University", "graduation_year": null, "first_placement": null},
+    {"name": "정다운", "institution_ko": "인하대학교", "institution_en": "Inha University", "graduation_year": null, "first_placement": null},
+    {"name": "안철옥", "institution_ko": "군산대학교", "institution_en": "Kunsan National University", "graduation_year": null, "first_placement": null},
+    {"name": "정의범", "institution_ko": "한서대학교", "institution_en": "Hanseo University", "graduation_year": null, "first_placement": null},
+    {"name": "임희주", "institution_ko": "서원대학교", "institution_en": "Seowon University", "graduation_year": null, "first_placement": null},
+    {"name": "김미금", "institution_ko": "서경대학교", "institution_en": "Seokyeong University", "graduation_year": null, "first_placement": null}
+  ]
+}
