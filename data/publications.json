@@ -1,0 +1,35 @@
+[
+  {
+    "year": 2026,
+    "title": "Learning in Recovery from Disruption: Empirical Evidence from the U.S. Drug Shortages",
+    "authors": "Hyun Seok (Huck) Lee, Junghee Lee, In Joon Noh, Bradley R. Staats",
+    "journal": "Management Science",
+    "status_ko": "2026.05.28 온라인 게재",
+    "status_en": "Published online May 28, 2026",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08337",
+    "summary_ko": "공급부족을 해결하며 축적한 경험이 의약품 공급의 회복에 미치는 영향을 연구합니다.",
+    "summary_en": "How experience resolving drug shortages shapes recovery from subsequent supply disruptions."
+  },
+  {
+    "year": 2026,
+    "title": "Evolution of Ride Services: From Ride Hailing to Autonomous Vehicles",
+    "authors": "Daehoon Noh, Tunay I. Tunca, Yi Xu",
+    "journal": "Management Science",
+    "status_ko": "2026.04.30 온라인 게재",
+    "status_en": "Published online April 30, 2026",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.02733",
+    "summary_ko": "차량 호출 플랫폼과 자율주행 서비스 간 경쟁을 분석합니다.",
+    "summary_en": "Examining competition between ride-hailing platforms and autonomous vehicle services."
+  },
+  {
+    "year": 2025,
+    "title": "Service Operations for Justice-on-Time: A Data-Driven Queueing Approach",
+    "authors": "Nitin Bakshi, Jeunghyun Kim, Ramandeep S. Randhawa",
+    "journal": "Manufacturing & Service Operations Management",
+    "status_ko": "27(1), 305–321 · 2024년 온라인 선게재",
+    "status_en": "27(1), 305–321 · First published online in 2024",
+    "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.0530",
+    "summary_ko": "실제 사건 자료와 대기행렬 모형으로 재판 지연을 줄이는 운영 방안을 연구합니다.",
+    "summary_en": "Using court case data and queueing models to study ways of reducing delays in justice."
+  }
+]
