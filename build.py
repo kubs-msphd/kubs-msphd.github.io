@@ -1,4 +1,4 @@
-"""Build three portable static pages from shared templates and public content data."""
+"""Build the KUBS research website from shared templates and public content data."""
 from pathlib import Path
 from html import escape
 import json
@@ -8,9 +8,18 @@ OUT = ROOT / 'dist'
 FACULTY = json.loads((ROOT / 'data/faculty.json').read_text())
 PAPERS = json.loads((ROOT / 'data/publications.json').read_text())
 PLACEMENTS = json.loads((ROOT / 'data/placements.json').read_text())
+AREAS = json.loads((ROOT / 'data/areas.json').read_text())
+AREA_MAP = {a['code']: a for a in AREAS}
 OFFICIAL = 'https://biz.korea.ac.kr/msphd/intro.html'
+DIRECTORY = 'https://biz.korea.ac.kr/professor/professor_list1.html'
+SITE = 'https://kubs-msphd.github.io/'
+VERIFIED = '2026-09-06'
+
+def attr(value):
+    return escape(str(value), quote=True)
 
 def t(ko, en, tag='span', cls=''):
+    ko, en = ko or en or '', en or ko or ''
     return f'<{tag} class="{escape(cls)}" data-ko="{escape(ko, quote=True)}" data-en="{escape(en, quote=True)}">{escape(ko)}</{tag}>'
 
 def link(url, ko, en, cls='text-link', external=False):
@@ -21,11 +30,26 @@ def heading(label, ko, en, aside=''):
     return f'<div class="section-heading"><div><p class="eyebrow">{label}</p>{t(ko,en,"h2")}</div>{aside}</div>'
 
 def faculty_card(row):
-    return f'''<article class="faculty-card">
-      <div class="faculty-heading"><img src="{row['photo']}" width="86" height="108" loading="lazy" alt="{escape(row['name_ko'])}">
-      <div>{t(row['name_ko'],row['name_en'],'h3')}<p class="english-name">{t(row['name_en'],row['name_ko'])}</p><p class="position">LSOM · {t('교수진','Faculty')}</p></div></div>
-      {t(row['interests_ko'],row['interests_en'],'p','interests')}
-      {link(row['url'],'프로필 및 연구','Profile & research',external=True)}
+    ko, en = row['name_ko'], row['name_en'] or row['name_ko']
+    image = (f'<img src="{attr(row["photo"])}" width="86" height="108" loading="lazy" decoding="async" alt="{attr(ko)}" data-alt-ko="{attr(ko)}" data-alt-en="{attr(en)}">'
+             if row.get('photo') else '<div class="portrait-fallback" aria-hidden="true">KUBS</div>')
+    keywords_ko, keywords_en = row.get('interests_ko'), row.get('interests_en')
+    if not keywords_ko or keywords_ko == 'LSOM':
+        keywords_ko = row.get('research_summary_ko') or keywords_ko
+    if not keywords_en or keywords_en == 'LSOM':
+        keywords_en = row.get('research_summary_en') or keywords_en
+    interests = t(keywords_ko, keywords_en, 'p', 'interests') if keywords_ko or keywords_en else t('공식 소개에서 연구정보를 확인하세요.', 'See the official directory for research information.', 'p', 'interests')
+    url = row.get('url') or DIRECTORY
+    url_en = row.get('url_en') or url
+    profile_ko, profile_en = ('프로필 및 연구', 'Profile & research') if row.get('url') else ('공식 교수진 목록', 'Official faculty directory')
+    profile = f'<a class="text-link" href="{attr(url)}" data-href-ko="{attr(url)}" data-href-en="{attr(url_en)}" aria-label="{attr(ko + " · " + profile_ko)}" data-aria-ko="{attr(ko + " · " + profile_ko)}" data-aria-en="{attr(en + " · " + profile_en)}">{t(profile_ko,profile_en)} <span aria-hidden="true">↗</span></a>'
+    personal = row.get('personal_url')
+    if personal and personal != url:
+        profile += f'<a class="source-link" href="{attr(personal)}" aria-label="{attr(ko + " 개인 홈페이지")}" data-aria-ko="{attr(ko + " 개인 홈페이지")}" data-aria-en="{attr(en + " personal website")}">{t("개인 홈페이지","Personal website")} ↗</a>'
+    search = ' '.join(str(v or '') for v in [ko, en, row.get('title_ko'), row.get('title_en'), keywords_ko, keywords_en, *[AREA_MAP[code]['name_ko']+' '+AREA_MAP[code]['name_en'] for code in row['area_codes']]])
+    return f'''<article class="faculty-card" id="{attr(row['id'])}" data-filter-item data-areas="{attr(' '.join(row['area_codes']))}" data-search="{attr(search)}">
+      <div class="faculty-heading">{image}<div>{t(ko,en,'h3')}<p class="english-name">{t(en,ko)}</p></div></div>
+      {t(row['title_ko'],row['title_en'],'p','position faculty-meta')}{interests}{profile}
     </article>'''
 
 def official_band():
@@ -36,30 +60,66 @@ def official_band():
     </div></section></div>'''
 
 def layout(active, ko_title, en_title, body):
-    navigation=''.join(f'<a href="{url}"'+(' aria-current="page"' if active==key else '')+f'>{t(ko,en)}</a>' for key,url,ko,en in [('home','index.html','홈','Home'),('lsom','lsom.html','LSOM','LSOM'),('placements','placements.html','졸업생 진로','Placements')])
+    navigation=''.join(f'<a href="{url}"'+(' aria-current="page"' if active==key else '')+f'>{t(ko,en)}</a>' for key,url,ko,en in [('home','index.html','홈','Home'),('faculty','faculty.html','교수진','Faculty'),('lsom','lsom.html','LSOM 연구','LSOM Research'),('placements','placements.html','졸업생 진로','Placements')])
+    descriptions = {
+        'home': ('고려대학교 경영대학의 전공별 교수진, 연구분야와 졸업생 진로를 만나보세요.', 'Explore faculty, research interests and alumni careers at Korea University Business School.'),
+        'faculty': ('고려대학교 경영대학 전 전공 교수진과 연구분야. 전공과 연구 키워드로 찾아보세요.', 'Find Korea University Business School faculty by field, name and research interests.'),
+        'lsom': ('고려대학교 경영대학 LSOM 교수진, 연구 주제, 최근 논문과 세미나 안내.', 'Explore LSOM faculty, research questions, selected publications and seminars at KUBS.'),
+        'placements': ('고려대학교 경영대학 LSOM, IS, GB 졸업생의 학계 진출과 출처별 소속 정보.', 'Explore academic career records for KUBS LSOM, IS and Global Business alumni, with sources.'),
+    }
+    desc_ko, desc_en = descriptions[active]
+    canonical = SITE + ('' if active == 'home' else active + '.html')
     return f'''<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title data-ko="{escape(ko_title)} · KUBS MS &amp; PhD" data-en="{escape(en_title)} · KUBS MS &amp; PhD">{escape(ko_title)} · KUBS MS &amp; PhD</title>
-<meta name="description" content="Explore research, faculty and doctoral alumni at Korea University Business School. LSOM, MS and PhD research programmes.">
-<meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#860027">
+<meta name="description" content="{attr(desc_ko)}" data-content-ko="{attr(desc_ko)}" data-content-en="{attr(desc_en)}">
+<meta name="theme-color" content="#860027"><link rel="canonical" href="{canonical}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="KUBS MS &amp; PhD"><meta property="og:title" content="{attr(ko_title)} · KUBS MS &amp; PhD"><meta property="og:description" content="{attr(desc_ko)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{SITE}assets/campus.jpg"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css"><script src="assets/site.js" defer></script></head>
 <body><a class="skip" href="#main">{t('본문 바로가기','Skip to content')}</a>
-<div class="prototype"><div class="wrap">{t('검토용 프로토타입 · KUBS MS & PhD','Review prototype · KUBS MS & PhD')}<span>KOREA UNIVERSITY BUSINESS SCHOOL</span></div></div>
 <header><div class="wrap header-inner"><a class="brand" href="index.html" aria-label="KUBS MS and PhD home"><span class="brand-mark">KUBS</span><span class="brand-copy"><strong>MS & PhD</strong><span>Korea University Business School</span></span></a>
-<div class="nav-wrap"><nav class="nav" id="navigation" aria-label="Main navigation">{navigation}<a href="{OFFICIAL}" data-href-ko="{OFFICIAL}" data-href-en="https://biz.korea.ac.kr/eng/msphd/intro.html">{t('공식 대학원 안내','Official programme')} ↗</a></nav><div class="language" aria-label="Language"><button type="button" data-language="ko" aria-pressed="true" lang="ko">KO</button><button type="button" data-language="en" aria-pressed="false" lang="en">EN</button></div><button type="button" class="menu-toggle" aria-controls="navigation" aria-expanded="false">{t('메뉴','Menu')}</button></div></div></header>
+<div class="nav-wrap"><button type="button" class="menu-toggle" aria-controls="navigation" aria-expanded="false">{t('메뉴','Menu')}</button><nav class="nav" id="navigation" aria-label="주요 메뉴" data-aria-ko="주요 메뉴" data-aria-en="Main navigation">{navigation}<a href="{OFFICIAL}" data-href-ko="{OFFICIAL}" data-href-en="https://biz.korea.ac.kr/eng/msphd/intro.html">{t('공식 안내','Official programme')} ↗</a></nav><div class="language" aria-label="언어 선택" data-aria-ko="언어 선택" data-aria-en="Language"><button type="button" data-language="ko" aria-label="한국어" aria-pressed="true" lang="ko">KO</button><button type="button" data-language="en" aria-label="English" aria-pressed="false" lang="en">EN</button></div></div></div></header>
 <main id="main">{body}{official_band()}</main>
-<footer><div class="wrap"><div class="footer-top"><div><div class="footer-title">KUBS <span>MS & PhD</span></div>{t('고려대학교 경영대학 일반대학원','Korea University Business School · Graduate Research Programmes','p')}{t('서울특별시 성북구 안암로 145','145 Anam-ro, Seongbuk-gu, Seoul, Republic of Korea','p')}</div><div><a href="mailto:kubs_msphd@korea.ac.kr">kubs_msphd@korea.ac.kr</a>{t('일반대학원 문의','Graduate programme enquiries','p')}</div></div><div class="footer-bottom">{t('연구와 사람을 소개하는 대학원 웹사이트 프로토타입','A graduate research website prototype')}<span>© 2026 Korea University Business School</span></div></div></footer></body></html>'''
+<footer><div class="wrap"><div class="footer-top"><div><div class="footer-title">KUBS <span>MS & PhD</span></div>{t('고려대학교 경영대학 일반대학원','Korea University Business School · Graduate Research Programmes','p')}{t('서울특별시 성북구 안암로 145','145 Anam-ro, Seongbuk-gu, Seoul, Republic of Korea','p')}</div><div><a href="mailto:kubs_msphd@korea.ac.kr">kubs_msphd@korea.ac.kr</a>{t('일반대학원 문의','Graduate programme enquiries','p')}</div></div><div class="footer-bottom">{t('경영의 질문을 탐구하는 사람들','People exploring the questions that shape business')}<a href="faculty.html#sources">{t('자료 출처 · 2026.09.06','Sources · 6 September 2026')}</a><span>© 2026 Korea University Business School</span></div></div></footer></body></html>'''
 
 def home():
-    areas=[('경영관리','Management',OFFICIAL),('글로벌비즈니스','Global Business','https://sites.google.com/view/kubsib'),('마케팅','Marketing',OFFICIAL),('재무금융','Finance',OFFICIAL),('전략','Strategy',OFFICIAL),('회계학','Accounting',OFFICIAL),('정보시스템','Information Systems','https://sites.google.com/korea.ac.kr/mis')]
-    area_links=''.join(f'<a href="{url}"><span>{t(ko,en)}<small>{en}</small></span><span aria-hidden="true">↗</span></a>' for ko,en,url in areas)
-    faculty=''.join(faculty_card(FACULTY[i]) for i in [4,6,9])
-    alumni=''.join(f'<div><strong>{a["name"]}</strong>{t(a["institution_ko"],a["institution_en"])}</div>' for a in PLACEMENTS['alumni'][:3])
-    return f'''<section class="hero wrap"><div class="hero-grid"><div><p class="eyebrow">Graduate research at KUBS</p><h1>{t('좋은 질문에서 시작해,','Start with a question.')}<br><em>{t('새로운 지식으로.','Create new knowledge.')}</em></h1>{t('경영의 중요한 문제를 연구하는 사람들. 고려대학교 경영대학에서 나의 연구 주제와 함께할 교수진, 그 이후의 진로를 만나보세요.','Meet the people studying important questions in business. Explore research interests, faculty and the paths our graduates take.','p','hero-text')}<div class="actions">{link('lsom.html','LSOM 연구와 교수진','Explore LSOM','button')}{link('placements.html','졸업생 진로','Meet our alumni')}</div></div><figure class="hero-figure"><img src="assets/campus.jpg" width="720" height="480" fetchpriority="high" alt="Korea University Business School LG-POSCO building and courtyard"><figcaption>{t('고려대학교 경영대학 · LG-POSCO경영관','Korea University Business School · LG-POSCO Building')}</figcaption></figure></div><div class="degree-strip"><p><strong>{t('석사 · 박사 · 석박사통합','MS · PhD · Integrated MS–PhD')}</strong></p><p>{t('연구 주제로 전공을 탐색하고, 사람으로 그 가능성을 확인하세요.','Find your field. Meet the people who make it possible.')}</p></div></section>
+    area_links=''.join(f'<a href="faculty.html?area={a["code"]}"><span>{t(a["name_ko"],a["name_en"])}<small>{a["name_en"]}</small></span><span aria-hidden="true">→</span></a>' for a in AREAS if a['code'] != 'M08')
+    faculty_by_id = {f['id']: f for f in FACULTY}
+    featured_ids = ['faculty-27cc39d50220', 'faculty-5965053325d6', 'faculty-7aacf1915e00']
+    faculty=''.join(faculty_card(faculty_by_id[key]) for key in featured_ids)
+    alumni=''.join(f'<div><strong>{source["id"]}</strong><a href="placements.html?area={source["area_code"]}">{t(str(sum(a["source_id"]==source["id"] for a in PLACEMENTS["alumni"]))+"명 수록",str(sum(a["source_id"]==source["id"] for a in PLACEMENTS["alumni"]))+" alumni records")} →</a></div>' for source in PLACEMENTS['sources'])
+    return f'''<section class="hero wrap"><div class="hero-grid"><div><p class="eyebrow">Graduate research at KUBS</p><h1>{t('좋은 질문에서 시작해,','Start with a question.')}<br><em>{t('새로운 지식으로.','Create new knowledge.')}</em></h1>{t('경영의 중요한 문제를 연구하는 사람들. 고려대학교 경영대학에서 나의 연구 주제와 연결되는 교수진, 그 이후의 진로를 만나보세요.','Meet the people studying important questions in business. Explore research interests, faculty and the paths our graduates take.','p','hero-text')}<div class="actions">{link('faculty.html','전공별 교수진 찾기','Find faculty','button')}{link('placements.html','졸업생 진로','Meet our alumni')}</div></div><figure class="hero-figure"><img src="assets/campus.jpg" width="720" height="480" fetchpriority="high" alt="고려대학교 경영대학 LG-POSCO경영관과 정원" data-alt-ko="고려대학교 경영대학 LG-POSCO경영관과 정원" data-alt-en="Korea University Business School LG-POSCO building and courtyard"><figcaption>{t('고려대학교 경영대학 · LG-POSCO경영관','Korea University Business School · LG-POSCO Building')}</figcaption></figure></div><div class="degree-strip"><p><strong>{t('석사 · 박사 · 석박사통합','MS · PhD · Integrated MS–PhD')}</strong></p><p>{t('연구 주제로 전공을 탐색하고, 사람으로 그 가능성을 확인하세요.','Find your field. Meet the people who make it possible.')}</p></div></section>
     <section class="section wrap" id="research">{heading('Research areas','어떤 질문을 연구하고 싶나요?','What do you want to understand?')}
-      <div class="areas"><article class="featured-area"><p class="eyebrow">Explore the field</p><h3>LSOM</h3><p>Logistics, Service and<br>Operations Management</p>{link('lsom.html','연구 주제와 교수진 보기','Research & faculty')}</article><div><div class="area-list">{area_links}</div>{t('다른 전공은 현재 운영 중인 전공·대학원 안내로 연결됩니다.','Other fields link to their existing programme information.','p','area-context')}</div></div>
-    </section><section class="section wash"><div class="wrap">{heading('People behind the research','질문을 함께 발전시키는 교수진','Meet the researchers',link('lsom.html#faculty','LSOM 교수진 전체 보기','All LSOM faculty'))}<div class="faculty-grid preview">{faculty}</div></div></section>
-    <section class="wrap split-section"><div><p class="eyebrow">Life after the PhD</p>{t('연구의 다음 장을 써가는 동문들','The next chapter in a life of research','h2')}{t('LSOM에서 박사학위를 취득한 동문들은 여러 대학에서 연구와 교육을 이어가고 있습니다.','LSOM doctoral alumni continue their work as researchers and educators at universities.','p')}{link('placements.html','졸업생과 소속 대학 보기','Explore academic careers')}</div><div class="alumni-preview">{alumni}</div></section>'''
+      <div class="areas"><article class="featured-area"><p class="eyebrow">Find your research connections</p>{t('연구와 사람','Research & people','h3')}{t('전공과 연구 키워드로 교수진을 살펴보세요.','Explore faculty by field and research interests.','p')}{link('faculty.html',f'전체 교수진 {len(FACULTY)}명 보기',f'Explore all {len(FACULTY)} faculty')}</article><div><div class="area-list">{area_links}</div><p class="area-context">{link('faculty.html?area=M08','Business Analytics 교수진','Business Analytics faculty')} · {link(OFFICIAL,'BA 1년 석사과정 안내','BA one-year MS programme',external=True)}</p></div></div>
+    </section><section class="section wash"><div class="wrap">{heading('Research spotlight · LSOM','질문을 함께 발전시키는 교수진','Meet the researchers',link('lsom.html','LSOM 연구와 최근 논문','LSOM research & publications'))}<div class="faculty-grid preview">{faculty}</div></div></section>
+    <section class="wrap split-section"><div><p class="eyebrow">Academic careers</p>{t('연구의 다음 장을 써가는 동문들','The next chapter in a life of research','h2')}{t('LSOM, IS, GB 동문들의 학계 진출을 살펴보세요. 각 전공 자료에 기재된 소속과 직위를 출처와 함께 모았습니다.','Explore academic careers of LSOM, IS and Global Business alumni through affiliations and positions listed in the source directories.','p')}{link('placements.html','졸업생 진로와 자료 출처','Explore alumni careers')}</div><div class="alumni-preview">{alumni}</div></section>'''
+
+def directory_controls(codes, kind):
+    # Option elements contain text only, with the same bilingual attributes as other labels.
+    options = '<option value="all" data-ko="전체 전공" data-en="All fields">전체 전공</option>'
+    for code in codes:
+        area = AREA_MAP[code]
+        options += f'<option value="{code}" data-ko="{attr(area["name_ko"])}" data-en="{attr(area["name_en"])}">{escape(area["name_ko"])}</option>'
+    search_ko, search_en = ('이름 또는 연구 키워드', 'Name or research keyword') if kind == 'faculty' else ('이름 또는 소속 기관', 'Name or institution')
+    return f'''<div class="directory-controls" data-filter-controls hidden>
+      <label class="filter-field">{t('전공','Field')}<select data-area-filter>{options}</select></label>
+      <label class="filter-field search-field">{t('검색','Search')}<input type="search" data-search-input placeholder="{search_ko}" data-placeholder-ko="{search_ko}" data-placeholder-en="{search_en}" autocomplete="off"></label>
+      <button type="button" data-clear-filters>{t('초기화','Reset')}</button>
+    </div><div class="result-bar" data-filter-controls hidden><span data-result-count role="status" aria-live="polite"></span>{t('국문·영문으로 검색할 수 있습니다.','Search in Korean or English.')}</div>'''
+
+def empty_state():
+    return f'<div class="empty-state" data-empty hidden>{t("검색 결과가 없습니다. 전공을 전체로 바꾸거나 다른 키워드로 검색해 보세요.","No matches. Try all fields or a different keyword.","p")}</div>'
+
+def faculty_directory():
+    notes = t('KUBS 공식 전임교수 목록 기준입니다. 복수 전공 교수진은 각 전공에서 조회되며, 전체 명단에서는 한 번만 표시됩니다.', 'Based on the official KUBS full-time faculty directory. Cross-listed faculty appear in each relevant field and only once in the full directory.', 'p', 'directory-intro')
+    cards = ''.join(faculty_card(f) for f in FACULTY)
+    return f'''<section class="page-hero"><div class="wrap"><div class="breadcrumb"><a href="index.html">{t('홈','Home')}</a><span>/</span>{t('교수진','Faculty')}</div><div class="page-hero-grid"><div><p class="eyebrow">Faculty & research interests</p>{t('나의 질문과 연결되는 교수진','Find your research connections','h1','ko-heading')}</div>{t('전공, 이름, 연구 키워드를 통해 교수진을 살펴보고 공식 프로필에서 최근 연구를 확인하세요.','Explore faculty by field, name and research interests, then follow their profiles to learn about recent work.','p','lede')}</div></div></section>
+    <section class="section wrap" data-directory="faculty">{notes}{directory_controls([a['code'] for a in AREAS], 'faculty')}<div class="faculty-grid faculty-full">{cards}</div>{empty_state()}</section>
+    <section class="section wash" id="sources"><div class="wrap">{heading('Sources & programme links','자료 출처와 전공 홈페이지','Sources & programme websites')}
+      <div class="source-cards"><article class="source-card"><h3>{t('교수진 · 연구분야','Faculty & research interests')}</h3>{t('공식 국문·영문 명단과 전공별 분류를 대조했습니다. 연구분야는 공식 소개를 따르며, 일부 LSOM 교수의 키워드는 공개 프로필·논문을 요약했습니다. 공식 명단에서 전공이 표시되지 않은 교수 1명은 전체 목록에 포함했습니다.','The Korean and English directories and field listings were cross-checked. Research fields follow official entries, with selected LSOM summaries from public profiles and papers. One faculty member without a listed field is included in the full directory.','p')}{link(DIRECTORY,'KUBS 공식 교수진','Official KUBS directory',external=True)}</article>
+      <article class="source-card"><h3>{t('전공별 연구 공동체','Programme communities')}</h3><p>{link('https://sites.google.com/korea.ac.kr/mis','IS 전공 홈페이지','IS programme website',external=True)}</p><p>{link('https://sites.google.com/view/kubsib','GB 전공 홈페이지','GB programme website',external=True)}</p><p>{link('lsom.html','LSOM 연구·논문·세미나','LSOM research, papers & seminars')}</p></article></div>
+      {t('자료 확인: 2026년 9월 6일. 교수 사진과 캠퍼스 사진의 출처는 고려대학교 경영대학입니다.', 'Sources checked on 6 September 2026. Faculty and campus photographs are sourced from Korea University Business School.', 'p', 'section-note')}
+    </div></section>'''
 
 def lsom():
     topics=[('공급망은 어떻게 더 잘 회복할 수 있을까?','How can supply chains recover better?','의약품 공급부족, 품질관리, 공급사슬의 운영과 회복을 연구합니다.','Drug shortages, quality management, and the operation and recovery of supply chains.'),('서비스의 기다림과 자원 배분을 어떻게 개선할까?','How can services make better use of time and resources?','서비스 시스템의 수요와 용량, 대기행렬, 수익관리와 의사결정을 연구합니다.','Demand, capacity, queueing, revenue management and decisions in service systems.'),('플랫폼과 AI는 경쟁을 어떻게 바꾸는가?','How do platforms and AI change competition?','디지털 전환, 플랫폼 경쟁, 새로운 기술과 비즈니스 모델을 연구합니다.','Digital transformation, platform competition, emerging technologies and business models.')]
@@ -68,19 +128,44 @@ def lsom():
     return f'''<section class="page-hero"><div class="wrap"><div class="breadcrumb"><a href="index.html">{t('홈','Home')}</a><span>/</span>{t('연구 전공','Research areas')}<span>/</span><span>LSOM</span></div><div class="page-hero-grid"><div><p class="eyebrow">Research area</p><h1>LSOM</h1><p class="subtitle">Logistics, Service and<br>Operations Management</p></div>{t('공급망부터 서비스, 플랫폼까지. 실제 경영 문제를 데이터와 이론으로 이해하고 더 나은 의사결정을 연구합니다.','From supply chains to services and platforms, we use data and theory to understand business problems and improve decisions.','p','lede')}</div></div></section>
     <nav class="jump-nav" aria-label="LSOM sections"><div class="wrap"><a href="#questions">{t('연구 주제','Research')}</a><a href="#faculty">{t('교수진','Faculty')}</a><a href="#publications">{t('최근 논문','Publications')}</a><a href="#community">{t('세미나와 진로','Community')}</a></div></nav>
     <section class="section wrap" id="questions">{heading('Questions we study','현실의 문제를 연구의 질문으로','Real problems. Research questions.')}<div class="research-topics">{topic_html}</div><div class="method-line"><strong>{t('연구 방법','Methods')}</strong>{t('실증분석 · 인과추론 · 최적화 · 게임이론 · 대기행렬 · 시뮬레이션','Empirical analysis · Causal inference · Optimization · Game theory · Queueing · Simulation')}</div></section>
-    <section class="section wash" id="faculty"><div class="wrap">{heading('LSOM faculty','함께 연구할 교수진을 만나보세요','Find your research connections',t('관심 주제와 최근 연구를 살펴보고 나의 질문과 연결해 보세요.','Explore research interests and recent work to find connections with your own questions.','p'))}<div class="faculty-grid faculty-full">{''.join(faculty_card(f) for f in FACULTY)}</div>{t('전임교수 명단은 KUBS 공식 교수소개 기준입니다. 연구 키워드는 공개 프로필과 논문을 바탕으로 요약했습니다.','Faculty membership follows the official KUBS directory. Research keywords summarize public profiles and publications.','p','section-note')}</div></section>
+    <section class="section wash" id="faculty"><div class="wrap">{heading('LSOM faculty','함께 연구할 교수진을 만나보세요','Find your research connections',t('관심 주제와 최근 연구를 살펴보고 나의 질문과 연결해 보세요.','Explore research interests and recent work to find connections with your own questions.','p'))}<div class="faculty-grid faculty-full">{''.join(faculty_card(f) for f in FACULTY if 'M06' in f['area_codes'])}</div>{t('전임교수 명단과 연구분야는 KUBS 공식 교수소개 기준이며, 일부 연구 키워드는 공개 프로필과 논문을 바탕으로 요약했습니다.','Faculty membership and research fields follow the official KUBS directory, with selected research summaries from public profiles and publications.','p','section-note')}{link('faculty.html','전체 전공 교수진과 자료 출처','All faculty & sources')}</div></section>
     <section class="section wrap" id="publications">{heading('Selected recent publications','최근 연구를 살펴보세요','A closer look at recent research',t('2025–2026년 게재논문 중 선정','Selected publications, 2025–2026','p'))}<div class="publications">{papers}</div>{t('전체 논문 목록은 각 교수님의 프로필에서 확인할 수 있습니다.','Visit individual faculty profiles for complete publication lists.','p','section-note')}</section>
-    <section class="section wash" id="community"><div class="wrap next-cards"><article class="next-card"><p class="eyebrow">Research conversations</p>{t('세미나와 연구 교류','Seminars & research exchange','h2')}{t('경영대학에서 열리는 세미나와 연구 행사는 KUBS 캘린더에서 확인할 수 있습니다.','Explore seminars and research events through the KUBS calendar.','p')}{link('https://biz.korea.ac.kr/news/calendar.html','KUBS 세미나 일정','KUBS events calendar',external=True)}</article><article class="next-card"><p class="eyebrow">Academic careers</p>{t('LSOM 박사 이후의 여정','Where an LSOM PhD can lead','h2')}{t('졸업 후 대학 교수로 진출한 동문들과 소속 대학을 만나보세요.','Meet doctoral alumni who have gone on to academic careers.','p')}{link('placements.html','졸업생 진로 보기','Explore alumni careers')}</article></div></section>'''
+    <section class="section wash" id="community"><div class="wrap next-cards"><article class="next-card"><p class="eyebrow">Research conversations</p>{t('세미나와 연구 교류','Seminars & research exchange','h2')}{t('경영대학에서 열리는 세미나와 연구 행사는 KUBS 캘린더에서 확인할 수 있습니다.','Explore seminars and research events through the KUBS calendar.','p')}{link('https://biz.korea.ac.kr/news/calendar.html','KUBS 세미나 일정','KUBS events calendar',external=True)}</article><article class="next-card"><p class="eyebrow">Academic careers</p>{t('LSOM 박사 이후의 여정','Where an LSOM PhD can lead','h2')}{t('졸업 후 대학 교수로 진출한 동문들과 소속 대학을 만나보세요.','Meet doctoral alumni who have gone on to academic careers.','p')}{link('placements.html?area=M06','LSOM 졸업생 진로 보기','Explore LSOM alumni careers')}</article></div></section>'''
 
 def placements():
-    rows=''.join(f'<tr><td>{escape(a["name"])}</td><td>{t(a["institution_ko"],a["institution_en"])}</td><td>{t("LSOM 박사","PhD · LSOM")}</td></tr>' for a in sorted(PLACEMENTS['alumni'],key=lambda a:a['name']))
-    return f'''<section class="page-hero"><div class="wrap"><div class="breadcrumb"><a href="index.html">{t('홈','Home')}</a><span>/</span><span>Placements</span></div><div class="page-hero-grid"><div><p class="eyebrow">Academic placements</p>{t('연구에서 시작된, 학문적 여정.','From doctoral research to academic careers.','h1','ko-heading')}</div>{t('LSOM 박사학위를 취득한 뒤 대학 교수로 진출한 동문들을 소개합니다.','Meet LSOM doctoral graduates who have gone on to become university faculty.','p','lede')}</div></div></section>
-    <section class="section wrap"><div class="placement-layout"><aside class="placement-aside"><div><p class="eyebrow">Research area</p><h2>LSOM</h2><p>Logistics, Service and<br>Operations Management</p></div><div><span class="count">{len(PLACEMENTS['alumni'])}</span>{t('수록 동문','Alumni featured','p')}</div>{t('소속은 제공된 동문 명단 기준입니다. 최초 부임 대학을 뜻하지 않으며, 전체 졸업생에 대한 통계가 아닙니다.','Affiliations follow the supplied alumni directory. They do not necessarily represent first placements; this is not a complete graduate-outcomes dataset.','p','source-note')}</aside><div><table class="placement-table"><caption>{t('LSOM 박사 동문 · 성명 가나다순','LSOM doctoral alumni · Ordered by Korean name')}</caption><thead><tr><th scope="col">{t('성명','Name')}</th><th scope="col">{t('소속 대학','University affiliation')}</th><th scope="col">{t('학위 · 전공','Degree · Field')}</th></tr></thead><tbody>{rows}</tbody></table>{t('자료 반영: 2026년 9월. 졸업연도와 최초 임용 정보는 확인 후 보완할 예정입니다.','Directory added in September 2026. Graduation years and initial appointments will be added after verification.','p','placement-note')}<div class="end-link"><p>{t('이들의 연구가 시작된 곳을 살펴보세요.','Explore the research community behind these academic journeys.')}</p>{link('lsom.html','LSOM 연구와 교수진','LSOM research & faculty')}</div></div></div></section>'''
+    rows = []
+    for a in sorted(PLACEMENTS['alumni'], key=lambda a: a['name']):
+        name = t(a.get('name_ko'), a.get('name_en'))
+        area = AREA_MAP[a['area_code']]
+        degree_ko, degree_en = (' · 박사', ' · PhD') if a['degree'] == 'PhD' else ('', '')
+        meta = t(area['name_ko'] + degree_ko, area['name_en'] + degree_en, 'p', 'placement-meta')
+        institution = t(a.get('institution_ko'), a.get('institution_en'))
+        department = a.get('department_source') or a.get('unit_as_source')
+        if department:
+            institution += f'<p class="placement-meta">{escape(department)}</p>'
+        position = t(a.get('position_ko'), a.get('position_en'), 'p', 'placement-role')
+        source_url = a.get('source_url') or '#source-LSOM'
+        source = f'<a class="source-link" href="{attr(source_url)}" aria-label="{attr(a["name"] + " 자료 출처")}" data-aria-ko="{attr(a["name"] + " 자료 출처")}" data-aria-en="{attr((a.get("name_en") or a["name"]) + " source")}">{t("자료 출처","Source")} {"↗" if a.get("source_url") else "↓"}</a>'
+        search = ' '.join(str(a.get(k) or '') for k in ['name','name_ko','name_en','institution_ko','institution_en','department_source','unit_as_source','position_ko','position_en','area']) + ' ' + area['name_ko'] + ' ' + area['name_en']
+        rows.append(f'<tr role="row" data-filter-item data-areas="{a["area_code"]}" data-search="{attr(search)}"><td role="cell" data-label-ko="성명 · 전공" data-label-en="Name · Field">{name}{meta}</td><td role="cell" data-label-ko="기재된 소속 · 직위" data-label-en="Listed affiliation · Position">{institution}{position}</td><td role="cell" data-label-ko="출처" data-label-en="Source">{source}</td></tr>')
+    sources = []
+    for source in PLACEMENTS['sources']:
+        source_link = link(source['url'],'원문 보기','View source',external=True) if source['url'] else ''
+        sources.append(f'<article class="source-card" id="source-{source["id"]}">{t(source["label_ko"],source["label_en"],"h3")}{t(source["note_ko"],source["note_en"],"p")}{source_link}</article>')
+    return f'''<section class="page-hero"><div class="wrap"><div class="breadcrumb"><a href="index.html">{t('홈','Home')}</a><span>/</span><span>Placements</span></div><div class="page-hero-grid"><div><p class="eyebrow">Academic careers</p>{t('연구에서 시작된, 학문적 여정.','From research to academic careers.','h1','ko-heading')}</div>{t('LSOM, IS, GB 동문들의 학계 진출을 소개합니다. 전공별 자료에서 확인한 소속과 직위를 살펴보세요.','Explore academic career records for LSOM, IS and Global Business alumni, with affiliations and positions from each programme’s sources.','p','lede')}</div></div></section>
+    <section class="section wrap" data-directory="placements"><div class="directory-intro">{t(f'LSOM 14명 · IS 27명 · GB 16명, 총 {len(PLACEMENTS["alumni"])}명을 수록했습니다.',f'{len(PLACEMENTS["alumni"])} alumni records: 14 LSOM · 27 IS · 16 Global Business.','p')}{t('소속과 직위는 각 자료에 기재된 내용으로, 최신 소속이나 최초 임용기관을 뜻하지 않습니다. 전체 졸업생의 취업률 통계가 아닙니다.','Affiliations and positions are as listed in each source; they are not verified current affiliations or first appointments. This directory is not a graduate employment-rate dataset.','p')}{link('#sources','자료 기준 보기','About these records')}</div>
+    {directory_controls(['M06','M07','M02'], 'placements')}<table class="placement-table" role="table"><caption>{t('졸업생 진로 · 성명 가나다순, 영문명은 앞에 표시','Alumni careers · Korean name order, Latin-only names first')}</caption><thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">{t('성명 · 전공','Name · Field')}</th><th scope="col" role="columnheader">{t('기재된 소속 · 직위','Listed affiliation · Position')}</th><th scope="col" role="columnheader">{t('출처','Source')}</th></tr></thead><tbody role="rowgroup">{''.join(rows)}</tbody></table>{empty_state()}</section>
+    <section class="section wash" id="sources"><div class="wrap">{heading('About the records','자료 기준과 출처','Sources & interpretation')}<div class="source-cards">{''.join(sources)}</div>{t('자료 수집: 2026년 9월 6일. 출처에 없는 영문 성명·학위·졸업연도는 추정하지 않았으며, 기관명은 출처의 표기를 유지했습니다.','Sources retrieved on 6 September 2026. Unlisted English names, degree types and graduation years have not been inferred. Institution names retain the source wording.','p','section-note')}</div></section>'''
 
 for filename, active, ko, en, body in [
     ('index.html','home','연구와 사람','Research & People',home()),
+    ('faculty.html','faculty','전공별 교수진','Faculty & Research Interests',faculty_directory()),
     ('lsom.html','lsom','LSOM 연구와 교수진','LSOM Research & Faculty',lsom()),
     ('placements.html','placements','졸업생 진로','Academic Placements',placements())
 ]:
     (OUT / filename).write_text(layout(active,ko,en,body),encoding='utf-8')
     print(f'Built {filename}')
+
+(OUT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n')
+urls = ['', 'faculty.html', 'lsom.html', 'placements.html']
+(OUT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{SITE}{path}</loc><lastmod>{VERIFIED}</lastmod></url>\n' for path in urls) + '</urlset>\n')

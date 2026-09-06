@@ -1,0 +1,47 @@
+[
+  {
+    "code": "M01",
+    "name_ko": "경영관리",
+    "name_en": "Management"
+  },
+  {
+    "code": "M02",
+    "name_ko": "글로벌비즈니스",
+    "name_en": "Global Business"
+  },
+  {
+    "code": "M03",
+    "name_ko": "마케팅",
+    "name_en": "Marketing"
+  },
+  {
+    "code": "M04",
+    "name_ko": "재무금융",
+    "name_en": "Finance"
+  },
+  {
+    "code": "M09",
+    "name_ko": "전략",
+    "name_en": "Strategy"
+  },
+  {
+    "code": "M05",
+    "name_ko": "회계학",
+    "name_en": "Accounting"
+  },
+  {
+    "code": "M07",
+    "name_ko": "정보시스템",
+    "name_en": "Information Systems"
+  },
+  {
+    "code": "M06",
+    "name_ko": "LSOM",
+    "name_en": "LSOM"
+  },
+  {
+    "code": "M08",
+    "name_ko": "비즈니스 애널리틱스",
+    "name_en": "Business Analytics"
+  }
+]

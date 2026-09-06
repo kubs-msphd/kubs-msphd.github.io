@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Build three static pages
+      - name: Build website
         run: python3 build.py
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
