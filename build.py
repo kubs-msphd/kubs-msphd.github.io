@@ -8,12 +8,13 @@ OUT = ROOT / 'dist'
 FACULTY = json.loads((ROOT / 'data/faculty.json').read_text())
 PAPERS = json.loads((ROOT / 'data/publications.json').read_text())
 PLACEMENTS = json.loads((ROOT / 'data/placements.json').read_text())
+OUTCOMES = json.loads((ROOT / 'data/outcomes.json').read_text())
 AREAS = json.loads((ROOT / 'data/areas.json').read_text())
 AREA_MAP = {a['code']: a for a in AREAS}
 OFFICIAL = 'https://biz.korea.ac.kr/msphd/intro.html'
 DIRECTORY = 'https://biz.korea.ac.kr/professor/professor_list1.html'
 SITE = 'https://kubs-msphd.github.io/'
-VERIFIED = '2026-09-06'
+VERIFIED = '2026-09-07'
 
 def attr(value):
     return escape(str(value), quote=True)
@@ -65,7 +66,7 @@ def layout(active, ko_title, en_title, body):
         'home': ('고려대학교 경영대학의 전공별 교수진, 연구분야와 졸업생 진로를 만나보세요.', 'Explore faculty, research interests and alumni careers at Korea University Business School.'),
         'faculty': ('고려대학교 경영대학 전 전공 교수진과 연구분야. 전공과 연구 키워드로 찾아보세요.', 'Find Korea University Business School faculty by field, name and research interests.'),
         'lsom': ('고려대학교 경영대학 LSOM 교수진, 연구 주제, 최근 논문과 세미나 안내.', 'Explore LSOM faculty, research questions, selected publications and seminars at KUBS.'),
-        'placements': ('고려대학교 경영대학 LSOM, IS, GB 동문의 소속·직급·이메일과 교수 프로필.', 'Explore KUBS LSOM, IS and Global Business alumni affiliations, academic ranks, email contacts and faculty profiles.'),
+        'placements': ('고려대학교 경영대학 석사·박사 취업자의 진출 분야와 전공별 학계 동문 경력.', 'Explore employment fields of KUBS master’s and doctoral graduates and alumni careers in academia by field.'),
     }
     desc_ko, desc_en = descriptions[active]
     canonical = SITE + ('' if active == 'home' else active + '.html')
@@ -87,12 +88,13 @@ def home():
     faculty_by_id = {f['id']: f for f in FACULTY}
     featured_ids = ['faculty-27cc39d50220', 'faculty-5965053325d6', 'faculty-7aacf1915e00']
     faculty=''.join(faculty_card(faculty_by_id[key]) for key in featured_ids)
-    alumni=''.join(f'<div><strong>{source["id"]}</strong><a href="placements.html?area={source["area_code"]}">{t(str(sum(a["source_id"]==source["id"] for a in PLACEMENTS["alumni"]))+"명 수록",str(sum(a["source_id"]==source["id"] for a in PLACEMENTS["alumni"]))+" alumni records")} →</a></div>' for source in PLACEMENTS['sources'])
+    alumni_counts = {area['code']: sum(a['area_code'] == area['code'] for a in PLACEMENTS['alumni']) for area in AREAS}
+    alumni=''.join(f'<div><strong>{t(area["name_ko"],area["name_en"])}</strong><a href="placements.html?area={area["code"]}">{t(str(alumni_counts[area["code"]])+"명 수록",str(alumni_counts[area["code"]])+" alumni records")} →</a></div>' for area in AREAS if alumni_counts[area['code']])
     return f'''<section class="hero wrap"><div class="hero-grid"><div><p class="eyebrow">Graduate research at KUBS</p><h1>{t('좋은 질문에서 시작해,','Start with a question.')}<br><em>{t('새로운 지식으로.','Create new knowledge.')}</em></h1>{t('경영의 중요한 문제를 연구하는 사람들. 고려대학교 경영대학에서 나의 연구 주제와 연결되는 교수진, 그 이후의 진로를 만나보세요.','Meet the people studying important questions in business. Explore research interests, faculty and the paths our graduates take.','p','hero-text')}<div class="actions">{link('faculty.html','전공별 교수진 찾기','Find faculty','button')}{link('placements.html','졸업생 진로','Meet our alumni')}</div></div><figure class="hero-figure"><img src="assets/campus.jpg" width="720" height="480" fetchpriority="high" alt="고려대학교 경영대학 LG-POSCO경영관과 정원" data-alt-ko="고려대학교 경영대학 LG-POSCO경영관과 정원" data-alt-en="Korea University Business School LG-POSCO building and courtyard"><figcaption>{t('고려대학교 경영대학 · LG-POSCO경영관','Korea University Business School · LG-POSCO Building')}</figcaption></figure></div><div class="degree-strip"><p><strong>{t('석사 · 박사 · 석박사통합','MS · PhD · Integrated MS–PhD')}</strong></p><p>{t('연구 주제로 전공을 탐색하고, 사람으로 그 가능성을 확인하세요.','Find your field. Meet the people who make it possible.')}</p></div></section>
     <section class="section wrap" id="research">{heading('Research areas','어떤 질문을 연구하고 싶나요?','What do you want to understand?')}
       <div class="areas"><article class="featured-area"><p class="eyebrow">Find your research connections</p>{t('연구와 사람','Research & people','h3')}{t('전공과 연구 키워드로 교수진을 살펴보세요.','Explore faculty by field and research interests.','p')}{link('faculty.html',f'전체 교수진 {len(FACULTY)}명 보기',f'Explore all {len(FACULTY)} faculty')}</article><div><div class="area-list">{area_links}</div><p class="area-context">{link('faculty.html?area=M08','Business Analytics 교수진','Business Analytics faculty')} · {link(OFFICIAL,'BA 1년 석사과정 안내','BA one-year MS programme',external=True)}</p></div></div>
     </section><section class="section wash"><div class="wrap">{heading('Research spotlight · LSOM','질문을 함께 발전시키는 교수진','Meet the researchers',link('lsom.html','LSOM 연구와 최근 논문','LSOM research & publications'))}<div class="faculty-grid preview">{faculty}</div></div></section>
-    <section class="wrap split-section"><div><p class="eyebrow">Academic careers</p>{t('연구의 다음 장을 써가는 동문들','The next chapter in a life of research','h2')}{t('LSOM, IS, GB 동문들의 학계 진출을 살펴보세요. 대학별 공개 프로필을 대조한 소속·직급과 연구 홈페이지를 함께 모았습니다.','Explore the academic careers of LSOM, IS and Global Business alumni, with affiliations, academic ranks and research profiles checked against public sources.','p')}{link('placements.html','졸업생 진로와 자료 출처','Explore alumni careers')}</div><div class="alumni-preview">{alumni}</div></section>'''
+    <section class="wrap split-section"><div><p class="eyebrow">Careers after KUBS</p>{t('연구의 다음 장을 써가는 동문들','The next chapter after KUBS','h2')}{t('석사·박사 취업자의 진출 분야와 학계에서 활동하는 동문들을 만나보세요. 전공을 선택하면 해당 전공의 통계와 동문 경력을 함께 볼 수 있습니다.','Explore the employment fields of master’s and doctoral graduates and meet alumni in academia. Choose a field to view its career statistics and alumni records together.','p')}{link('placements.html','졸업생 진로와 자료 출처','Explore alumni careers')}</div><div class="alumni-preview">{alumni}</div></section>'''
 
 def directory_controls(codes, kind):
     # Option elements contain text only, with the same bilingual attributes as other labels.
@@ -101,11 +103,14 @@ def directory_controls(codes, kind):
         area = AREA_MAP[code]
         options += f'<option value="{code}" data-ko="{attr(area["name_ko"])}" data-en="{attr(area["name_en"])}">{escape(area["name_ko"])}</option>'
     search_ko, search_en = ('이름 또는 연구 키워드', 'Name or research keyword') if kind == 'faculty' else ('이름 또는 소속 기관', 'Name or institution')
-    return f'''<div class="directory-controls" data-filter-controls hidden>
+    controls = f'''<div class="directory-controls" data-filter-controls hidden>
       <label class="filter-field">{t('전공','Field')}<select data-area-filter>{options}</select></label>
-      <label class="filter-field search-field">{t('검색','Search')}<input type="search" data-search-input placeholder="{search_ko}" data-placeholder-ko="{search_ko}" data-placeholder-en="{search_en}" autocomplete="off"></label>
+      <label class="filter-field search-field">{t('학계 동문 검색','Search academic alumni') if kind == 'placements' else t('검색','Search')}<input type="search" data-search-input placeholder="{search_ko}" data-placeholder-ko="{search_ko}" data-placeholder-en="{search_en}" autocomplete="off"></label>
       <button type="button" data-clear-filters>{t('초기화','Reset')}</button>
-    </div><div class="result-bar" data-filter-controls hidden><span data-result-count role="status" aria-live="polite"></span>{t('국문·영문으로 검색할 수 있습니다.','Search in Korean or English.')}</div>'''
+    </div>'''
+    if kind == 'placements':
+        return controls + t('전공 선택은 통계와 학계 동문 명단에 함께 적용됩니다. 이름·기관 검색은 명단에만 적용됩니다.', 'The field selection updates both statistics and academic alumni. Name and institution searches apply only to the alumni list.', 'p', 'filter-help')
+    return controls + f'<div class="result-bar" data-filter-controls hidden><span data-result-count role="status" aria-live="polite"></span>{t("국문·영문으로 검색할 수 있습니다.","Search in Korean or English.")}</div>'
 
 def empty_state():
     return f'<div class="empty-state" data-empty hidden>{t("검색 결과가 없습니다. 전공을 전체로 바꾸거나 다른 키워드로 검색해 보세요.","No matches. Try all fields or a different keyword.","p")}</div>'
@@ -149,36 +154,84 @@ def alumni_contacts(person):
     if person.get('website_url') and person['website_url'] != person.get('profile_url'):
         links.append(alumni_link(person['website_url'], '개인 홈페이지 ↗', 'Personal website ↗', person))
     if not links:
+        if person.get('record_basis') == 'administrative':
+            return t('연락처 추후 보완', 'Contact details to follow', 'p', 'placement-meta')
         return t('공개 연락처 미확인', 'Public contact not verified', 'p', 'placement-meta')
     return '<div class="alumni-contacts">' + ''.join(links) + '</div>'
 
 def alumni_evidence(person):
     verification = person.get('profile_verification') or {}
     sources, used = [], set()
-    original = person.get('source_url') or '#source-LSOM'
+    original = person.get('source_url') or '#source-' + person.get('source_id', 'LSOM')
     for source in verification.get('sources', []):
         if not source.get('url') or source['url'] in used or source['url'] == original:
             continue
         used.add(source['url'])
         sources.append(f'<li><a href="{attr(source["url"])}">{escape(source.get("title") or "Profile source")} ↗</a></li>')
-    sources.append(f'<li>{alumni_link(original, "동문 명단 원문", "Original alumni listing", person)}</li>')
+    source_label = ('행정실 자료 기준', 'Administrative record source') if person.get('record_basis') == 'administrative' else ('동문 명단 원문', 'Original alumni listing')
+    sources.append(f'<li>{alumni_link(original, *source_label, person)}</li>')
     checked = verification.get('checked_at')
     date = f'<p class="placement-meta">{t("확인일", "Checked")}: {escape(checked)}</p>' if checked else ''
-    return f'<details class="alumni-evidence"><summary>{t("확인 출처", "Verification sources")}</summary>{date}<ul>{"".join(sources)}</ul></details>'
+    summary_label = ('자료 출처', 'Record source') if person.get('record_basis') == 'administrative' else ('확인 출처', 'Verification sources')
+    return f'<details class="alumni-evidence"><summary>{t(*summary_label)}</summary>{date}<ul>{"".join(sources)}</ul></details>'
+
+def outcome_summary(summary, degree):
+    """Render aggregate counts only; personal administrative records are never embedded."""
+    title_ko, title_en = ('석사 취업자의 진출 분야', 'Employment fields · Master’s') if degree == 'masters' else ('박사 취업자의 진출 분야', 'Employment fields · Doctoral')
+    total, employed = summary['total_records'], summary['employed_total']
+    start, end = summary.get('period_start'), summary.get('period_end')
+    period = f'{start.replace("-", ".")}–{end.replace("-", ".")}' if start and end else ''
+    period_text = t('자료에 수록된 졸업 시기: ' + period, 'Graduation dates in the records: ' + period, 'p', 'outcome-period') if period else ''
+    metrics = f'''<dl class="outcome-metrics"><div><dt>{t('자료 수록','Recorded graduates')}</dt><dd>{t(f'{total:,}명',f'{total:,}')}</dd></div><div><dt>{t('취업 기록','Employment records')}</dt><dd>{t(f'{employed:,}명',f'{employed:,}')}</dd></div></dl>'''
+    if not total:
+        return f'<article class="outcome-card">{t(title_ko,title_en,"h3")}{t("해당 전공·학위의 집계 자료가 없습니다.","No records are available for this field and degree.","p","outcome-empty")}</article>'
+    statuses = ''.join(f'<li>{t(status["label_ko"],status["label_en"])} <strong>{t(str(summary["status_counts"].get(status["id"],0))+"명",str(summary["status_counts"].get(status["id"],0)))}</strong></li>' for status in OUTCOMES['statuses'])
+    status_list = f'<ul class="outcome-statuses">{statuses}</ul>'
+    if employed:
+        categories = OUTCOMES['sectors'] if degree == 'masters' else OUTCOMES['categories']
+        counts = summary['sector_counts'] if degree == 'masters' else summary['category_counts']
+        rows = []
+        for category in categories:
+            count = counts.get(category['id'], 0)
+            share = 100 * count / employed
+            rows.append(f'<tr><th scope="row">{t(category["label_ko"],category["label_en"])}<span class="outcome-track" aria-hidden="true"><span style="width:{share:.5f}%"></span></span></th><td>{t(f"{count:,}명",f"{count:,}")}</td><td>{share:.1f}%</td></tr>')
+        table = f'''<table class="outcome-table"><caption>{t(f'취업 기록 {employed:,}명을 분모로 계산한 분야별 비중',f'Shares of {employed:,} graduates with an employment record')}</caption><thead><tr><th scope="col">{t('진출 분야','Employment field')}</th><th scope="col">{t('인원','Count')}</th><th scope="col">{t('비중','Share')}</th></tr></thead><tbody>{''.join(rows)}</tbody></table>'''
+    else:
+        table = t('분류할 취업 기록이 없습니다.', 'No employment records are available to classify.', 'p', 'outcome-empty')
+    return f'<article class="outcome-card">{t(title_ko,title_en,"h3")}{period_text}{metrics}{status_list}{table}</article>'
+
+def outcome_panels():
+    panels = []
+    for code in ['all', *[area['code'] for area in AREAS]]:
+        group = OUTCOMES['groups'][code]
+        area_ko, area_en = ('전체 전공', 'All fields') if code == 'all' else (AREA_MAP[code]['name_ko'], AREA_MAP[code]['name_en'])
+        area_label = t(area_ko, area_en, 'h2', 'outcome-field-heading')
+        content = ''.join(outcome_summary(group[degree], degree) for degree in ['masters', 'doctoral'])
+        no_records = not any(group[degree]['total_records'] for degree in ['masters', 'doctoral'])
+        note = t('이 자료에는 전략 전공이 별도로 구분되어 있지 않습니다.', 'Strategy is not separately identified in these records.', 'p', 'section-note') if code == 'M09' and no_records else ''
+        panels.append(f'<section data-outcome-panel="{code}" aria-label="{attr(area_ko + " 진로 통계")}" data-aria-ko="{attr(area_ko + " 진로 통계")}" data-aria-en="{attr(area_en + " career statistics")}"'+(' hidden' if code != 'all' else '')+f'>{area_label}{note}<div class="outcome-grid">{content}</div></section>')
+    return ''.join(panels)
 
 def placements():
     rows = []
     for a in sorted(PLACEMENTS['alumni'], key=lambda a: a['name']):
         name = t(a.get('name_ko'), a.get('name_en'))
         area = AREA_MAP[a['area_code']]
-        degree_ko, degree_en = (' · 박사', ' · PhD') if a['degree'] == 'PhD' else ('', '')
+        degree_ko, degree_en = {'PhD': (' · 박사', ' · PhD'), 'MS': (' · 석사', ' · MS')}.get(a.get('degree'), ('', ''))
         meta = t(area['name_ko'] + degree_ko, area['name_en'] + degree_en, 'p', 'placement-meta')
+        administrative = a.get('record_basis') == 'administrative'
+        career_labels = {'faculty': ('교수직', 'Faculty'), 'research': ('연구직 · 박사후연구 등', 'Research · Postdoctoral roles'), 'teaching': ('강의 · 겸임 등', 'Teaching · Adjunct roles')}
+        if a.get('career_group') in career_labels:
+            meta += t(*career_labels[a['career_group']], 'span', 'career-badge')
         institution = t(a.get('institution_ko'), a.get('institution_en'))
         department = t(a.get('department_ko'), a.get('department_en'), 'p', 'placement-department')
         if a.get('department_ko') or a.get('department_en'):
             institution += department
         verification = a.get('profile_verification') or {}
-        if verification.get('rank_status') in ['verified', 'dated_verified']:
+        if administrative:
+            institution = t(a.get('reported_affiliation_ko') or a.get('institution_ko'), a.get('reported_affiliation_en') or a.get('institution_en'))
+            position = t('행정실 기록 · 2026.09.07', 'Administrative record · 7 September 2026', 'p', 'placement-meta administrative-record')
+        elif verification.get('rank_status') in ['verified', 'dated_verified']:
             position = t(a.get('position_ko'), a.get('position_en'), 'p', 'placement-role verified-rank')
             if verification.get('rank_as_of'):
                 position += t('직급 자료 기준: ' + verification['rank_as_of'], 'Rank source dated ' + verification['rank_as_of'], 'p', 'placement-meta rank-date')
@@ -191,23 +244,34 @@ def placements():
         if a.get('verification_note_ko') or a.get('verification_note_en'):
             position += t(a.get('verification_note_ko'), a.get('verification_note_en'), 'p', 'verification-note')
         contacts = alumni_contacts(a) + alumni_evidence(a)
-        search = ' '.join(str(a.get(k) or '') for k in ['name','name_ko','name_en','institution_ko','institution_en','department_ko','department_en','position_ko','position_en','email','area']) + ' ' + area['name_ko'] + ' ' + area['name_en']
-        rows.append(f'<tr id="{attr(a["id"])}" role="row" data-filter-item data-areas="{a["area_code"]}" data-search="{attr(search)}"><td role="cell" data-label-ko="성명 · 전공" data-label-en="Name · Field">{name}{meta}</td><td role="cell" data-label-ko="소속 · 직급" data-label-en="Affiliation · Rank">{institution}{position}</td><td role="cell" data-label-ko="연락처 · 홈페이지" data-label-en="Contact · Profile">{contacts}</td></tr>')
+        search = ' '.join(str(a.get(k) or '') for k in ['name','name_ko','name_en','institution_ko','institution_en','reported_affiliation_ko','reported_affiliation_en','department_ko','department_en','position_ko','position_en','email','area']) + ' ' + area['name_ko'] + ' ' + area['name_en']
+        rows.append(f'<tr id="{attr(a["id"])}" role="row" data-filter-item data-areas="{a["area_code"]}" data-search="{attr(search)}"><td role="cell" data-label-ko="성명 · 전공" data-label-en="Name · Field">{name}{meta}</td><td role="cell" data-label-ko="소속 · 경력" data-label-en="Affiliation · Career">{institution}{position}</td><td role="cell" data-label-ko="연락처 · 홈페이지" data-label-en="Contact · Profile">{contacts}</td></tr>')
     sources = []
     for source in PLACEMENTS['sources']:
         source_link = link(source['url'],'원문 보기','View source',external=True) if source['url'] else ''
         sources.append(f'<article class="source-card" id="source-{source["id"]}">{t(source["label_ko"],source["label_en"],"h3")}{t(source["note_ko"],source["note_en"],"p")}{source_link}</article>')
-    counts = {source['id']: sum(a['source_id'] == source['id'] for a in PLACEMENTS['alumni']) for source in PLACEMENTS['sources']}
-    return f'''<section class="page-hero"><div class="wrap"><div class="breadcrumb"><a href="index.html">{t('홈','Home')}</a><span>/</span><span>Placements</span></div><div class="page-hero-grid"><div><p class="eyebrow">Academic careers</p>{t('연구에서 시작된, 학문적 여정.','From research to academic careers.','h1','ko-heading')}</div>{t('LSOM, IS, GB 동문들의 학계 진출을 소개합니다. 대학별 공개 프로필을 통해 소속과 직급을 살펴보고, 동문들의 연구와 연결해 보세요.','Meet LSOM, IS and Global Business alumni in academia. Explore their affiliations, academic ranks and research through university and personal profiles.','p','lede')}</div></div></section>
-    <section class="section wrap" data-directory="placements"><div class="directory-intro">{t(f'LSOM {counts["LSOM"]}명 · IS {counts["IS"]}명 · GB {counts["GB"]}명, 총 {len(PLACEMENTS["alumni"])}명을 수록했습니다.',f'{len(PLACEMENTS["alumni"])} alumni records: {counts["LSOM"]} LSOM · {counts["IS"]} IS · {counts["GB"]} Global Business.','p')}{t('각 대학과 연구자의 공개 프로필을 대조한 소속·직급·연락처입니다. 직급을 명확히 확인할 수 없는 경우에는 별도로 표시했습니다.','Affiliations, ranks and contacts were checked against university and researcher profiles. Ranks that could not be established explicitly are marked.','p')}{link('#sources','자료 기준 보기','About these records')}</div>
-    {directory_controls(['M06','M07','M02'], 'placements')}<table class="placement-table" role="table"><caption>{t('졸업생 진로 · 성명 가나다순','Alumni careers · Korean name order')}</caption><thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">{t('성명 · 전공','Name · Field')}</th><th scope="col" role="columnheader">{t('소속 · 직급','Affiliation · Rank')}</th><th scope="col" role="columnheader">{t('연락처 · 홈페이지','Contact · Profile')}</th></tr></thead><tbody role="rowgroup">{''.join(rows)}</tbody></table>{empty_state()}</section>
-    <section class="section wash" id="sources"><div class="wrap">{heading('About the records','동문 명단과 정보 확인 기준','Alumni sources & verification')}<div class="source-cards">{''.join(sources)}</div>{t('프로필 확인: 2026년 9월 6일. 각 행의 확인 출처에서 소속·직급·연락처 근거를 볼 수 있습니다. 공개 프로필의 업데이트 시점에 따라 실제 재직 정보와 차이가 있을 수 있습니다.','Profiles checked on 6 September 2026. Open each record’s verification sources for its affiliation, rank and contact evidence. Public profiles may lag behind appointment changes.','p','section-note')}{t('직급은 출처의 명시적 표기를 따릅니다. 과거 자료에서만 확인된 직급은 자료 기준일을 함께 표시했습니다. 교수라는 호칭만으로 정교수로 분류하지 않으며, Lecturer·Senior Lecturer 등은 원래 직함을 유지했습니다.','Ranks follow explicit source titles. Ranks established only in dated records are shown with the source date. The generic Korean honorific for faculty is not treated as evidence of full-professor rank; titles such as Lecturer and Senior Lecturer are retained.','p','section-note')}{t('이 페이지는 최초 임용기관 목록이나 전체 졸업생 취업률 통계가 아닙니다. 학위 표시는 고려대학교에서 취득한 학위가 확인된 경우에 한합니다.','This page is not a first-placement register or a graduate employment-rate dataset. Degree labels refer only to verified Korea University degrees.','p','section-note')}</div></section>'''
+    return f'''<section class="page-hero"><div class="wrap"><div class="breadcrumb"><a href="index.html">{t('홈','Home')}</a><span>/</span><span>Placements</span></div><div class="page-hero-grid"><div><p class="eyebrow">Careers after KUBS</p>{t('연구를 바탕으로, 더 넓은 진로로.','Research opens new paths.','h1','ko-heading')}</div>{t('석사·박사 졸업생들의 취업 분야와 학계·연구 경력을 살펴보세요. 전공을 선택하면 해당 전공의 통계와 동문 명단을 함께 볼 수 있습니다.','Explore employment fields and academic and research careers after KUBS. Select a field to view its statistics and alumni records together.','p','lede')}</div></div></section>
+    <section class="section wrap" data-directory="placements">
+    {directory_controls([a['code'] for a in AREAS], 'placements')}
+    <div class="outcomes-intro"><p class="eyebrow">Graduate career records</p>{t('석사·박사 졸업생의 진출 분야','Where our graduates work','h2')}{t('행정실 취업 현황 자료를 분류했습니다. 아래 비중은 취업 기록이 있는 졸업생 중 각 분야가 차지하는 비중이며, 전체 졸업생의 취업률은 아닙니다.','These summaries classify administrative career records. Percentages show the distribution among graduates with an employment record, not an employment rate for all graduates.','p')}{t('석사 자료는 2024년 8월–2026년 8월, 박사 자료는 2014년 8월–2026년 8월 졸업생을 포함합니다.','The master’s records cover August 2024–August 2026 graduates; the doctoral records cover August 2014–August 2026 graduates.','p','outcome-period-note')}{link('#sources','자료 기준 보기','About these records')}</div>
+    <div class="outcome-panels">{outcome_panels()}</div>
+    {t('분야별 비중의 분모에는 기업 유형 미확인 취업 기록도 포함됩니다. 인턴·비정규 경력이 포함될 수 있으며, 졸업 직후와 이후 시점의 기록이 혼재합니다. 소수점 반올림으로 비중의 합계가 100%와 다를 수 있습니다.','The denominator includes employment records with an unclassified company type. Records may include internships and non-permanent roles and mix initial and later career information. Percentages may not sum to 100% because of rounding.','p','section-note')}
+    <section class="academic-section" id="academic-careers"><p class="eyebrow">Academic & research careers</p>{t('학계와 연구 현장의 동문들','Alumni in academia and research','h2')}
+    <div class="directory-intro">{t(f'학계·연구 경력 {len(PLACEMENTS["alumni"])}명을 수록했습니다. 대학·연구자 공개 프로필을 확인한 기존 명단과 새로 받은 행정실 기록을 함께 모았습니다.',f'{len(PLACEMENTS["alumni"])} alumni records in academia and research. This list combines previously checked public university and researcher profiles with newly supplied administrative records.','p')}{t('행정실 기록은 별도로 표시했으며, 해당 경력이 현재 재직 정보인지와 연락처는 추후 보완합니다. 각 행의 자료 기준을 확인해 주세요.','Administrative records are labelled separately. Their current appointment status and contacts will be updated later; check the source basis on each record.','p')}</div>
+    <div class="result-bar" data-filter-controls hidden><span data-result-count role="status" aria-live="polite"></span>{t('국문·영문으로 검색할 수 있습니다.','Search in Korean or English.')}</div>
+    <table class="placement-table" role="table"><caption>{t('학계·연구 동문 · 성명 가나다순','Academic and research alumni · Korean name order')}</caption><thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">{t('성명 · 전공','Name · Field')}</th><th scope="col" role="columnheader">{t('소속 · 경력','Affiliation · Career')}</th><th scope="col" role="columnheader">{t('연락처 · 홈페이지','Contact · Profile')}</th></tr></thead><tbody role="rowgroup">{''.join(rows)}</tbody></table>{empty_state()}</section></section>
+    <section class="section wash" id="sources"><div class="wrap">{heading('About the records','진로 통계와 동문 명단의 자료 기준','Career statistics & alumni sources')}<div class="source-cards">{''.join(sources)}</div>
+    {t('행정실 자료 업데이트: 2026년 9월 7일. 진로 통계는 자료에 수록된 기록의 분류이며, 모든 졸업생을 포괄하는 전수조사나 현재 재직 현황이 아닙니다. 공란·X 등은 진로 미확인으로 처리하고 미취업으로 단정하지 않았습니다.','Administrative records updated on 7 September 2026. These statistics classify the available records and are not a comprehensive survey of all graduates or a current appointment register. Blank or X entries are treated as unknown, not as evidence of unemployment.','p','section-note')}
+    {t('공개 프로필 명단 확인: 2026년 9월 6일. 기존 명단의 소속·직급·연락처 근거는 각 행의 확인 출처에서 볼 수 있습니다. 행정실에서 추가된 경력은 행정실 기록으로 구분하며, 공개 프로필의 재확인은 추후 진행합니다.','Public-profile records were checked on 6 September 2026. Their affiliation, rank and contact evidence remains available under each record’s verification sources. Newly added careers are labelled as administrative records; their public profiles will be reviewed later.','p','section-note')}
+    {t('공개 프로필의 직급은 출처의 명시적 표기를 따릅니다. 과거 자료에서만 확인된 직급은 자료 기준일을 함께 표시했습니다. 교수라는 호칭만으로 정교수로 분류하지 않으며, Lecturer·Senior Lecturer 등은 원래 직함을 유지했습니다.','Ranks in public-profile records follow explicit source titles. Ranks found only in dated records show the source date. The generic Korean honorific for faculty is not evidence of full-professor rank; titles such as Lecturer and Senior Lecturer are retained.','p','section-note')}
+    {t('학계·연구 동문 명단은 취업 통계의 분모와 별개이며, 최초 임용기관 목록이 아닙니다. 학위 표시는 고려대학교에서 취득한 학위를 기준으로 합니다.','The academic and research alumni list is separate from the statistical denominator and is not a first-placement register. Degree labels refer to degrees earned at Korea University.','p','section-note')}</div></section>'''
+
 
 for filename, active, ko, en, body in [
     ('index.html','home','연구와 사람','Research & People',home()),
     ('faculty.html','faculty','전공별 교수진','Faculty & Research Interests',faculty_directory()),
     ('lsom.html','lsom','LSOM 연구와 교수진','LSOM Research & Faculty',lsom()),
-    ('placements.html','placements','졸업생 진로','Academic Placements',placements())
+    ('placements.html','placements','졸업생 진로','Graduate Careers',placements())
 ]:
     (OUT / filename).write_text(layout(active,ko,en,body),encoding='utf-8')
     print(f'Built {filename}')

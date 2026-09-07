@@ -365,6 +365,41 @@ html[lang=en] .faculty-card h3{font-size:20px;line-height:1.4}
 .source-card p{font-size:13px;color:var(--muted);line-height:1.8;margin-top:10px;overflow-wrap:anywhere}
 .source-card .source-link{margin-top:14px}
 
+/* Aggregate career records share the field filter with the alumni directory. */
+.filter-help{font-size:13px;line-height:1.8;color:var(--muted);margin:-5px 0 36px}
+.outcomes-intro{max-width:840px;margin-bottom:32px}
+.outcomes-intro h2,.academic-section>h2{font-size:32px;line-height:1.4;margin-bottom:18px}
+.outcomes-intro p:not(.eyebrow){font-size:15px;line-height:1.9;color:var(--muted);margin-top:12px}
+.outcomes-intro .text-link{margin-top:18px}
+.outcome-period-note{font-weight:600;color:var(--ink)!important}
+.outcome-field-heading{font-size:18px;line-height:1.5;margin-bottom:18px;color:var(--crimson)}
+.outcome-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;align-items:start}
+.outcome-card{border:1px solid var(--line);border-top:3px solid var(--crimson);padding:28px;min-width:0}
+.outcome-card h3{font-size:22px;line-height:1.5;margin:0}
+.outcome-period{font-size:12px;line-height:1.7;color:var(--muted);margin:8px 0 0}
+.outcome-metrics{display:flex;gap:32px;margin:24px 0 18px}
+.outcome-metrics dt{font-size:12px;color:var(--muted);margin-bottom:4px}
+.outcome-metrics dd{font-size:29px;line-height:1.4;font-weight:600;color:var(--ink);margin:0}
+.outcome-statuses{display:flex;flex-wrap:wrap;gap:7px 18px;list-style:none;padding:0 0 20px;margin:0;border-bottom:1px solid var(--line)}
+.outcome-statuses li{font-size:11px;line-height:1.8;color:var(--muted)}
+.outcome-statuses strong{font-weight:600;color:var(--ink);white-space:nowrap}
+.outcome-table{width:100%;border-collapse:collapse;text-align:left;margin-top:20px;table-layout:fixed}
+.outcome-table caption{text-align:left;font-size:12px;line-height:1.75;color:var(--muted);padding-bottom:16px}
+.outcome-table th,.outcome-table td{padding:10px 0;font-size:12px;line-height:1.6;vertical-align:top}
+.outcome-table thead th{font-size:11px;color:var(--muted);font-weight:500;border-bottom:1px solid var(--line);padding-top:0;padding-bottom:8px}
+.outcome-table th:first-child{width:auto;padding-right:18px}
+.outcome-table th:nth-child(2),.outcome-table td:nth-child(2){width:52px;text-align:right;white-space:nowrap}
+.outcome-table th:last-child,.outcome-table td:last-child{width:66px;text-align:right;white-space:nowrap}
+.outcome-table tbody th{font-weight:500}
+.outcome-table tbody td:last-child{font-weight:600;font-variant-numeric:tabular-nums;color:var(--crimson)}
+.outcome-track{display:block;height:5px;background:#e9ecee;margin-top:7px;overflow:hidden}
+.outcome-track>span{display:block;height:100%;background:var(--crimson)}
+.outcome-empty{font-size:14px;line-height:1.9;color:var(--muted);margin:22px 0 5px}
+.academic-section{border-top:1px solid var(--line);padding-top:56px;margin-top:56px}
+.academic-section .directory-intro{max-width:840px;margin-top:18px}
+.career-badge{display:inline-block;margin-top:9px;padding:3px 8px;background:#eaf0f1;color:#42555e;font-size:11px;font-weight:500;line-height:1.6}
+.administrative-record{color:#765924}
+
 @media(max-width:1100px){
   .nav-wrap,.nav{gap:16px}
   .nav a{font-size:13px}
@@ -384,6 +419,7 @@ html[lang=en] .faculty-card h3{font-size:20px;line-height:1.4}
   html:not(.js) .nav{flex-wrap:wrap;gap:8px 24px;width:100%;position:static}
   .faculty-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .source-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .outcome-grid{grid-template-columns:minmax(0,1fr);gap:24px}
 }
 @media(max-width:600px){
   .header-inner{gap:10px}
@@ -415,4 +451,13 @@ html[lang=en] .faculty-card h3{font-size:20px;line-height:1.4}
   .placement-meta{font-size:12px}
   .placement-role{font-size:13px}
   .placement-table .source-link{font-size:13px}
+  .outcomes-intro h2,.academic-section>h2{font-size:26px}
+  .outcome-card{padding:20px 17px}
+  .outcome-card h3{font-size:20px}
+  .outcome-metrics{gap:26px}
+  .outcome-metrics dd{font-size:26px}
+  .outcome-table th:first-child{padding-right:12px}
+  .outcome-table th:nth-child(2),.outcome-table td:nth-child(2){width:44px}
+  .outcome-table th:last-child,.outcome-table td:last-child{width:58px}
+  .academic-section{padding-top:38px;margin-top:38px}
 }

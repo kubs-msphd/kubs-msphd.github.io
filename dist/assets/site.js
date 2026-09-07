@@ -36,6 +36,10 @@
     const query = directory.search?.value.trim() || '';
     const terms = normalize(query).split(/\s+/).filter(Boolean);
     let count = 0;
+    // Aggregate career panels depend only on the field, never the person search.
+    directory.outcomes.forEach(panel => {
+      panel.hidden = panel.dataset.outcomePanel !== area;
+    });
     directory.items.forEach(({ element, areas, search }) => {
       const matches = (area === 'all' || areas.includes(area)) && terms.every(term => search.includes(term));
       element.hidden = !matches;
@@ -44,8 +48,8 @@
     if (directory.count) {
       const total = directory.items.length;
       directory.count.textContent = language === 'ko'
-        ? `전체 ${total}명 중 ${count}명`
-        : `${count} of ${total} ${directory.type === 'faculty' ? 'faculty' : 'alumni'}`;
+        ? `${directory.type === 'placements' ? '학계·연구 동문 ' : ''}전체 ${total}명 중 ${count}명`
+        : `${count} of ${total} ${directory.type === 'faculty' ? 'faculty' : 'academic and research alumni'}`;
     }
     if (directory.empty) directory.empty.hidden = count !== 0;
     if (directory.clear) directory.clear.disabled = area === 'all' && !query;
@@ -94,6 +98,7 @@
       clear: root.querySelector('[data-clear-filters]'),
       count: root.querySelector('[data-result-count]'),
       empty: root.querySelector('[data-empty]'),
+      outcomes: Array.from(root.querySelectorAll('[data-outcome-panel]')),
       items: Array.from(root.querySelectorAll('[data-filter-item]'), element => ({
         element,
         areas: (element.dataset.areas || '').split(/\s+/),
