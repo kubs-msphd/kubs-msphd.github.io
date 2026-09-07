@@ -1,0 +1,1825 @@
+{
+  "updated_at": "2026-09-07",
+  "source": {
+    "label_ko": "경영대학 행정실 졸업생 진로 자료",
+    "label_en": "KUBS administrative alumni outcome records",
+    "period_start": "2014-08",
+    "period_end": "2026-08",
+    "note_ko": "파일명은 2014~2025이나 실제 졸업월은 2026년 8월까지 포함. 석사 기록은 2024년 8월부터 있음.",
+    "note_en": "Although the file title says 2014–2025, graduation records extend to August 2026. Master’s records begin in August 2024."
+  },
+  "sectors": [
+    {
+      "id": "university",
+      "label_ko": "대학·교육기관",
+      "label_en": "Universities & education"
+    },
+    {
+      "id": "research",
+      "label_ko": "연구기관",
+      "label_en": "Research institutes"
+    },
+    {
+      "id": "domestic",
+      "label_ko": "국내 기업",
+      "label_en": "Korean companies"
+    },
+    {
+      "id": "international",
+      "label_ko": "해외·외국계 기업",
+      "label_en": "Overseas & foreign-owned companies"
+    },
+    {
+      "id": "public",
+      "label_ko": "공공·비영리기관",
+      "label_en": "Public & nonprofit organisations"
+    },
+    {
+      "id": "self",
+      "label_ko": "창업·자영업",
+      "label_en": "Entrepreneurship & self-employment"
+    },
+    {
+      "id": "unspecified",
+      "label_ko": "취업처 유형 미확인",
+      "label_en": "Employer type unclassified"
+    }
+  ],
+  "categories": [
+    {
+      "id": "faculty",
+      "label_ko": "대학 교원(연구·겸임 등 별도)",
+      "label_en": "University faculty",
+      "sector_id": "university"
+    },
+    {
+      "id": "academic_research",
+      "label_ko": "대학 연구직·박사후연구원",
+      "label_en": "University research & postdoctoral roles",
+      "sector_id": "university"
+    },
+    {
+      "id": "teaching",
+      "label_ko": "강의·겸임·초빙",
+      "label_en": "Teaching & adjunct appointments",
+      "sector_id": "university"
+    },
+    {
+      "id": "university_other",
+      "label_ko": "대학·교육기관 기타",
+      "label_en": "Other education roles",
+      "sector_id": "university"
+    },
+    {
+      "id": "research_institute",
+      "label_ko": "연구기관",
+      "label_en": "Research institutes",
+      "sector_id": "research"
+    },
+    {
+      "id": "domestic_company",
+      "label_ko": "국내 기업",
+      "label_en": "Korean companies",
+      "sector_id": "domestic"
+    },
+    {
+      "id": "international_company",
+      "label_ko": "해외·외국계 기업",
+      "label_en": "Overseas & foreign-owned companies",
+      "sector_id": "international"
+    },
+    {
+      "id": "public_nonprofit",
+      "label_ko": "공공·비영리기관",
+      "label_en": "Public & nonprofit organisations",
+      "sector_id": "public"
+    },
+    {
+      "id": "self_employed",
+      "label_ko": "창업·자영업",
+      "label_en": "Entrepreneurship & self-employment",
+      "sector_id": "self"
+    },
+    {
+      "id": "employer_unknown",
+      "label_ko": "취업처 유형 미확인",
+      "label_en": "Employer type unclassified",
+      "sector_id": "unspecified"
+    }
+  ],
+  "statuses": [
+    {
+      "id": "employed",
+      "label_ko": "취업 기록",
+      "label_en": "Employment recorded"
+    },
+    {
+      "id": "further_study",
+      "label_ko": "진학·진학 예정",
+      "label_en": "Further study / planned enrolment"
+    },
+    {
+      "id": "planned_employment",
+      "label_ko": "취업·임용 예정(미확인)",
+      "label_en": "Employment / appointment planned"
+    },
+    {
+      "id": "preparing",
+      "label_ko": "미취업·취업/진학 준비",
+      "label_en": "Not employed / job or study preparation"
+    },
+    {
+      "id": "inactive",
+      "label_ko": "군복무·은퇴 등",
+      "label_en": "Military service, retirement & other"
+    },
+    {
+      "id": "unknown",
+      "label_ko": "진로 미확인",
+      "label_en": "Outcome unconfirmed"
+    }
+  ],
+  "groups": {
+    "all": {
+      "masters": {
+        "total_records": 155,
+        "employed_total": 64,
+        "period_start": "2024-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 64,
+          "further_study": 15,
+          "planned_employment": 1,
+          "preparing": 32,
+          "inactive": 2,
+          "unknown": 41
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 2,
+          "domestic": 29,
+          "international": 7,
+          "public": 12,
+          "self": 1,
+          "unspecified": 13
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 2,
+          "domestic_company": 29,
+          "international_company": 7,
+          "public_nonprofit": 12,
+          "self_employed": 1,
+          "employer_unknown": 13
+        }
+      },
+      "doctoral": {
+        "total_records": 204,
+        "employed_total": 178,
+        "period_start": "2014-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 178,
+          "further_study": 0,
+          "planned_employment": 2,
+          "preparing": 8,
+          "inactive": 1,
+          "unknown": 15
+        },
+        "sector_counts": {
+          "university": 144,
+          "research": 14,
+          "domestic": 7,
+          "international": 1,
+          "public": 8,
+          "self": 1,
+          "unspecified": 3
+        },
+        "category_counts": {
+          "faculty": 97,
+          "academic_research": 20,
+          "teaching": 14,
+          "university_other": 13,
+          "research_institute": 14,
+          "domestic_company": 7,
+          "international_company": 1,
+          "public_nonprofit": 8,
+          "self_employed": 1,
+          "employer_unknown": 3
+        }
+      }
+    },
+    "M01": {
+      "masters": {
+        "total_records": 20,
+        "employed_total": 12,
+        "period_start": "2024-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 12,
+          "further_study": 2,
+          "planned_employment": 0,
+          "preparing": 3,
+          "inactive": 1,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 7,
+          "international": 0,
+          "public": 2,
+          "self": 0,
+          "unspecified": 3
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 7,
+          "international_company": 0,
+          "public_nonprofit": 2,
+          "self_employed": 0,
+          "employer_unknown": 3
+        }
+      },
+      "doctoral": {
+        "total_records": 31,
+        "employed_total": 29,
+        "period_start": "2014-08",
+        "period_end": "2026-02",
+        "status_counts": {
+          "employed": 29,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 19,
+          "research": 2,
+          "domestic": 4,
+          "international": 1,
+          "public": 2,
+          "self": 1,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 15,
+          "academic_research": 1,
+          "teaching": 2,
+          "university_other": 1,
+          "research_institute": 2,
+          "domestic_company": 4,
+          "international_company": 1,
+          "public_nonprofit": 2,
+          "self_employed": 1,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "M02": {
+      "masters": {
+        "total_records": 13,
+        "employed_total": 2,
+        "period_start": "2024-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 2,
+          "further_study": 3,
+          "planned_employment": 1,
+          "preparing": 2,
+          "inactive": 0,
+          "unknown": 5
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 1,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 1
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 1
+        }
+      },
+      "doctoral": {
+        "total_records": 18,
+        "employed_total": 15,
+        "period_start": "2015-08",
+        "period_end": "2026-02",
+        "status_counts": {
+          "employed": 15,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 1,
+          "inactive": 0,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 13,
+          "research": 1,
+          "domestic": 1,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 8,
+          "academic_research": 2,
+          "teaching": 1,
+          "university_other": 2,
+          "research_institute": 1,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "M03": {
+      "masters": {
+        "total_records": 24,
+        "employed_total": 6,
+        "period_start": "2024-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 6,
+          "further_study": 2,
+          "planned_employment": 0,
+          "preparing": 14,
+          "inactive": 0,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 1,
+          "international": 2,
+          "public": 2,
+          "self": 1,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 1,
+          "international_company": 2,
+          "public_nonprofit": 2,
+          "self_employed": 1,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 37,
+        "employed_total": 33,
+        "period_start": "2014-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 33,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 2,
+          "inactive": 0,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 31,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 1,
+          "self": 0,
+          "unspecified": 1
+        },
+        "category_counts": {
+          "faculty": 17,
+          "academic_research": 7,
+          "teaching": 5,
+          "university_other": 2,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 1,
+          "self_employed": 0,
+          "employer_unknown": 1
+        }
+      }
+    },
+    "M04": {
+      "masters": {
+        "total_records": 14,
+        "employed_total": 2,
+        "period_start": "2024-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 2,
+          "further_study": 4,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 8
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 1,
+          "domestic": 0,
+          "international": 1,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 1,
+          "domestic_company": 0,
+          "international_company": 1,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 31,
+        "employed_total": 28,
+        "period_start": "2014-08",
+        "period_end": "2026-02",
+        "status_counts": {
+          "employed": 28,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 1,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 19,
+          "research": 4,
+          "domestic": 1,
+          "international": 0,
+          "public": 4,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 15,
+          "academic_research": 3,
+          "teaching": 0,
+          "university_other": 1,
+          "research_institute": 4,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 4,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "M09": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "M05": {
+      "masters": {
+        "total_records": 17,
+        "employed_total": 9,
+        "period_start": "2025-02",
+        "period_end": "2026-02",
+        "status_counts": {
+          "employed": 9,
+          "further_study": 1,
+          "planned_employment": 0,
+          "preparing": 5,
+          "inactive": 1,
+          "unknown": 1
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 1,
+          "domestic": 1,
+          "international": 0,
+          "public": 7,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 1,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 7,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 47,
+        "employed_total": 39,
+        "period_start": "2014-08",
+        "period_end": "2026-02",
+        "status_counts": {
+          "employed": 39,
+          "further_study": 0,
+          "planned_employment": 1,
+          "preparing": 2,
+          "inactive": 0,
+          "unknown": 5
+        },
+        "sector_counts": {
+          "university": 35,
+          "research": 2,
+          "domestic": 0,
+          "international": 0,
+          "public": 1,
+          "self": 0,
+          "unspecified": 1
+        },
+        "category_counts": {
+          "faculty": 28,
+          "academic_research": 2,
+          "teaching": 1,
+          "university_other": 4,
+          "research_institute": 2,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 1,
+          "self_employed": 0,
+          "employer_unknown": 1
+        }
+      }
+    },
+    "M07": {
+      "masters": {
+        "total_records": 11,
+        "employed_total": 2,
+        "period_start": "2024-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 2,
+          "further_study": 2,
+          "planned_employment": 0,
+          "preparing": 1,
+          "inactive": 0,
+          "unknown": 6
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 1,
+          "international": 1,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 1,
+          "international_company": 1,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 11,
+        "employed_total": 10,
+        "period_start": "2016-08",
+        "period_end": "2021-08",
+        "status_counts": {
+          "employed": 10,
+          "further_study": 0,
+          "planned_employment": 1,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 7,
+          "research": 2,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 1
+        },
+        "category_counts": {
+          "faculty": 3,
+          "academic_research": 1,
+          "teaching": 0,
+          "university_other": 3,
+          "research_institute": 2,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 1
+        }
+      }
+    },
+    "M06": {
+      "masters": {
+        "total_records": 21,
+        "employed_total": 9,
+        "period_start": "2024-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 9,
+          "further_study": 1,
+          "planned_employment": 0,
+          "preparing": 4,
+          "inactive": 0,
+          "unknown": 7
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 6,
+          "international": 1,
+          "public": 0,
+          "self": 0,
+          "unspecified": 2
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 6,
+          "international_company": 1,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 2
+        }
+      },
+      "doctoral": {
+        "total_records": 29,
+        "employed_total": 24,
+        "period_start": "2014-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 24,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 3,
+          "inactive": 0,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 20,
+          "research": 3,
+          "domestic": 1,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 11,
+          "academic_research": 4,
+          "teaching": 5,
+          "university_other": 0,
+          "research_institute": 3,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "M08": {
+      "masters": {
+        "total_records": 35,
+        "employed_total": 22,
+        "period_start": "2024-08",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 22,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 3,
+          "inactive": 0,
+          "unknown": 10
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 12,
+          "international": 2,
+          "public": 1,
+          "self": 0,
+          "unspecified": 7
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 12,
+          "international_company": 2,
+          "public_nonprofit": 1,
+          "self_employed": 0,
+          "employer_unknown": 7
+        }
+      },
+      "doctoral": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    }
+  },
+  "cohorts": {
+    "2014": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 15,
+        "employed_total": 11,
+        "period_start": "2014-08",
+        "period_end": "2014-08",
+        "status_counts": {
+          "employed": 11,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 1,
+          "inactive": 1,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 7,
+          "research": 2,
+          "domestic": 1,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 1
+        },
+        "category_counts": {
+          "faculty": 5,
+          "academic_research": 1,
+          "teaching": 1,
+          "university_other": 0,
+          "research_institute": 2,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 1
+        }
+      }
+    },
+    "2015": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 23,
+        "employed_total": 18,
+        "period_start": "2015-02",
+        "period_end": "2015-08",
+        "status_counts": {
+          "employed": 18,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 2,
+          "inactive": 0,
+          "unknown": 3
+        },
+        "sector_counts": {
+          "university": 14,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 4,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 11,
+          "academic_research": 1,
+          "teaching": 1,
+          "university_other": 1,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 4,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2016": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 17,
+        "employed_total": 15,
+        "period_start": "2016-02",
+        "period_end": "2016-08",
+        "status_counts": {
+          "employed": 15,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 1,
+          "inactive": 0,
+          "unknown": 1
+        },
+        "sector_counts": {
+          "university": 13,
+          "research": 2,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 10,
+          "academic_research": 0,
+          "teaching": 1,
+          "university_other": 2,
+          "research_institute": 2,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2017": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 23,
+        "employed_total": 22,
+        "period_start": "2017-02",
+        "period_end": "2017-08",
+        "status_counts": {
+          "employed": 22,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 1
+        },
+        "sector_counts": {
+          "university": 18,
+          "research": 3,
+          "domestic": 0,
+          "international": 0,
+          "public": 1,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 15,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 3,
+          "research_institute": 3,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 1,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2018": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 18,
+        "employed_total": 17,
+        "period_start": "2018-02",
+        "period_end": "2018-08",
+        "status_counts": {
+          "employed": 17,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 1
+        },
+        "sector_counts": {
+          "university": 17,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 12,
+          "academic_research": 2,
+          "teaching": 2,
+          "university_other": 1,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2019": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 16,
+        "employed_total": 14,
+        "period_start": "2019-02",
+        "period_end": "2019-08",
+        "status_counts": {
+          "employed": 14,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 10,
+          "research": 1,
+          "domestic": 1,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 2
+        },
+        "category_counts": {
+          "faculty": 9,
+          "academic_research": 1,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 1,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 2
+        }
+      }
+    },
+    "2020": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 14,
+        "employed_total": 14,
+        "period_start": "2020-02",
+        "period_end": "2020-08",
+        "status_counts": {
+          "employed": 14,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 11,
+          "research": 2,
+          "domestic": 1,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 6,
+          "academic_research": 2,
+          "teaching": 2,
+          "university_other": 1,
+          "research_institute": 2,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2021": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 17,
+        "employed_total": 14,
+        "period_start": "2021-02",
+        "period_end": "2021-08",
+        "status_counts": {
+          "employed": 14,
+          "further_study": 0,
+          "planned_employment": 1,
+          "preparing": 1,
+          "inactive": 0,
+          "unknown": 1
+        },
+        "sector_counts": {
+          "university": 9,
+          "research": 2,
+          "domestic": 1,
+          "international": 0,
+          "public": 1,
+          "self": 1,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 8,
+          "academic_research": 1,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 2,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 1,
+          "self_employed": 1,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2022": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 15,
+        "employed_total": 13,
+        "period_start": "2022-02",
+        "period_end": "2022-08",
+        "status_counts": {
+          "employed": 13,
+          "further_study": 0,
+          "planned_employment": 1,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 1
+        },
+        "sector_counts": {
+          "university": 11,
+          "research": 0,
+          "domestic": 1,
+          "international": 0,
+          "public": 1,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 7,
+          "academic_research": 1,
+          "teaching": 2,
+          "university_other": 1,
+          "research_institute": 0,
+          "domestic_company": 1,
+          "international_company": 0,
+          "public_nonprofit": 1,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2023": {
+      "masters": {
+        "total_records": 0,
+        "employed_total": 0,
+        "period_start": null,
+        "period_end": null,
+        "status_counts": {
+          "employed": 0,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      },
+      "doctoral": {
+        "total_records": 15,
+        "employed_total": 13,
+        "period_start": "2023-02",
+        "period_end": "2023-08",
+        "status_counts": {
+          "employed": 13,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 1,
+          "inactive": 0,
+          "unknown": 1
+        },
+        "sector_counts": {
+          "university": 12,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 1,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 4,
+          "academic_research": 3,
+          "teaching": 2,
+          "university_other": 3,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 1,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2024": {
+      "masters": {
+        "total_records": 20,
+        "employed_total": 12,
+        "period_start": "2024-08",
+        "period_end": "2024-08",
+        "status_counts": {
+          "employed": 12,
+          "further_study": 4,
+          "planned_employment": 0,
+          "preparing": 2,
+          "inactive": 0,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 0,
+          "domestic": 4,
+          "international": 3,
+          "public": 1,
+          "self": 1,
+          "unspecified": 3
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 4,
+          "international_company": 3,
+          "public_nonprofit": 1,
+          "self_employed": 1,
+          "employer_unknown": 3
+        }
+      },
+      "doctoral": {
+        "total_records": 13,
+        "employed_total": 13,
+        "period_start": "2024-02",
+        "period_end": "2024-08",
+        "status_counts": {
+          "employed": 13,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 10,
+          "research": 2,
+          "domestic": 0,
+          "international": 1,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 8,
+          "academic_research": 2,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 2,
+          "domestic_company": 0,
+          "international_company": 1,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2025": {
+      "masters": {
+        "total_records": 87,
+        "employed_total": 41,
+        "period_start": "2025-02",
+        "period_end": "2025-08",
+        "status_counts": {
+          "employed": 41,
+          "further_study": 9,
+          "planned_employment": 0,
+          "preparing": 18,
+          "inactive": 1,
+          "unknown": 18
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 1,
+          "domestic": 21,
+          "international": 4,
+          "public": 6,
+          "self": 0,
+          "unspecified": 9
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 1,
+          "domestic_company": 21,
+          "international_company": 4,
+          "public_nonprofit": 6,
+          "self_employed": 0,
+          "employer_unknown": 9
+        }
+      },
+      "doctoral": {
+        "total_records": 5,
+        "employed_total": 5,
+        "period_start": "2025-02",
+        "period_end": "2025-08",
+        "status_counts": {
+          "employed": 5,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 0,
+          "inactive": 0,
+          "unknown": 0
+        },
+        "sector_counts": {
+          "university": 5,
+          "research": 0,
+          "domestic": 0,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 1,
+          "academic_research": 2,
+          "teaching": 1,
+          "university_other": 1,
+          "research_institute": 0,
+          "domestic_company": 0,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    },
+    "2026": {
+      "masters": {
+        "total_records": 48,
+        "employed_total": 11,
+        "period_start": "2026-02",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 11,
+          "further_study": 2,
+          "planned_employment": 1,
+          "preparing": 12,
+          "inactive": 1,
+          "unknown": 21
+        },
+        "sector_counts": {
+          "university": 0,
+          "research": 1,
+          "domestic": 4,
+          "international": 0,
+          "public": 5,
+          "self": 0,
+          "unspecified": 1
+        },
+        "category_counts": {
+          "faculty": 0,
+          "academic_research": 0,
+          "teaching": 0,
+          "university_other": 0,
+          "research_institute": 1,
+          "domestic_company": 4,
+          "international_company": 0,
+          "public_nonprofit": 5,
+          "self_employed": 0,
+          "employer_unknown": 1
+        }
+      },
+      "doctoral": {
+        "total_records": 13,
+        "employed_total": 9,
+        "period_start": "2026-02",
+        "period_end": "2026-08",
+        "status_counts": {
+          "employed": 9,
+          "further_study": 0,
+          "planned_employment": 0,
+          "preparing": 2,
+          "inactive": 0,
+          "unknown": 2
+        },
+        "sector_counts": {
+          "university": 7,
+          "research": 0,
+          "domestic": 2,
+          "international": 0,
+          "public": 0,
+          "self": 0,
+          "unspecified": 0
+        },
+        "category_counts": {
+          "faculty": 1,
+          "academic_research": 4,
+          "teaching": 2,
+          "university_other": 0,
+          "research_institute": 0,
+          "domestic_company": 2,
+          "international_company": 0,
+          "public_nonprofit": 0,
+          "self_employed": 0,
+          "employer_unknown": 0
+        }
+      }
+    }
+  },
+  "methodology": {
+    "denominator": "All employment records in the selected degree and field, including unclassified employer types. Not an employment rate.",
+    "institution_scope": "Research institutes include dedicated public and corporate research institutes; research roles within general businesses remain company employment.",
+    "employment_scope": "Includes internships, temporary appointments and self-employment when recorded. Plans are separate; X alone means unknown.",
+    "major_mapping": {
+      "경영관리": "M01",
+      "국제경영관리": "M02",
+      "국제경영": "M02",
+      "글로벌비즈니스": "M02",
+      "국제마케팅": "M02",
+      "국재재무/금융": "M02",
+      "마케팅": "M03",
+      "재무론": "M04",
+      "재무금융": "M04",
+      "회계학": "M05",
+      "LSOM": "M06",
+      "MIS": "M07",
+      "IS": "M07",
+      "BA": "M08"
+    },
+    "coverage": "Source rows are not independently established as complete graduating cohorts. Missing earlier MS records are not zero outcomes. Strategy is not separately coded in the source.",
+    "date_interpretation": "Graduation cohort dates; first job and later/current jobs are mixed in source descriptions. No placement trend or first-employment claims."
+  }
+}
