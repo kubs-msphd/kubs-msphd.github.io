@@ -128,3 +128,24 @@ Placement의 개인별 학계 명단은 `data/placements.json`에서 수정합�
 - `evidence`에는 출판사/공식 저널/저자·대학 페이지 근거를 보존합니다. 공개 화면에는 논문의 서지정보·짧은 요약·원문 링크만 표시합니다.
 - IS의 2026-09-04 ISR 논문은 출판사가 공개한 Just Accepted 버전이므로 해당 상태를 명시합니다. GB 송희찬 교수의 부임 전 논문도 현직 교수의 연구로 소개하며, KUBS 재직 중 연구 실적으로 단정하지 않습니다.
 - 사이트는 연구 허브와9개 전공 페이지, 홈·교수진·진로 등 총13개 페이지로 생성됩니다. 기존 `lsom.html` 주소는 그대로 유지합니다.
+
+## 2026-09-08 디자인 개편
+
+공식 경영대학 홈페이지와 시각적 연속성을 갖도록 전체 13페이지의 디자인을 개편했습니다. 연구 키워드·교수진·Placement 원데이터·논문 27개 카드·진로 집계는 변경하지 않았습니다. 전공별 키워드와 Placement는 교수진의 조사 결과를 받은 뒤 별도로 갱신합니다.
+
+- 참고 화면: https://biz.korea.ac.kr/main/main.html 및 https://biz.korea.ac.kr/msphd/intro.html
+- 공식 사이트의 진홍색 #8b0029, Pretendard 고딕, 1,200px 콘텐츠 폭, 사진 배너, 진홍색 현재 위치 띠, 중앙 제목과 구분선을 반영했습니다.
+- 명조체 슬로건·질문형 페이지 제목·장식용 영문 소제목·번호·반복 카드를 제거하고, 전공 목록·교수 프로필·논문 목록 중심으로 구성했습니다. 새로운 통계나 홍보 실적은 추가하지 않았습니다.
+- 홈은 학교와 과정명, 교수진/연구/진로/입학·학사 바로가기, 9개 전공, 선정 논문, 졸업생 진로 순서입니다.
+- 원자료와 출처 설명은 공개 화면에 추가하지 않습니다. 전공별 비중 분모와 필터 동작, 기존 LSOM 및 다른 페이지 주소를 유지합니다.
+
+추가한 학교 자산은 공식 이미지를 그대로 복사했으며, 생성하거나 재가공한 사진·로고가 아닙니다.
+
+| 로컬 파일 | 공식 원본 |
+|---|---|
+| `dist/assets/kubs-logo.png` | https://biz.korea.ac.kr/images/common/logo.png |
+| `dist/assets/kubs-footer-logo.png` | https://biz.korea.ac.kr/images/common/logo_bot.png |
+| `dist/assets/campus-banner.jpg` | https://biz.korea.ac.kr/images/sub/sub_visual02.jpg |
+| `dist/assets/msphd-banner.jpg` | https://biz.korea.ac.kr/images/sub/sub_visual03.jpg |
+
+Pretendard Regular·SemiBold·Bold WOFF2는 공식 사이트의 `/fonts/Pretendard/`에서 가져와 같은 사이트에서 제공하도록 저장했습니다. 외부 폰트 서비스에 의존하지 않으며 `font-display: swap`으로 텍스트를 먼저 표시합니다. 재배포 라이선스는 `dist/assets/Pretendard-LICENSE.txt`에 포함했습니다. 라이선스 원문: https://github.com/orioncactus/pretendard/blob/main/LICENSE
