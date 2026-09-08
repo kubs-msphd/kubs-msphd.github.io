@@ -1,5 +1,533 @@
 [
   {
+    "area_code": "M01",
+    "year": 2024,
+    "title": "Sweeping it under the rug: Positioning and managing pollution-intensive activities in organizational hierarchies",
+    "authors": "Juyoung Lee, Pratima Bansal",
+    "journal": "Strategic Management Journal",
+    "status_ko": "45(6), 1151–1179 · 2024.02.16 온라인 게재",
+    "status_en": "45(6), 1151–1179 · Published online February 16, 2024",
+    "url": "https://doi.org/10.1002/smj.3582",
+    "doi": "10.1002/smj.3582",
+    "summary_ko": "기업집단의 소유구조와 환경규제가 오염 활동의 배치에 미치는 영향을 분석합니다. 모회사와 자회사 사이의 조직적 거리가 환경책임과 어떻게 연결되는지 살펴봅니다.",
+    "summary_en": "Examines how ownership hierarchies and environmental regulation shape where corporate groups locate polluting activities, and how distance from the parent company affects environmental accountability.",
+    "faculty_ids": [
+      "faculty-0146c3050feb"
+    ],
+    "published_date": "2024-06",
+    "evidence": [
+      {
+        "url": "https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3582",
+        "note": "Publisher: title, authors, DOI, 45(6), pp1151–1179, first online 2024-02-16 and abstract verified."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=QOgDh9tcxYlrF3BKamrZFA&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
+        "note": "Current KUBS faculty profile; confirms field and lists this paper."
+      }
+    ],
+    "checked_at": "2026-09-08",
+    "first_online_date": "2024-02-16"
+  },
+  {
+    "area_code": "M01",
+    "year": 2023,
+    "title": "Hierarchical Team Structures Limit Joint Gain in Interteam Negotiations: The Role of Information Elaboration and Value-Claiming Behavior",
+    "authors": "Sarah P. Doyle, Seunghoo Chung, Robert B. Lount Jr., Roderick I. Swaab, Jake Rathjens",
+    "journal": "Academy of Management Journal",
+    "status_ko": "66(5), 1586–1616 · 2023년 권호 게재",
+    "status_en": "66(5), 1586–1616 · Published in the 2023 issue",
+    "url": "https://doi.org/10.5465/amj.2019.1381",
+    "doi": "10.5465/amj.2019.1381",
+    "summary_ko": "팀 내부의 위계가 정보 공유와 협상 방식에 미치는 영향을 연구합니다. 팀 간 협상에서 공동의 이익을 높일 수 있는 조건을 실험으로 살펴봅니다.",
+    "summary_en": "Studies how hierarchy within a team shapes information elaboration and bargaining behavior, and tests ways to improve joint gains in negotiations between teams.",
+    "faculty_ids": [
+      "faculty-2d60bda15bcb"
+    ],
+    "published_date": "2023-10",
+    "evidence": [
+      {
+        "url": "https://ira.lib.polyu.edu.hk/handle/10397/102659",
+        "note": "Author institution archive: final AMJ citation, full author names, October 2023 issue, DOI and abstract verified."
+      },
+      {
+        "url": "https://journals.aom.org/doi/abs/10.5465/amj.2019.1381",
+        "note": "Publisher DOI identity and title visible in search; direct page returned 403. Crossref publisher-deposited metadata confirms 2023-10 issue; no first-online date asserted."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=PVUkbZLtO/7Po_jxghI_Sw&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html",
+        "note": "Current KUBS faculty profile; confirms field and lists this paper."
+      }
+    ],
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M01",
+    "year": 2023,
+    "title": "Collective Attention and Collective Intelligence: The Role of Hierarchy and Team Gender Composition",
+    "authors": "Anita Williams Woolley, Rosalind M. Chow, Anna T. Mayo, Christoph Riedl, Jin Wook Chang",
+    "journal": "Organization Science",
+    "status_ko": "34(3), 1315–1331 · 2022년 온라인 선게재",
+    "status_en": "34(3), 1315–1331 · First published online in 2022",
+    "url": "https://doi.org/10.1287/orsc.2022.1602",
+    "doi": "10.1287/orsc.2022.1602",
+    "summary_ko": "팀의 위계와 성별 구성이 대화 방식 및 집단지성에 미치는 영향을 분석합니다. 협력적인 발언과 경쟁적인 발언이 팀 성과로 이어지는 조건을 살펴봅니다.",
+    "summary_en": "Examines how team hierarchy and gender composition shape speaking patterns and collective intelligence, identifying when cooperative or competitive communication supports performance.",
+    "faculty_ids": [
+      "faculty-c99d85ab393a"
+    ],
+    "published_date": "2023-05",
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2022.1602",
+        "note": "Publisher confirms all five authors including Jin Wook Chang at Korea University, online date 2022-06-07, May–June 2023 issue and abstract."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=SJJY14iUmG7bWhF1gAg8oA&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html",
+        "note": "Current KUBS faculty profile; confirms field and lists this paper."
+      }
+    ],
+    "checked_at": "2026-09-08",
+    "first_online_date": "2022-06-07"
+  },
+  {
+    "area_code": "M09",
+    "year": 2025,
+    "title": "Defending the throne: The influence of performance feedback on CEO succession in family-controlled firms",
+    "authors": "Jaemin Lee, Xiaowei Rose Luo, Ji-Yub (Jay) Kim",
+    "journal": "Strategic Management Journal",
+    "status_ko": "46(10), 2331–2431 · 2025.05.24 온라인 게재",
+    "status_en": "46(10), 2331–2431 · Published online May 24, 2025",
+    "url": "https://doi.org/10.1002/smj.3723",
+    "doi": "10.1002/smj.3723",
+    "summary_ko": "가족기업의 성과와 지배가족의 정치적 영향력이 최고경영자 승계에 미치는 영향을 연구합니다. 과거에 축적한 성과가 현재의 경영권 유지와 승계 결정에 어떻게 작용하는지 분석합니다.",
+    "summary_en": "Examines how firm performance and a controlling family’s political slack shape CEO succession, showing how accumulated contributions influence leadership choices.",
+    "faculty_ids": [
+      "faculty-bcbfe0b31f6f"
+    ],
+    "published_date": "2025-10",
+    "evidence": [
+      {
+        "url": "https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3723",
+        "note": "Publisher confirms title, authors, Jaemin Lee KUBS affiliation, first online 2025-05-24 and 46(10) pp2331–2431. Official KUBS profile retains an earlier working title; publisher title used."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=KQq2G1TKTPIlS4_m/lVdZA&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
+        "note": "Current KUBS faculty profile; confirms field and lists this paper."
+      }
+    ],
+    "checked_at": "2026-09-08",
+    "first_online_date": "2025-05-24"
+  },
+  {
+    "area_code": "M09",
+    "year": 2023,
+    "title": "Unpacking the “O” in VRIO: The role of workflow interdependence in the loss and replacement of strategic human capital",
+    "authors": "Jongsoo Kim, Richard Makadok",
+    "journal": "Strategic Management Journal",
+    "status_ko": "44(6), 1453–1487 · 2021년 온라인 선게재",
+    "status_en": "44(6), 1453–1487 · First published online in 2021",
+    "url": "https://doi.org/10.1002/smj.3358",
+    "doi": "10.1002/smj.3358",
+    "summary_ko": "핵심 인재의 이탈이 조직에 미치는 영향을 업무의 상호의존성 관점에서 분석합니다. 외부 인재 영입과 내부 인재 육성 중 어떤 대응이 효과적인지 NBA 자료로 살펴봅니다.",
+    "summary_en": "Uses NBA data to study how workflow interdependence shapes the cost of losing employees and the relative effectiveness of external recruitment versus internal development.",
+    "faculty_ids": [
+      "faculty-c3ef18ef1962"
+    ],
+    "published_date": "2023-06",
+    "evidence": [
+      {
+        "url": "https://sms.onlinelibrary.wiley.com/doi/abs/10.1002/smj.3358",
+        "note": "Publisher citation confirms 2023 volume44 issue6 pages1453–1487, authors and DOI."
+      },
+      {
+        "url": "https://scholars.hkbu.edu.hk/en/publications/unpacking-the-o-in-vrio-the-role-of-workflow-interdependence-in-t/",
+        "note": "Author university research record confirms June2023 issue and abstract. Crossref publisher-deposited metadata records online publication December2021; shown separately."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=ERocBpI1x9eD1uyQ1c4lEg&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D3",
+        "note": "Current KUBS faculty profile; confirms field and lists this paper."
+      }
+    ],
+    "checked_at": "2026-09-08",
+    "first_online_date": "2021-12"
+  },
+  {
+    "area_code": "M09",
+    "year": 2023,
+    "title": "The Role of Attribution in Learning from Performance Feedback: Behavioral Perspective on the Choice between Alliances and Acquisitions",
+    "authors": "Jaemin Lee, Joon Mahn Lee, Ji-Yub (Jay) Kim",
+    "journal": "Academy of Management Journal",
+    "status_ko": "66(2), 578–603 · 2023년 권호 게재",
+    "status_en": "66(2), 578–603 · Published in the 2023 issue",
+    "url": "https://doi.org/10.5465/amj.2019.1293",
+    "doi": "10.5465/amj.2019.1293",
+    "summary_ko": "기업이 과거 제휴 성과의 원인을 어떻게 해석하는지가 이후 제휴와 인수 선택에 미치는 영향을 분석합니다. 성과 피드백을 통한 학습과 기업 성장전략을 연결합니다.",
+    "summary_en": "Explores how firms attribute the causes of past alliance performance and how those interpretations influence later choices between alliances and acquisitions.",
+    "faculty_ids": [
+      "faculty-bcbfe0b31f6f"
+    ],
+    "published_date": "2023-04",
+    "evidence": [
+      {
+        "url": "https://journals.aom.org/doi/abs/10.5465/amj.2019.1293",
+        "note": "Publisher title and DOI confirmed in search. Direct access403; no first-online claim."
+      },
+      {
+        "url": "https://snu.elsevierpure.com/en/publications/the-role-of-attribution-in-learning-from-performance-feedback-beh/",
+        "note": "Coauthor university repository confirms allauthors, AMJ66(2)578–603, published2023, DOI and abstract; KUBS currentprofile lists same final citation."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=KQq2G1TKTPIlS4_m/lVdZA&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
+        "note": "Current KUBS faculty profile; confirms field and lists this paper."
+      }
+    ],
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M03",
+    "year": 2025,
+    "title": "The Closing-the-Gap Effect: Joint Evaluation Leads Donors to Help Charities Farther from Their Goal",
+    "authors": "Rishad Habib, David J. Hardisty, Katherine White, Baek Jung Kim",
+    "journal": "Journal of Marketing Research",
+    "status_ko": "62(1), 77–96 · 2024년 온라인 선게재",
+    "status_en": "62(1), 77–96 · First published online in 2024",
+    "url": "https://journals.sagepub.com/doi/10.1177/00222437241270225",
+    "summary_ko": "기부 프로젝트를 함께 비교할 때 목표 달성까지 더 많은 도움이 필요한 곳으로 기부가 향하는 과정을 연구합니다.",
+    "summary_en": "How comparing fundraising projects shifts donations toward causes with greater remaining needs.",
+    "faculty_ids": [
+      "faculty-7d90b34cc2ae"
+    ],
+    "published_date": "2024-07-31",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/00222437241270225",
+        "note": "Publisher title, author order, abstract, February 2025 issue, pages 77–96; first-online date displayed as July 31, 2024. Crossref lists October 30, 2024, likely subsequent version. Publisher first-online date used."
+      },
+      {
+        "url": "https://sites.google.com/korea.ac.kr/baekjungkim/",
+        "note": "Author research page confirms publication and current KUBS affiliation; its page range 72–96 differs from publisher 77–96, so publisher range used."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=UV9Go0ObIjD3IurVIBj_IQ&refer=%2Fprofessor%2Fprofessor_list1.html",
+        "note": "Official current KUBS Marketing faculty membership."
+      }
+    ],
+    "verified_at": "2026-09-08",
+    "utd24": true,
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M03",
+    "year": 2024,
+    "title": "The Value of Safety Training for Business-to-Business Firms",
+    "authors": "Yixing Chen, Shrihari Sridhar, Kyuhong Han, Sonam Singh, Vikas Mittal, Taehoon Im",
+    "journal": "Journal of Marketing Research",
+    "status_ko": "61(4), 742–759 · 2023년 온라인 선게재",
+    "status_en": "61(4), 742–759 · First published online in 2023",
+    "url": "https://journals.sagepub.com/doi/10.1177/00222437231222857",
+    "summary_ko": "공급기업의 안전교육이 산업재해 위험을 줄이고 기업 고객의 구매 선택에 어떤 가치를 제공하는지 분석합니다.",
+    "summary_en": "Examining how supplier safety training reduces workplace risk and influences business customers’ purchasing decisions.",
+    "faculty_ids": [
+      "faculty-e872b4561de4"
+    ],
+    "published_date": "2023-12-12",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/00222437231222857",
+        "note": "Publisher confirms full author order, abstract, August 2024 issue and first online December 12, 2023. Crossref lists March 7, 2024, likely subsequent version; publisher first-online date used."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=1loQL3uO4ivH5kjevydRaA&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D5",
+        "note": "Official KUBS Marketing faculty profile and publication listing."
+      }
+    ],
+    "verified_at": "2026-09-08",
+    "utd24": true,
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M03",
+    "year": 2024,
+    "title": "A Direct Utility Model for Access Costs and Economies of Scope",
+    "authors": "Dong Soo Kim, Sanghak Lee, Taegyu Hur, Jaehwan Kim, Greg M. Allenby",
+    "journal": "Management Science",
+    "status_ko": "70(6), 3398–3416 · 2023년 온라인 선게재",
+    "status_en": "70(6), 3398–3416 · First published online in 2023",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.4841",
+    "summary_ko": "시간과 학습 등 제품 이용에 필요한 비용이 여러 제품의 동시 구매와 교차판매에 미치는 영향을 모형화합니다.",
+    "summary_en": "Modeling how access costs, including time and learning, shape joint purchases and cross-selling opportunities.",
+    "faculty_ids": [
+      "faculty-11686597c89f"
+    ],
+    "published_date": "2023-06-12",
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.4841",
+        "note": "Publisher verifies title, all five authors, Jaehwan Kim KUBS affiliation, abstract, June 12, 2023 first online and June 2024 issue."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=bBUuezTO/PIaDdVYcmhS1g&refer=%2Fprofessor%2Fprofessor_list1.html",
+        "note": "Official KUBS Marketing and Business Analytics cross-listed faculty and publication."
+      }
+    ],
+    "verified_at": "2026-09-08",
+    "utd24": true,
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M02",
+    "year": 2026,
+    "title": "Constructing Agency Under Persistent Precarity: Shame, Anger, and Compassion in the Self-Narratives of Thai Sex Workers",
+    "authors": "Hee-Chan Song, Winnie Y. Jiang",
+    "journal": "Academy of Management Journal",
+    "status_ko": "2026.03.12 온라인 게재",
+    "status_en": "Published online March 12, 2026",
+    "url": "https://journals.aom.org/doi/10.5465/amj.2023.1415",
+    "summary_ko": "지속적인 빈곤과 사회적 낙인 속에서 일하는 태국 성노동자들이 삶의 경험을 해석하며 주체성과 일의 의미를 형성하는 과정을 연구합니다.",
+    "summary_en": "Studying how Thai sex workers facing poverty and stigma construct agency and meaning through narratives of their lives and work.",
+    "faculty_ids": [
+      "faculty-da9e6e55864b"
+    ],
+    "published_date": "2026-03-12",
+    "evidence": [
+      {
+        "url": "https://journals.aom.org/doi/10.5465/amj.2023.1415",
+        "note": "Publisher search result and publisher-deposited Crossref metadata confirm online publication March 12, 2026, title, and both authors."
+      },
+      {
+        "url": "https://www.songhc.com/_files/ugd/e35f1f_4aebdb39ebb6497585bb111cb2386e09.pdf",
+        "note": "Author-hosted publisher proof confirms title, authors Hee-Chan Song and Winnie Y. Jiang, KUBS affiliation, and abstract."
+      },
+      {
+        "url": "https://www.songhc.com/",
+        "note": "Current KUBS associate professor, joined 2026; official GB directory links this site."
+      }
+    ],
+    "verified_at": "2026-09-08",
+    "utd24": true,
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M02",
+    "year": 2025,
+    "title": "A Buddhist Mindfulness View of Paradox: Silence and Skepticism of Language to Dismantle Paradoxes",
+    "authors": "Hee-Chan Song",
+    "journal": "Organization Science",
+    "status_ko": "36(1), 361–386 · 2024년 온라인 선게재",
+    "status_en": "36(1), 361–386 · First published online in 2024",
+    "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2023.17606",
+    "summary_ko": "사찰 현장 연구를 통해 마음챙김이 경제적 필요와 정신적 가치 사이의 갈등을 인식하고 다루는 방식에 미치는 영향을 살펴봅니다.",
+    "summary_en": "Exploring how mindfulness changes the way people perceive tensions between financial needs and spiritual values.",
+    "faculty_ids": [
+      "faculty-da9e6e55864b"
+    ],
+    "published_date": "2024-06-07",
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2023.17606",
+        "note": "Publisher confirms title, sole author, abstract, first online June 7, 2024 and 2025 volume 36(1), pages 361–386."
+      },
+      {
+        "url": "https://www.songhc.com/research",
+        "note": "Current faculty research list. Article predates 2026 KUBS appointment; feature as research by current faculty, not KUBS-affiliated-at-publication output."
+      }
+    ],
+    "verified_at": "2026-09-08",
+    "utd24": true,
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M02",
+    "year": 2024,
+    "title": "The war on drugs: how multi-stakeholder partnerships contribute to sustainable development in the Golden Triangle region",
+    "authors": "Hee-Chan Song",
+    "journal": "Journal of International Business Studies",
+    "status_ko": "55(5), 593–615 · 2023년 온라인 선게재",
+    "status_en": "55(5), 593–615 · First published online in 2023",
+    "url": "https://link.springer.com/article/10.1057/s41267-023-00669-0",
+    "summary_ko": "골든트라이앵글 지역의 현장 연구를 통해 다국적기업과 지역 이해관계자의 협력이 지속가능한 경제 전환에 기여하는 과정을 분석합니다.",
+    "summary_en": "Examining how multinational firms and local stakeholders support a transition toward a sustainable economy in the Golden Triangle.",
+    "faculty_ids": [
+      "faculty-da9e6e55864b"
+    ],
+    "published_date": "2023-12-13",
+    "evidence": [
+      {
+        "url": "https://link.springer.com/article/10.1057/s41267-023-00669-0",
+        "note": "Publisher verifies title, sole author, abstract, December 13, 2023 online publication and July 2024 issue 55(5), 593–615."
+      },
+      {
+        "url": "https://www.songhc.com/research",
+        "note": "Current faculty research list. Article predates 2026 KUBS appointment; feature as research by current faculty, not KUBS-affiliated-at-publication output."
+      }
+    ],
+    "verified_at": "2026-09-08",
+    "utd24": true,
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M04",
+    "year": 2026,
+    "title": "Mutual Fund Flows and the Supply of Capital in Municipal Financing",
+    "authors": "Manuel Adelino, Sophia Chiyoung Cheong, Jaewon Choi, Ji Yeol Jimmy Oh",
+    "journal": "The Review of Financial Studies",
+    "status_ko": "2026.05.09 온라인 게재",
+    "status_en": "Published online May 9, 2026",
+    "url": "https://doi.org/10.1093/rfs/hhag048",
+    "summary_ko": "펀드로 유입되는 자금이 지방채 발행과 조달금리에 미치는 영향을 분석하고, 인수기관을 통한 관계가 자금 공급을 연결하는 과정을 연구합니다.",
+    "summary_en": "How mutual fund inflows shape municipal bond issuance and borrowing costs, and how underwriter relationships connect capital supply to local financing.",
+    "faculty_ids": [
+      "faculty-4f1133e10ab6"
+    ],
+    "evidence": [
+      {
+        "url": "https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag048/8675394",
+        "note": "Publisher confirms all four authors, Ji Yeol Jimmy Oh's KUBS affiliation, publication on 2026-05-09 and abstract; corrected proof, typeset 2026-06-15."
+      },
+      {
+        "url": "https://sites.google.com/view/jyjoh/research",
+        "note": "Current KUBS faculty member's research page lists this RFS publication; home page records joining KUBS in 2026."
+      }
+    ],
+    "published_date": "2026-05-09",
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M04",
+    "year": 2026,
+    "title": "The Present Value of Future Market Power",
+    "authors": "Thummim Cho, Marco Grotteria, Lukas Kremens, Howard Kung",
+    "journal": "The Review of Financial Studies",
+    "status_ko": "2026.02.16 온라인 게재",
+    "status_en": "Published online February 16, 2026",
+    "url": "https://doi.org/10.1093/rfs/hhaf112",
+    "summary_ko": "미래의 시장지배력에 대한 기대를 기업가치와 연결하고, 무형자산 투자와 장기 수익성 기대가 주가에 어떻게 반영되는지 분석합니다.",
+    "summary_en": "Linking expectations of future market power to firm value, intangible investment, and the long-term profitability expectations reflected in stock prices.",
+    "faculty_ids": [
+      "faculty-7e97c19bcef7"
+    ],
+    "evidence": [
+      {
+        "url": "https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf112/8487913",
+        "note": "Publisher confirms four authors, Cho's KUBS affiliation, publication on 2026-02-16 and abstract. Corrected and typeset 2026-03-09."
+      },
+      {
+        "url": "https://sites.google.com/site/thummimcho",
+        "note": "Current KUBS Associate Professor of Finance's research page lists publication in RFS; publisher's published status takes precedence over stale forthcoming label."
+      }
+    ],
+    "published_date": "2026-02-16",
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M04",
+    "year": 2024,
+    "title": "Putting the Price in Asset Pricing",
+    "authors": "Thummim Cho, Christopher Polk",
+    "journal": "The Journal of Finance",
+    "status_ko": "79(6), 3943–3984 · 2024.10.09 온라인 게재",
+    "status_en": "79(6), 3943–3984 · Published online October 9, 2024",
+    "url": "https://doi.org/10.1111/jofi.13391",
+    "summary_ko": "주가와 자산가격 모형이 제시하는 가치 사이의 차이를 측정하는 방법을 제안하고, 위험과 가격 괴리가 장기 수익률을 설명하는 역할을 분석합니다.",
+    "summary_en": "A method for estimating the gap between observed prices and model-implied values, clarifying how risk and mispricing relate to long-term returns.",
+    "faculty_ids": [
+      "faculty-7e97c19bcef7"
+    ],
+    "evidence": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.13391",
+        "note": "Publisher confirms title, authors, Cho's KUBS affiliation, first publication 2024-10-09, abstract, and pages 3943-3984."
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/toc/15406261/2024/79/6",
+        "note": "Publisher issue contents confirm volume 79 issue 6 (December 2024)."
+      }
+    ],
+    "published_date": "2024-10-09",
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M05",
+    "year": 2026,
+    "title": "Forecasting under uncertainty: import penetration and analysts’ cultural advantage",
+    "authors": "In Gyun Baek, Minjae Koo",
+    "journal": "Journal of International Business Studies",
+    "status_ko": "2026.06.02 온라인 게재",
+    "status_en": "Published online June 2, 2026",
+    "url": "https://doi.org/10.1057/s41267-026-00877-4",
+    "summary_ko": "중국발 수입 경쟁이 미국 기업을 분석하는 애널리스트의 이익예측 정확도에 미치는 영향과, 문화적 연결에서 비롯되는 정보 우위를 연구합니다.",
+    "summary_en": "How Chinese import competition affects analysts' earnings forecasts for U.S. firms, and when cultural ties provide an informational advantage.",
+    "faculty_ids": [
+      "faculty-96e0edda80e3"
+    ],
+    "evidence": [
+      {
+        "url": "https://link.springer.com/article/10.1057/s41267-026-00877-4",
+        "note": "Publisher confirms title, authors, Koo's KUBS affiliation, abstract, and version of record published 2026-06-02. Journal is JIBS, a UTD24 journal, although the contributing faculty member's area is Accounting."
+      },
+      {
+        "url": "https://sites.google.com/view/minjaekoo",
+        "note": "Current faculty page confirms KUBS Assistant Professor appointment from 2025."
+      }
+    ],
+    "published_date": "2026-06-02",
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M05",
+    "year": 2026,
+    "title": "How Causal Focus and Specificity in Risk Factor Disclosures Jointly Affect Investor Judgments",
+    "authors": "G-Song Yoo, Hun-Tong Tan",
+    "journal": "Management Science",
+    "status_ko": "72(4), 3508–3527 · 2025.08.22 온라인 선게재",
+    "status_en": "72(4), 3508–3527 · First published online August 22, 2025",
+    "url": "https://doi.org/10.1287/mnsc.2023.00445",
+    "summary_ko": "위험 공시가 원인과 결과 중 어디에 초점을 두는지에 따라 구체적인 설명이 투자자의 판단과 투자 의향에 미치는 영향이 어떻게 달라지는지 실험으로 분석합니다.",
+    "summary_en": "Experiments examine how investors respond to detailed risk disclosures depending on whether the explanation emphasizes a risk's causes or consequences.",
+    "faculty_ids": [
+      "faculty-01cbc7001018"
+    ],
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.00445",
+        "note": "Publisher confirms authors and Yoo's KUBS affiliation, first online date 2025-08-22, April 2026 volume 72(4), pages 3508-3527, and abstract. Card year uses issue year and explicitly shows online-first date."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/eng/professor/professor_view?pinfo=y0%2FXg9H96iyODcfZoAvvbg",
+        "note": "Official KUBS profile lists the paper and identifies G-Song Yoo as Accounting faculty."
+      }
+    ],
+    "published_date": "2025-08-22",
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M05",
+    "year": 2023,
+    "title": "The Effect of Cash Flow Presentation Method on Investors’ Forecast of Future Cash Flows",
+    "authors": "Sompong Pornupatham, Hun-Tong Tan, Thanyaluk Vichitsarawong, G-Song Yoo",
+    "journal": "Management Science",
+    "status_ko": "69(3), 1877–1900 · 2022.04.26 온라인 선게재",
+    "status_en": "69(3), 1877–1900 · First published online April 26, 2022",
+    "url": "https://doi.org/10.1287/mnsc.2022.4406",
+    "summary_ko": "현금흐름표의 직접법과 간접법이 투자자의 미래 현금흐름 예측에 미치는 영향을 비교하고, 비경상 항목의 성격에 따라 예측 정확도가 달라지는 이유를 연구합니다.",
+    "summary_en": "Comparing how direct and indirect cash flow statements shape investors' forecasts, with attention to how different nonrecurring items affect forecast accuracy.",
+    "faculty_ids": [
+      "faculty-01cbc7001018"
+    ],
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4406",
+        "note": "Publisher confirms all four authors, Yoo's KUBS affiliation, first online date 2022-04-26, March 2023 volume 69(3), pages 1877-1900, and abstract. Card year uses issue year and explicitly shows online-first date."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/eng/professor/professor_view?pinfo=y0%2FXg9H96iyODcfZoAvvbg",
+        "note": "Official KUBS Accounting profile lists the 2023 publication. Selected older eligible paper rather than substituting non-UTD CAR or unpublished work."
+      }
+    ],
+    "published_date": "2022-04-26",
+    "checked_at": "2026-09-08"
+  },
+  {
     "year": 2026,
     "title": "Learning in Recovery from Disruption: Empirical Evidence from the U.S. Drug Shortages",
     "authors": "Hyun Seok (Huck) Lee, Junghee Lee, In Joon Noh, Bradley R. Staats",
@@ -8,7 +536,29 @@
     "status_en": "Published online May 28, 2026",
     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08337",
     "summary_ko": "공급부족을 해결하며 축적한 경험이 의약품 공급의 회복에 미치는 영향을 연구합니다.",
-    "summary_en": "How experience resolving drug shortages shapes recovery from subsequent supply disruptions."
+    "summary_en": "How experience resolving drug shortages shapes recovery from subsequent supply disruptions.",
+    "area_code": "M06",
+    "published_date": "2026-05-28",
+    "faculty_ids": [
+      "faculty-7aacf1915e00",
+      "faculty-5965053325d6"
+    ],
+    "doi": "10.1287/mnsc.2024.08337",
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08337",
+        "note": "Publisher verifies title, complete author list, KUBS author affiliation, publication date and abstract."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=BEkcJR5dlf3gtXpnevPPig&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
+        "note": "Current official KUBS faculty profile or official-directory-linked faculty site; faculty identity matched against area directory."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=CO3y1NJ7LSCMK0WlppRKNg&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
+        "note": "Current official KUBS faculty profile or official-directory-linked faculty site; faculty identity matched against area directory."
+      }
+    ],
+    "checked_at": "2026-09-08"
   },
   {
     "year": 2026,
@@ -19,7 +569,24 @@
     "status_en": "Published online April 30, 2026",
     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.02733",
     "summary_ko": "차량 호출 플랫폼과 자율주행 서비스 간 경쟁을 분석합니다.",
-    "summary_en": "Examining competition between ride-hailing platforms and autonomous vehicle services."
+    "summary_en": "Examining competition between ride-hailing platforms and autonomous vehicle services.",
+    "area_code": "M06",
+    "published_date": "2026-04-30",
+    "faculty_ids": [
+      "faculty-ddca4f402092"
+    ],
+    "doi": "10.1287/mnsc.2025.02733",
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.02733",
+        "note": "Publisher verifies title, complete author list, KUBS author affiliation, publication date and abstract."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=UgwAYDQ7L/St7GrepUEg_w&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
+        "note": "Current official KUBS faculty profile or official-directory-linked faculty site; faculty identity matched against area directory."
+      }
+    ],
+    "checked_at": "2026-09-08"
   },
   {
     "year": 2025,
@@ -30,6 +597,208 @@
     "status_en": "27(1), 305–321 · First published online in 2024",
     "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.0530",
     "summary_ko": "실제 사건 자료와 대기행렬 모형으로 재판 지연을 줄이는 운영 방안을 연구합니다.",
-    "summary_en": "Using court case data and queueing models to study ways of reducing delays in justice."
+    "summary_en": "Using court case data and queueing models to study ways of reducing delays in justice.",
+    "area_code": "M06",
+    "published_date": "2024-11-26",
+    "faculty_ids": [
+      "faculty-27cc39d50220"
+    ],
+    "doi": "10.1287/msom.2023.0530",
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.0530",
+        "note": "Publisher verifies title, complete author list, KUBS author affiliation, publication date and abstract. Issue year is 2025 (27(1), 305–321); first online date is 2024-11-26."
+      },
+      {
+        "url": "https://sites.google.com/site/jeunghyunkim/",
+        "note": "Current official KUBS faculty profile or official-directory-linked faculty site; faculty identity matched against area directory."
+      }
+    ],
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M07",
+    "year": 2026,
+    "title": "The Effectiveness of Regulations on the Dual-Role Retailer’s Data Use for Sellers",
+    "authors": "Yeongin Kim, Seokjun Youn, Kyung Sung Jung, Young Kwark",
+    "journal": "Information Systems Research",
+    "status_ko": "2026.09.04 온라인 공개 · Just Accepted",
+    "status_en": "Published online September 4, 2026 · Just Accepted",
+    "url": "https://pubsonline.informs.org/doi/10.1287/isre.2020.0293",
+    "doi": "10.1287/isre.2020.0293",
+    "summary_ko": "플랫폼이 판매자의 시장 데이터를 활용하는 상황에서 데이터 규제와 계약 방식이 경쟁에 미치는 영향을 분석합니다.",
+    "summary_en": "Examines how data-use regulations and contract choices affect competition between a retail platform and its sellers.",
+    "faculty_ids": [
+      "faculty-d3010d95ad46"
+    ],
+    "published_date": "2026-09-04",
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2020.0293",
+        "note": "Publisher reports all four authors, DOI and Published Online September 04, 2026. The posted version is Just Accepted, not yet a paginated issue article."
+      },
+      {
+        "url": "https://sites.google.com/view/kyungsung",
+        "note": "Current KUBS faculty site lists this exact article and links its DOI; publisher author affiliation still refers to a previous institution."
+      }
+    ],
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M07",
+    "year": 2026,
+    "title": "Subscription vs. selling for digital goods supply chains in the presence of piracy",
+    "authors": "Hongseok Jang, Janice E. Carrillo, Kyung Sung Jung, Young Kwark",
+    "journal": "Production and Operations Management",
+    "status_ko": "2026.08.09 온라인 게재",
+    "status_en": "Published online August 9, 2026",
+    "url": "https://journals.sagepub.com/doi/10.1177/10591478261477906",
+    "doi": "10.1177/10591478261477906",
+    "summary_ko": "불법 복제가 존재하는 디지털 콘텐츠 시장에서 구독과 소유권 판매 방식이 공급사슬 참여자의 수익과 협력에 미치는 영향을 비교합니다.",
+    "summary_en": "Compares subscription and ownership models for digital goods, studying profitability and supply chain coordination when piracy is present.",
+    "faculty_ids": [
+      "faculty-d3010d95ad46"
+    ],
+    "published_date": "2026-08-09",
+    "evidence": [
+      {
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/10591478261477906",
+        "note": "Publisher verifies complete authors, title, journal, DOI, first published online August 9, 2026 and abstract."
+      },
+      {
+        "url": "https://sites.google.com/view/kyungsung",
+        "note": "Current KUBS faculty site lists this exact article with direct publisher link."
+      }
+    ],
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M07",
+    "year": 2026,
+    "title": "Consumer Evaluation of Digital Device Innovations: Disentangling Effects of Novelty and Familiarity",
+    "authors": "Nila Zhang, Wai Fong Boh, Gunwoong Lee",
+    "journal": "MIS Quarterly",
+    "status_ko": "50(2), 557–588 · 2026년 6월호",
+    "status_en": "50(2), 557–588 · June 2026 issue",
+    "url": "https://doi.org/10.25300/MISQ/2025/18750",
+    "doi": "10.25300/MISQ/2025/18750",
+    "summary_ko": "디지털 기기의 새로움과 친숙함이 소비자 평가에 미치는 영향을 분석하고, 하드웨어 혁신의 출시 시점과 소프트웨어 지원 전략을 연구합니다.",
+    "summary_en": "Studies how novelty and familiarity shape consumer evaluations of digital devices, including innovation timing and software-supported interaction.",
+    "faculty_ids": [
+      "faculty-5445cfeeab62"
+    ],
+    "published_date": "2026-06-01",
+    "evidence": [
+      {
+        "url": "https://aisel.aisnet.org/misq/vol50/iss2/10/",
+        "note": "Journal repository confirms authors, KUBS affiliation, title, full abstract and 2026 50(2):557–588 issue citation."
+      },
+      {
+        "url": "https://misq.umn.edu/misq/article/50/2/557/3277/Consumer-Evaluation-of-Digital-Device-Innovations",
+        "note": "Publisher search index gives issue date June 1, 2026 and DOI 10.25300/MISQ/2025/18750; the DOI year is not the issue year."
+      }
+    ],
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M08",
+    "year": 2026,
+    "title": "Consumer Evaluation of Digital Device Innovations: Disentangling Effects of Novelty and Familiarity",
+    "authors": "Nila Zhang, Wai Fong Boh, Gunwoong Lee",
+    "journal": "MIS Quarterly",
+    "status_ko": "50(2), 557–588 · 2026년 6월호",
+    "status_en": "50(2), 557–588 · June 2026 issue",
+    "url": "https://doi.org/10.25300/MISQ/2025/18750",
+    "doi": "10.25300/MISQ/2025/18750",
+    "summary_ko": "디지털 기기의 새로움과 친숙함이 소비자 평가에 미치는 영향을 분석하고, 하드웨어 혁신의 출시 시점과 소프트웨어 지원 전략을 연구합니다.",
+    "summary_en": "Studies how novelty and familiarity shape consumer evaluations of digital devices, including innovation timing and software-supported interaction.",
+    "faculty_ids": [
+      "faculty-5445cfeeab62"
+    ],
+    "published_date": "2026-06-01",
+    "evidence": [
+      {
+        "url": "https://aisel.aisnet.org/misq/vol50/iss2/10/",
+        "note": "Journal repository confirms authors, KUBS affiliation, title, full abstract and 2026 50(2):557–588 issue citation."
+      },
+      {
+        "url": "https://misq.umn.edu/misq/article/50/2/557/3277/Consumer-Evaluation-of-Digital-Device-Innovations",
+        "note": "Publisher search index gives issue date June 1, 2026 and DOI 10.25300/MISQ/2025/18750; the DOI year is not the issue year."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_list1.html?major=M08",
+        "note": "KUBS Business Analytics directory explicitly cross-lists the matched faculty members. Cross-field display is intentional."
+      }
+    ],
+    "checked_at": "2026-09-08"
+  },
+  {
+    "year": 2026,
+    "title": "Learning in Recovery from Disruption: Empirical Evidence from the U.S. Drug Shortages",
+    "authors": "Hyun Seok (Huck) Lee, Junghee Lee, In Joon Noh, Bradley R. Staats",
+    "journal": "Management Science",
+    "status_ko": "2026.05.28 온라인 게재",
+    "status_en": "Published online May 28, 2026",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08337",
+    "summary_ko": "공급부족을 해결하며 축적한 경험이 의약품 공급의 회복에 미치는 영향을 연구합니다.",
+    "summary_en": "How experience resolving drug shortages shapes recovery from subsequent supply disruptions.",
+    "area_code": "M08",
+    "published_date": "2026-05-28",
+    "faculty_ids": [
+      "faculty-7aacf1915e00",
+      "faculty-5965053325d6"
+    ],
+    "doi": "10.1287/mnsc.2024.08337",
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08337",
+        "note": "Publisher verifies title, complete author list, KUBS author affiliation, publication date and abstract."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=BEkcJR5dlf3gtXpnevPPig&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
+        "note": "Current official KUBS faculty profile or official-directory-linked faculty site; faculty identity matched against area directory."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=CO3y1NJ7LSCMK0WlppRKNg&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
+        "note": "Current official KUBS faculty profile or official-directory-linked faculty site; faculty identity matched against area directory."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_list1.html?major=M08",
+        "note": "KUBS Business Analytics directory explicitly cross-lists the matched faculty members. Cross-field display is intentional."
+      }
+    ],
+    "checked_at": "2026-09-08"
+  },
+  {
+    "area_code": "M08",
+    "year": 2025,
+    "title": "The Impact of Cryptocurrency on Cybersecurity",
+    "authors": "Terrence August, Duy Dao, Kihoon Kim, Marius Florin Niculescu",
+    "journal": "Management Science",
+    "status_ko": "71(11), 9606–9627 · 2025.03.27 온라인 선게재",
+    "status_en": "71(11), 9606–9627 · First published online March 27, 2025",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.00969",
+    "doi": "10.1287/mnsc.2023.00969",
+    "summary_ko": "암호화폐 도입으로 달라진 랜섬웨어 환경에서 공격자와 소프트웨어 사용자의 전략이 보안 위험과 사회적 후생에 미치는 영향을 분석합니다.",
+    "summary_en": "Models how attackers and software users respond to cryptocurrency-enabled ransomware and how their choices affect security risk and welfare.",
+    "faculty_ids": [
+      "faculty-3d41b11df5f1"
+    ],
+    "published_date": "2025-03-27",
+    "evidence": [
+      {
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.00969",
+        "note": "Publisher verifies full author list, KUBS affiliation of Kihoon Kim, March 27 2025 online date, November 2025 issue 71(11):9606–9627 and abstract."
+      },
+      {
+        "url": "https://sites.google.com/view/kihoon",
+        "note": "Official-directory-linked faculty page identifies Kihoon Kim as teaching operations and business analytics at KUBS."
+      },
+      {
+        "url": "https://biz.korea.ac.kr/professor/professor_list1.html?major=M08",
+        "note": "KUBS Business Analytics directory explicitly cross-lists the matched faculty members. Cross-field display is intentional."
+      }
+    ],
+    "checked_at": "2026-09-08"
   }
 ]

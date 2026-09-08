@@ -1,0 +1,301 @@
+{
+  "M01": {
+    "intro_ko": "사람과 조직이 함께 성장하는 조건을 탐구합니다. 리더십, 협상과 인적자원관리에서 조직 변화와 지속가능성까지 연구합니다.",
+    "intro_en": "We study how people and organizations thrive, from leadership, negotiation and human resource management to organizational change and sustainability.",
+    "methods_ko": "실험 · 설문 · 현장 연구 · 실증분석",
+    "methods_en": "Experiments · Surveys · Field studies · Empirical analysis",
+    "topics": [
+      {
+        "label_ko": "리더십과 협업",
+        "label_en": "Leadership & collaboration",
+        "question_ko": "어떤 리더십이 협업을 이끄는가?",
+        "question_en": "What kind of leadership supports collaboration?",
+        "description_ko": "리더와 구성원의 행동, 팀 성과와 협상의 과정을 탐구합니다.",
+        "description_en": "We explore leader and employee behavior, team performance and negotiation."
+      },
+      {
+        "label_ko": "인적자원관리",
+        "label_en": "Human resource management",
+        "question_ko": "사람의 잠재력을 조직의 성과로 연결하려면?",
+        "question_en": "How can organizations help people realize their potential?",
+        "description_ko": "채용과 인사제도, 조직문화와 구성원의 경험을 연구합니다.",
+        "description_en": "We study staffing, HR systems, organizational culture and employee experiences."
+      },
+      {
+        "label_ko": "조직과 사회",
+        "label_en": "Organizations & society",
+        "question_ko": "조직은 변화하는 사회에 어떻게 대응하는가?",
+        "question_en": "How do organizations respond to a changing society?",
+        "description_ko": "조직이론과 기업윤리를 통해 변화와 지속가능경영을 이해합니다.",
+        "description_en": "Organizational theory and business ethics help us understand change and sustainability."
+      }
+    ],
+    "editorial_basis": "Synthesis of current faculty research interests in data/faculty.json; not individual faculty keyword assignments."
+  },
+  "M02": {
+    "intro_ko": "국경을 넘는 기업과 시장을 연구합니다. 국제무역·금융, 글로벌 마케팅과 서로 다른 제도·문화 속 기업 활동을 탐구합니다.",
+    "intro_en": "We study firms and markets across borders, connecting international trade and finance, global marketing and business across institutions and cultures.",
+    "methods_ko": "계량분석 · 국가 간 비교 · 사례 연구 · 현장 연구",
+    "methods_en": "Econometric analysis · Cross-country comparisons · Case studies · Field research",
+    "topics": [
+      {
+        "label_ko": "국제무역과 금융",
+        "label_en": "Trade & international finance",
+        "question_ko": "세계 시장의 연결은 기업을 어떻게 바꾸는가?",
+        "question_en": "How do global market connections shape firms?",
+        "description_ko": "무역, 해외직접투자와 국제금융이 기업과 시장에 미치는 영향을 연구합니다.",
+        "description_en": "We study how trade, foreign direct investment and international finance affect firms and markets."
+      },
+      {
+        "label_ko": "글로벌 시장과 소비자",
+        "label_en": "Global markets & consumers",
+        "question_ko": "문화와 시장의 차이를 어떻게 이해할까?",
+        "question_en": "How do we understand differences across cultures and markets?",
+        "description_ko": "글로벌 브랜드, 상품 개발과 신흥시장 소비자의 행동을 탐구합니다.",
+        "description_en": "We explore global brands, product development and consumer behavior in emerging markets."
+      },
+      {
+        "label_ko": "제도와 기업 활동",
+        "label_en": "Institutions & business",
+        "question_ko": "다양한 제도 속에서 기업은 어떻게 성장하는가?",
+        "question_en": "How do firms grow across institutional settings?",
+        "description_ko": "국가별 경영시스템, 기술제휴와 기업의 사회적 역할을 연구합니다.",
+        "description_en": "We study comparative management systems, technology alliances and the social role of business."
+      }
+    ],
+    "editorial_basis": "Synthesis of current faculty research interests in data/faculty.json; not individual faculty keyword assignments.",
+    "community_url": "https://sites.google.com/view/kubsib"
+  },
+  "M03": {
+    "intro_ko": "소비자의 선택과 기업의 시장 전략을 함께 이해합니다. 행동 연구와 정량 분석을 통해 브랜드, 플랫폼, 혁신과 마케팅 성과를 탐구합니다.",
+    "intro_en": "We connect consumer choices with market strategy, using behavioral and quantitative research to study brands, platforms, innovation and marketing performance.",
+    "methods_ko": "소비자 실험 · 계량모형 · 인과추론 · 시계열분석",
+    "methods_en": "Consumer experiments · Quantitative models · Causal inference · Time-series analysis",
+    "topics": [
+      {
+        "label_ko": "소비자 의사결정",
+        "label_en": "Consumer decisions",
+        "question_ko": "소비자는 어떻게 선택하는가?",
+        "question_en": "How do consumers make choices?",
+        "description_ko": "소비자 심리와 행동, 구전과 의사결정의 과정을 연구합니다.",
+        "description_en": "We study consumer psychology and behavior, word of mouth and decision-making."
+      },
+      {
+        "label_ko": "플랫폼과 유통",
+        "label_en": "Platforms & channels",
+        "question_ko": "디지털 시장에서 가치는 어떻게 만들어지는가?",
+        "question_en": "How is value created in digital markets?",
+        "description_ko": "온라인 플랫폼, 인터넷 마케팅과 기업 간 유통 관계를 탐구합니다.",
+        "description_en": "We explore online platforms, internet marketing and business-to-business channels."
+      },
+      {
+        "label_ko": "브랜드와 혁신",
+        "label_en": "Brands & innovation",
+        "question_ko": "마케팅 투자는 어떤 성과로 이어지는가?",
+        "question_en": "What results from investment in marketing?",
+        "description_ko": "브랜드와 신제품, 광고와 고객자산이 기업 성과에 연결되는 방식을 분석합니다.",
+        "description_en": "We examine how brands, new products, advertising and customer assets connect to firm performance."
+      }
+    ],
+    "editorial_basis": "Synthesis of current faculty research interests in data/faculty.json; not individual faculty keyword assignments."
+  },
+  "M04": {
+    "intro_ko": "자본이 배분되고 위험이 가격에 반영되는 과정을 연구합니다. 기업재무와 지배구조부터 자산운용, 금융기관과 금융 데이터 분석까지 연결합니다.",
+    "intro_en": "We study capital allocation and the pricing of risk, spanning corporate finance and governance, investment management, financial institutions and financial data.",
+    "methods_ko": "실증분석 · 자산가격 모형 · 계량모형 · 머신러닝",
+    "methods_en": "Empirical analysis · Asset pricing models · Econometric models · Machine learning",
+    "topics": [
+      {
+        "label_ko": "기업재무와 지배구조",
+        "label_en": "Corporate finance & governance",
+        "question_ko": "기업은 어떤 투자와 자금조달을 선택하는가?",
+        "question_en": "How do firms choose investments and financing?",
+        "description_ko": "기업의 재무 의사결정과 소유·지배구조를 연구합니다.",
+        "description_en": "We study corporate financial decisions, ownership and governance."
+      },
+      {
+        "label_ko": "투자와 자산가격",
+        "label_en": "Investments & asset pricing",
+        "question_ko": "자산의 가치와 투자 성과는 무엇으로 설명되는가?",
+        "question_en": "What explains asset values and investment performance?",
+        "description_ko": "증권시장과 펀드, 기관투자자와 행동적 재무를 탐구합니다.",
+        "description_en": "We explore securities markets, funds, institutional investors and behavioral finance."
+      },
+      {
+        "label_ko": "위험과 금융기관",
+        "label_en": "Risk & financial institutions",
+        "question_ko": "금융의 위험을 어떻게 측정하고 관리할까?",
+        "question_en": "How can financial risk be measured and managed?",
+        "description_ko": "파생상품, 보험과 금융기관을 통해 위험관리의 문제를 분석합니다.",
+        "description_en": "We analyze risk management through derivatives, insurance and financial institutions."
+      }
+    ],
+    "editorial_basis": "Synthesis of current faculty research interests in data/faculty.json; not individual faculty keyword assignments."
+  },
+  "M09": {
+    "intro_ko": "기업이 경쟁하고 새로운 기회를 만드는 과정을 탐구합니다. 기술혁신과 창업, 조직의 자원과 네트워크, 글로벌·비시장 전략을 연결해 연구합니다.",
+    "intro_en": "We study how firms compete and create opportunities, connecting innovation and entrepreneurship with resources, networks, global strategy and nonmarket strategy.",
+    "methods_ko": "실증분석 · 조직이론 · 네트워크 분석 · 사례 연구",
+    "methods_en": "Empirical analysis · Organization theory · Network analysis · Case studies",
+    "topics": [
+      {
+        "label_ko": "혁신과 창업",
+        "label_en": "Innovation & entrepreneurship",
+        "question_ko": "새로운 아이디어는 어떻게 사업이 되는가?",
+        "question_en": "How do new ideas become businesses?",
+        "description_ko": "기술사업화, 스타트업과 벤처의 성장 과정을 연구합니다.",
+        "description_en": "We study technology commercialization and the growth of startups and ventures."
+      },
+      {
+        "label_ko": "자원과 경쟁전략",
+        "label_en": "Resources & competition",
+        "question_ko": "기업의 경쟁우위는 어디에서 오는가?",
+        "question_en": "Where does competitive advantage come from?",
+        "description_ko": "인적자본, 조직의 자원과 네트워크가 전략에 미치는 영향을 탐구합니다.",
+        "description_en": "We explore how human capital, organizational resources and networks shape strategy."
+      },
+      {
+        "label_ko": "글로벌 전략과 지속가능성",
+        "label_en": "Global strategy & sustainability",
+        "question_ko": "기업은 사회와 어떤 관계를 만들어가는가?",
+        "question_en": "How do firms build relationships with society?",
+        "description_ko": "글로벌 사업, 비시장 전략과 ESG·지속가능경영을 연구합니다.",
+        "description_en": "We study global business, nonmarket strategy, ESG and sustainability."
+      }
+    ],
+    "editorial_basis": "Synthesis of current faculty research interests in data/faculty.json; not individual faculty keyword assignments."
+  },
+  "M05": {
+    "intro_ko": "기업의 정보가 만들어지고 전달되는 과정을 탐구합니다. 재무보고와 공시, 투자자의 판단, 감사와 조세를 통해 회계의 역할을 연구합니다.",
+    "intro_en": "We study how business information is created and communicated, examining financial reporting, disclosure, investor judgment, auditing and taxation.",
+    "methods_ko": "자본시장 실증분석 · 실험 · 재무제표 분석 · 제도 비교",
+    "methods_en": "Capital-market research · Experiments · Financial statement analysis · Institutional comparisons",
+    "topics": [
+      {
+        "label_ko": "재무보고와 공시",
+        "label_en": "Reporting & disclosure",
+        "question_ko": "기업의 정보는 시장에 어떻게 전달되는가?",
+        "question_en": "How does corporate information reach the market?",
+        "description_ko": "재무보고, 회계 공시와 이익의 질을 연구합니다.",
+        "description_en": "We study financial reporting, disclosure and earnings quality."
+      },
+      {
+        "label_ko": "가치평가와 판단",
+        "label_en": "Valuation & judgment",
+        "question_ko": "회계정보는 판단과 가치평가를 어떻게 바꾸는가?",
+        "question_en": "How does accounting information shape judgment and valuation?",
+        "description_ko": "투자자 의사결정과 기업가치, 성과평가를 탐구합니다.",
+        "description_en": "We explore investor decisions, firm valuation and performance evaluation."
+      },
+      {
+        "label_ko": "감사와 조세",
+        "label_en": "Auditing & taxation",
+        "question_ko": "정보의 신뢰와 제도의 효과를 어떻게 이해할까?",
+        "question_en": "How do we understand information credibility and institutions?",
+        "description_ko": "회계감사, 국제회계와 조세제도를 분석합니다.",
+        "description_en": "We analyze auditing, international accounting and tax systems."
+      }
+    ],
+    "editorial_basis": "Synthesis of current faculty research interests in data/faculty.json; not individual faculty keyword assignments."
+  },
+  "M07": {
+    "intro_ko": "디지털 기술이 기업과 사람의 행동을 어떻게 바꾸는지 연구합니다. 플랫폼과 데이터, AI와 사용자 경험에서 새로운 경영 문제를 찾습니다.",
+    "intro_en": "We study how digital technology changes organizations and people, exploring new business questions around platforms, data, AI and user experiences.",
+    "methods_ko": "인과추론 · 계량분석 · 머신러닝 · 자연어처리 · 실험",
+    "methods_en": "Causal inference · Econometric analysis · Machine learning · Natural language processing · Experiments",
+    "topics": [
+      {
+        "label_ko": "디지털 플랫폼",
+        "label_en": "Digital platforms",
+        "question_ko": "플랫폼은 참여자의 행동을 어떻게 바꾸는가?",
+        "question_en": "How do platforms change participants’ behavior?",
+        "description_ko": "온라인 시장과 디지털 비즈니스의 경제적 효과를 연구합니다.",
+        "description_en": "We study the economic effects of online markets and digital business."
+      },
+      {
+        "label_ko": "AI와 사용자 경험",
+        "label_en": "AI & user experiences",
+        "question_ko": "사람과 AI는 어떻게 함께 일하고 배우는가?",
+        "question_en": "How do people work and learn with AI?",
+        "description_ko": "인간과 AI의 상호작용, 디지털 학습과 기술 사용을 탐구합니다.",
+        "description_en": "We explore human–AI interaction, digital learning and technology use."
+      },
+      {
+        "label_ko": "정보와 디지털 혁신",
+        "label_en": "Information & digital innovation",
+        "question_ko": "정보기술의 투자는 어떤 변화로 이어지는가?",
+        "question_en": "What changes follow investment in information technology?",
+        "description_ko": "데이터 분석, IT 전략과 기술 도입의 성과를 연구합니다.",
+        "description_en": "We study data analytics, IT strategy and the outcomes of technology adoption."
+      }
+    ],
+    "editorial_basis": "Synthesis of current faculty research interests in data/faculty.json; not individual faculty keyword assignments.",
+    "community_url": "https://sites.google.com/korea.ac.kr/mis"
+  },
+  "M06": {
+    "intro_ko": "공급망부터 서비스, 플랫폼까지. 실제 경영 문제를 데이터와 이론으로 이해하고 더 나은 의사결정을 연구합니다.",
+    "intro_en": "From supply chains to services and platforms, we use data and theory to understand business problems and improve decisions.",
+    "methods_ko": "실증분석 · 인과추론 · 최적화 · 게임이론 · 대기행렬 · 시뮬레이션",
+    "methods_en": "Empirical analysis · Causal inference · Optimization · Game theory · Queueing · Simulation",
+    "topics": [
+      {
+        "label_ko": "공급망과 회복",
+        "label_en": "Supply chains & recovery",
+        "question_ko": "공급망은 어떻게 더 잘 회복할 수 있을까?",
+        "question_en": "How can supply chains recover better?",
+        "description_ko": "의약품 공급부족, 품질관리와 공급사슬의 운영·회복을 연구합니다.",
+        "description_en": "We study drug shortages, quality management and supply-chain operation and recovery."
+      },
+      {
+        "label_ko": "서비스 운영",
+        "label_en": "Service operations",
+        "question_ko": "기다림과 자원 배분을 어떻게 개선할까?",
+        "question_en": "How can services make better use of time and resources?",
+        "description_ko": "서비스 시스템의 수요와 용량, 대기행렬과 수익관리를 연구합니다.",
+        "description_en": "We study demand, capacity, queueing and revenue management in service systems."
+      },
+      {
+        "label_ko": "플랫폼과 기술",
+        "label_en": "Platforms & technology",
+        "question_ko": "플랫폼과 AI는 경쟁을 어떻게 바꾸는가?",
+        "question_en": "How do platforms and AI change competition?",
+        "description_ko": "디지털 전환, 플랫폼 경쟁과 새로운 비즈니스 모델을 탐구합니다.",
+        "description_en": "We explore digital transformation, platform competition and emerging business models."
+      }
+    ],
+    "editorial_basis": "Synthesis of current faculty research interests in data/faculty.json; not individual faculty keyword assignments."
+  },
+  "M08": {
+    "intro_ko": "데이터에서 경영의 답을 찾습니다. 여러 전공의 방법과 문제를 연결해 예측, 인과관계와 최적의 의사결정을 탐구하는 1년 석사과정입니다.",
+    "intro_en": "Find business insights in data. This one-year MS programme brings together methods and questions across fields to study prediction, causality and better decisions.",
+    "methods_ko": "머신러닝 · 자연어처리 · 인과추론 · 최적화 · 시뮬레이션",
+    "methods_en": "Machine learning · Natural language processing · Causal inference · Optimization · Simulation",
+    "topics": [
+      {
+        "label_ko": "AI와 데이터 분석",
+        "label_en": "AI & data analytics",
+        "question_ko": "복잡한 데이터에서 무엇을 배울 수 있을까?",
+        "question_en": "What can we learn from complex data?",
+        "description_ko": "머신러닝과 자연어처리를 활용해 경영 데이터를 분석합니다.",
+        "description_en": "We analyze business data using machine learning and natural language processing."
+      },
+      {
+        "label_ko": "인과관계와 성과",
+        "label_en": "Causality & performance",
+        "question_ko": "의사결정의 효과를 어떻게 구분할까?",
+        "question_en": "How can we identify the effects of decisions?",
+        "description_ko": "플랫폼, 마케팅과 서비스의 데이터를 통해 효과와 성과를 연구합니다.",
+        "description_en": "We study effects and performance through platform, marketing and service data."
+      },
+      {
+        "label_ko": "최적화와 의사결정",
+        "label_en": "Optimization & decisions",
+        "question_ko": "분석을 더 나은 행동으로 연결하려면?",
+        "question_en": "How can analysis lead to better action?",
+        "description_ko": "운영과 금융의 문제에서 자원 배분과 위험관리를 탐구합니다.",
+        "description_en": "We explore resource allocation and risk management in operations and finance."
+      }
+    ],
+    "editorial_basis": "Synthesis of current faculty research interests in data/faculty.json; not individual faculty keyword assignments."
+  }
+}
