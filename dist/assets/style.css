@@ -365,6 +365,24 @@ html[lang=en] .faculty-card h3{font-size:20px;line-height:1.4}
 .source-card p{font-size:13px;color:var(--muted);line-height:1.8;margin-top:10px;overflow-wrap:anywhere}
 .source-card .source-link{margin-top:14px}
 
+/* Research fields share the same typography and page structure. */
+.research-area-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.research-area-card{padding:30px;border:1px solid var(--line);border-top:3px solid var(--crimson);display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.research-area-card .eyebrow{margin-bottom:12px}
+.research-area-card h2{font-size:25px;line-height:1.4;margin-bottom:16px}
+.research-area-card>p:not(.eyebrow){font-size:14px;color:var(--muted);line-height:1.85}
+.research-area-card .research-degree{color:var(--crimson)!important;font-weight:600;margin-bottom:12px}
+.research-area-card .research-tags{font-size:12px!important;margin:20px 0 24px}
+.research-area-card .text-link{margin-top:auto;font-size:13px}
+.research-area-nav{background:var(--wash);border-block:1px solid var(--line)}
+.research-area-nav .wrap{display:flex;flex-wrap:wrap;gap:8px 22px;padding-block:20px}
+.research-area-nav a{font-size:13px;color:var(--muted);padding:4px 0;border-bottom:2px solid transparent}
+.research-area-nav a[aria-current=page]{color:var(--crimson);border-color:var(--crimson);font-weight:700}
+.next-card .text-link{margin-right:20px}
+.outcome-category-note{display:block;margin-top:.3rem;font-size:.76rem;font-weight:400;color:var(--muted);line-height:1.5}
+@media(max-width:980px){.research-area-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.research-area-grid{grid-template-columns:minmax(0,1fr);gap:18px}.research-area-card{padding:25px}.research-area-nav .wrap{gap:8px 18px}.research-area-nav a{font-size:12px}}
+
 /* Aggregate career records share the field filter with the alumni directory. */
 .filter-help{font-size:13px;line-height:1.8;color:var(--muted);margin:-5px 0 36px}
 .outcomes-intro{max-width:840px;margin-bottom:32px}
