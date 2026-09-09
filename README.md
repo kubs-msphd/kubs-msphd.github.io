@@ -26,7 +26,7 @@ Korea University Business School MS & PhD website.
 | 디자인 | `dist/assets/style.css` |
 | 사진 | `dist/assets/` |
 
-새 브랜치에서 파일을 수정하고 PR로 검토한 뒤 main에 병합하면 GitHub Actions가 `python3 build.py`를 실행하여 홈페이지를 게시합니다. 로컬 생성에는 Python 표준 라이브러리만 필요합니다. 국문·영문 텍스트를 함께 수정해 주세요.
+새 브랜치에서 파일을 수정하고 PR로 검토한 뒤 main에 병합하면 GitHub Actions가 `python3 build.py`를 실행하여 홈페이지를 게시합니다. 로컬 생성에는 Python 표준 라이브러리만 필요합니다. 국문·영문 텍스트를 함께 수정해 주세요. 영문 안내문은 미국식 영어를 사용합니다(예: program, inquiries, organizations, enrollment). 기관의 공식 명칭·논문 제목·원자료 인용은 원문 표기를 보존합니다.
 
 교수진의 `id`는 유지하고 `area_codes`에 해당 전공을 모두 넣습니다. 복수 전공 교수는 한 레코드로 관리합니다. 사진은 로컬 파일 또는 공식 사진 URL을 사용할 수 있으며, 없는 사진·프로필·연구분야는 `null`로 둡니다. 9개 전공 연구 페이지와 전공 검색 결과는 같은 교수 데이터를 사용합니다.
 

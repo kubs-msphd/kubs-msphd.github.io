@@ -68,7 +68,7 @@
 
   function setLanguage(value, writeURL = true) {
     language = validLanguage(value) ? value : 'ko';
-    document.documentElement.lang = language;
+    document.documentElement.lang = language === 'en' ? 'en-US' : 'ko';
     document.querySelectorAll('[data-ko][data-en]').forEach(element => {
       element.textContent = element.dataset[language];
     });

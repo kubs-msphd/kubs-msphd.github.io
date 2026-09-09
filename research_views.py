@@ -44,7 +44,7 @@ DESCRIPTIONS = {
     ),
     'M08': (
         '데이터 분석, 인과추론과 최적화를 경영 의사결정에 적용하는 1년 석사과정입니다.',
-        'A one-year MS programme applying data analytics, causal inference and optimization to business decisions.',
+        'A one-year MS program applying data analytics, causal inference and optimization to business decisions.',
     ),
 }
 
@@ -76,7 +76,7 @@ def render_research_index(ctx):
         topics = ' · '.join(topic['label_ko'] for topic in content['topics'])
         topics_en = ' · '.join(topic['label_en'] for topic in content['topics'])
         intro_ko, intro_en = DESCRIPTIONS[area['code']]
-        degree = t('1년 석사과정','One-year MS programme','p','research-degree') if area['code'] == 'M08' else ''
+        degree = t('1년 석사과정','One-year MS program','p','research-degree') if area['code'] == 'M08' else ''
         english_name = t(area['name_en'],'','p','english-name') if area['name_ko'] != area['name_en'] else ''
         rows.append(f'''<article class="research-field-row"><div class="research-field-name">{t(area['name_ko'],area['name_en'],'h2')}{english_name}{degree}</div><div class="research-field-content">{t(intro_ko,intro_en,'p')}{t(topics,topics_en,'p','research-tags')}</div><div class="research-field-links">{link(research_filename(area['code']),'연구 및 논문','Research & publications')}{link('faculty.html?area='+area['code'],'교수진','Faculty')}</div></article>''')
     return f'''{ctx['page_intro']('전공별 연구','Research areas','연구','Research','전공별 연구분야, 주요 논문과 교수진을 안내합니다.','Research interests, selected publications and faculty by field.')}
@@ -93,7 +93,7 @@ def render_research_area(code, ctx):
     paper_note = t(f'UTD 저널 선정 논문 · {period}',f'Selected UTD journal papers · {period}','p')
     faculty = ''.join(ctx['faculty_card'](person) for person in ctx['FACULTY'] if code in person['area_codes'])
     intro_ko, intro_en = DESCRIPTIONS[code]
-    community_link = link(content['community_url'],'전공 홈페이지','Programme website',external=True) if content.get('community_url') else ''
+    community_link = link(content['community_url'],'전공 홈페이지','Program website',external=True) if content.get('community_url') else ''
     return f'''{ctx['page_intro'](area['name_ko'],area['name_en'],'연구','Research',intro_ko,intro_en,section_url='research.html')}
     {area_navigation(ctx,code)}
     <nav class="jump-nav" aria-label="페이지 목차" data-aria-ko="페이지 목차" data-aria-en="On this page"><div class="wrap"><a href="#questions">{t('연구분야','Research interests')}</a><a href="#publications">{t('최근 논문','Publications')}</a><a href="#faculty">{t('교수진','Faculty')}</a><a href="#seminars">{t('세미나','Seminars')}</a><a href="#careers">{t('졸업생 진로','Graduate careers')}</a></div></nav>
