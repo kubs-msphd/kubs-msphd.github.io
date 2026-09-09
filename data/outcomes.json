@@ -32,7 +32,7 @@
     {
       "id": "public",
       "label_ko": "공공·비영리기관",
-      "label_en": "Public & nonprofit organisations"
+      "label_en": "Public & nonprofit organizations"
     },
     {
       "id": "self",
@@ -91,7 +91,7 @@
     {
       "id": "public_nonprofit",
       "label_ko": "공공·비영리기관",
-      "label_en": "Public & nonprofit organisations",
+      "label_en": "Public & nonprofit organizations",
       "sector_id": "public"
     },
     {
@@ -116,7 +116,7 @@
     {
       "id": "further_study",
       "label_ko": "진학·진학 예정",
-      "label_en": "Further study / planned enrolment"
+      "label_en": "Further study / planned enrollment"
     },
     {
       "id": "planned_employment",
