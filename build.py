@@ -17,7 +17,7 @@ RESEARCH_AREAS = json.loads((ROOT / 'data/research-areas.json').read_text())
 OFFICIAL = 'https://biz.korea.ac.kr/msphd/intro.html'
 DIRECTORY = 'https://biz.korea.ac.kr/professor/professor_list1.html'
 SITE = 'https://kubs-msphd.github.io/'
-UPDATED = '2026-09-09'
+UPDATED = '2026-09-10'
 
 def attr(value):
     return escape(str(value), quote=True)
