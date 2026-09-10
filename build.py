@@ -17,6 +17,8 @@ RESEARCH_AREAS = json.loads((ROOT / 'data/research-areas.json').read_text())
 OFFICIAL = 'https://biz.korea.ac.kr/msphd/intro.html'
 DIRECTORY = 'https://biz.korea.ac.kr/professor/professor_list1.html'
 SITE = 'https://kubs-msphd.github.io/'
+SITE_NAME_KO = '고려대학교 대학원 경영학과'
+SITE_NAME_EN = 'Department of Business Administration, Graduate School, Korea University'
 UPDATED = '2026-09-10'
 
 def attr(value):
@@ -66,31 +68,33 @@ def official_band():
 def layout(active, ko_title, en_title, body, filename=None):
     navigation=''.join(f'<a href="{url}"'+(' aria-current="page"' if active==key else '')+f'>{t(ko,en)}</a>' for key,url,ko,en in [('home','index.html','홈','Home'),('faculty','faculty.html','교수진','Faculty'),('research','research.html','연구','Research'),('placements','placements.html','졸업생 진로','Placements')])
     descriptions = {
-        'home': ('고려대학교 경영대학의 전공별 교수진, 연구분야와 졸업생 진로를 만나보세요.', 'Explore faculty, research interests and alumni careers at Korea University Business School.'),
-        'faculty': ('고려대학교 경영대학 전 전공 교수진과 연구분야. 전공과 연구 키워드로 찾아보세요.', 'Find Korea University Business School faculty by field, name and research interests.'),
-        'research': ('고려대학교 경영대학 전공별 연구 주제, UTD 저널 선정 논문, 교수진과 세미나.', 'Explore research questions, selected UTD journal papers, faculty and seminars across KUBS fields.'),
-        'placements': ('고려대학교 경영대학 석사·박사 졸업 후 진학과 취업, 전공별 학계·연구 경력.', 'Explore further study, employment, and academic and research careers after a KUBS master’s or doctoral degree.'),
+        'home': ('고려대학교 대학원 경영학과의 전공별 교수진, 연구분야와 졸업생 진로를 만나보세요.', 'Explore faculty, research interests and alumni careers in the graduate business administration programs at Korea University.'),
+        'faculty': ('고려대학교 대학원 경영학과 전 전공 교수진과 연구분야. 전공과 연구 키워드로 찾아보세요.', 'Find faculty in the graduate business administration programs at Korea University by field, name and research interests.'),
+        'research': ('고려대학교 대학원 경영학과 전공별 연구 주제, UTD 저널 선정 논문, 교수진과 세미나.', 'Explore research questions, selected UTD journal papers, faculty and seminars in the graduate business administration programs at Korea University.'),
+        'placements': ('고려대학교 대학원 경영학과 석사·박사 졸업 후 진학과 취업, 전공별 학계·연구 경력.', 'Explore further study, employment, and academic and research careers after a graduate degree in business administration at Korea University.'),
     }
     desc_ko, desc_en = descriptions[active]
+    page_title_ko = SITE_NAME_KO if active == 'home' else ko_title + ' · ' + SITE_NAME_KO
+    page_title_en = SITE_NAME_EN if active == 'home' else en_title + ' · ' + SITE_NAME_EN
     canonical = SITE + ('' if active == 'home' else filename or active + '.html')
     return f'''<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title data-ko="{escape(ko_title)} · KUBS MS &amp; PhD" data-en="{escape(en_title)} · KUBS MS &amp; PhD">{escape(ko_title)} · KUBS MS &amp; PhD</title>
+<title data-ko="{attr(page_title_ko)}" data-en="{attr(page_title_en)}">{escape(page_title_ko)}</title>
 <meta name="description" content="{attr(desc_ko)}" data-content-ko="{attr(desc_ko)}" data-content-en="{attr(desc_en)}">
 <meta name="theme-color" content="#8b0029"><link rel="canonical" href="{canonical}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="KUBS MS &amp; PhD"><meta property="og:title" content="{attr(ko_title)} · KUBS MS &amp; PhD"><meta property="og:description" content="{attr(desc_ko)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{SITE}assets/campus-banner.jpg"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website"><meta property="og:site_name" content="{attr(SITE_NAME_KO)}" data-content-ko="{attr(SITE_NAME_KO)}" data-content-en="{attr(SITE_NAME_EN)}"><meta property="og:title" content="{attr(page_title_ko)}" data-content-ko="{attr(page_title_ko)}" data-content-en="{attr(page_title_en)}"><meta property="og:description" content="{attr(desc_ko)}" data-content-ko="{attr(desc_ko)}" data-content-en="{attr(desc_en)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{SITE}assets/campus-banner.jpg"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css"><script src="assets/site.js" defer></script></head>
 <body class="page-{active}"><a class="skip" href="#main">{t('본문 바로가기','Skip to content')}</a>
-<header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html" aria-label="고려대학교 경영대학 일반대학원 홈" data-aria-ko="고려대학교 경영대학 일반대학원 홈" data-aria-en="KUBS MS and PhD home"><img src="assets/kubs-logo.png" width="193" height="48" alt="고려대학교 경영대학" data-alt-ko="고려대학교 경영대학" data-alt-en="Korea University Business School"><span class="programme-label">{t('일반대학원','Graduate School')}<small>MS/PhD</small></span></a>
+<header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html" aria-label="고려대학교 대학원 경영학과 홈" data-aria-ko="고려대학교 대학원 경영학과 홈" data-aria-en="{attr(SITE_NAME_EN + " home")}"><img src="assets/kubs-logo.png" width="193" height="48" alt="고려대학교 경영대학" data-alt-ko="고려대학교 경영대학" data-alt-en="Korea University Business School"><span class="programme-label">{t('대학원 경영학과','Business Administration')}<small>MS/PhD</small></span></a>
 <div class="nav-wrap"><button type="button" class="menu-toggle" aria-controls="navigation" aria-expanded="false">{t('메뉴','Menu')}</button><nav class="nav" id="navigation" aria-label="주요 메뉴" data-aria-ko="주요 메뉴" data-aria-en="Main navigation">{navigation}<a href="{OFFICIAL}" data-href-ko="{OFFICIAL}" data-href-en="https://biz.korea.ac.kr/eng/msphd/intro.html">{t('입학·학사','Program info')} ↗</a></nav><div class="language" aria-label="언어 선택" data-aria-ko="언어 선택" data-aria-en="Language"><button type="button" data-language="ko" aria-label="한국어" aria-pressed="true" lang="ko">KO</button><button type="button" data-language="en" aria-label="English" aria-pressed="false" lang="en-US">EN</button></div></div></div></header>
 <main id="main">{body}{official_band()}</main>
-<footer><div class="wrap"><div class="footer-top"><div><img class="footer-brand-image" src="assets/kubs-footer-logo.png" width="201" height="55" alt="고려대학교 경영대학" data-alt-ko="고려대학교 경영대학" data-alt-en="Korea University Business School">{t('고려대학교 경영대학 일반대학원','Korea University Business School · Graduate Research Programs','p')}{t('서울특별시 성북구 안암로 145','145 Anam-ro, Seongbuk-gu, Seoul, Republic of Korea','p')}</div><div><a href="mailto:kubs_msphd@korea.ac.kr">kubs_msphd@korea.ac.kr</a>{t('일반대학원 문의','Graduate program inquiries','p')}</div></div><div class="footer-bottom">{t('일반대학원 경영학과','Graduate Department of Business Administration')}<span>© 2026 Korea University Business School</span></div></div></footer></body></html>'''
+<footer><div class="wrap"><div class="footer-top"><div><img class="footer-brand-image" src="assets/kubs-footer-logo.png" width="201" height="55" alt="고려대학교 경영대학" data-alt-ko="고려대학교 경영대학" data-alt-en="Korea University Business School">{t(SITE_NAME_KO,SITE_NAME_EN,'p')}{t('서울특별시 성북구 안암로 145','145 Anam-ro, Seongbuk-gu, Seoul, Republic of Korea','p')}</div><div><a href="mailto:kubs_msphd@korea.ac.kr">kubs_msphd@korea.ac.kr</a>{t('대학원 경영학과 문의','Business administration graduate program inquiries','p')}</div></div><div class="footer-bottom">{t('대학원 경영학과','Department of Business Administration')}<span>© 2026 Korea University Business School</span></div></div></footer></body></html>'''
 
 def page_intro(title_ko, title_en, section_ko, section_en, description_ko='', description_en='', section_url=None):
     section = f'<a class="breadcrumb-section" href="{attr(section_url)}">{t(section_ko,section_en)}</a>' if section_url else t(section_ko, section_en)
     extra = f'<span class="breadcrumb-separator" aria-hidden="true">/</span>{t(title_ko,title_en)}' if title_ko != section_ko else ''
     description = t(description_ko, description_en, 'p', 'page-description') if description_ko or description_en else ''
-    return f'''<section class="sub-visual" aria-label="MS/PhD"><div class="wrap"><p class="sub-visual-title">MS/PhD</p>{t('고려대학교 경영대학 일반대학원','Korea University Business School','p','sub-visual-label')}</div></section>
+    return f'''<section class="sub-visual" aria-label="MS/PhD"><div class="wrap"><p class="sub-visual-title">MS/PhD</p>{t(SITE_NAME_KO,SITE_NAME_EN,'p','sub-visual-label')}</div></section>
     <nav class="breadcrumb-bar" aria-label="현재 위치" data-aria-ko="현재 위치" data-aria-en="Breadcrumb"><div class="wrap"><a href="index.html">{t('홈','Home')}</a><span class="breadcrumb-separator" aria-hidden="true">/</span>{section}{extra}</div></nav>
     <div class="page-title wrap">{t(title_ko,title_en,'h1')}{description}</div>'''
 
@@ -102,7 +106,7 @@ def home():
     for paper in featured:
         area = AREA_MAP[paper['area_code']]
         papers.append(f'<li><div class="home-paper-meta">{t(area["name_ko"],area["name_en"])}<span>{escape(paper["journal"])}</span><span>{paper["year"]}</span></div><h3 class="home-paper-title"><a href="{attr(paper["url"])}">{escape(paper["title"])}</a></h3><p class="home-paper-authors">{escape(paper["authors"])}</p></li>')
-    return f'''<section class="institutional-hero"><img class="hero-photo" src="assets/campus-banner.jpg" width="1920" height="510" fetchpriority="high" alt="고려대학교 경영대학 캠퍼스 전경" data-alt-ko="고려대학교 경영대학 캠퍼스 전경" data-alt-en="Korea University Business School campus"><div class="hero-shade" aria-hidden="true"></div><div class="hero-content wrap"><p class="hero-kicker">KOREA UNIVERSITY BUSINESS SCHOOL</p><h1>{t('고려대학교 경영대학','Korea University Business School')}<br>{t('일반대학원','MS / PhD Programs')}</h1>{t('석사 · 박사 · 석박사통합과정','MS · PhD · Integrated MS–PhD','p','hero-degree')}</div></section>
+    return f'''<section class="institutional-hero"><img class="hero-photo" src="assets/campus-banner.jpg" width="1920" height="510" fetchpriority="high" alt="고려대학교 경영대학 캠퍼스 전경" data-alt-ko="고려대학교 경영대학 캠퍼스 전경" data-alt-en="Korea University Business School campus"><div class="hero-shade" aria-hidden="true"></div><div class="hero-content wrap"><p class="hero-kicker">KOREA UNIVERSITY BUSINESS SCHOOL</p><h1>{t('고려대학교 대학원','Korea University Graduate School')}<br>{t('경영학과','Business Administration')}</h1>{t('석사 · 박사 · 석박사통합과정','MS · PhD · Integrated MS–PhD','p','hero-degree')}</div></section>
     <nav class="home-quick-nav" aria-label="대학원 바로가기" data-aria-ko="대학원 바로가기" data-aria-en="Graduate program links"><div class="wrap"><a href="faculty.html">{t('교수진','Faculty')}<span aria-hidden="true">→</span></a><a href="research.html">{t('전공별 연구','Research areas')}<span aria-hidden="true">→</span></a><a href="placements.html">{t('졸업생 진로','Graduate careers')}<span aria-hidden="true">→</span></a><a href="{OFFICIAL}" data-href-ko="{OFFICIAL}" data-href-en="https://biz.korea.ac.kr/eng/msphd/intro.html">{t('입학·학사 안내','Program information')}<span aria-hidden="true">↗</span></a></div></nav>
     <section class="section wrap home-overview" id="research"><div class="home-overview-heading">{t('전공 안내','Fields of study','h2')}{t('전공별 교수진과 연구분야, 주요 논문을 확인하실 수 있습니다.','Find faculty, research interests and selected publications by field.','p')}</div><div class="home-field-list">{field_links}</div></section>
     <section class="section wash"><div class="wrap">{heading('','최근 연구논문','Selected publications',link('research.html','전공별 논문 보기','Browse by field'))}<ul class="home-research-list">{''.join(papers)}</ul></div></section>
@@ -140,7 +144,7 @@ def alumni_link(url, ko, en, person, cls='source-link'):
 
 
 pages = [
-    ('index.html','home','고려대학교 경영대학 일반대학원','Graduate School of Business',home()),
+    ('index.html','home',SITE_NAME_KO,SITE_NAME_EN,home()),
     ('faculty.html','faculty','전공별 교수진','Faculty & Research Interests',faculty_directory()),
     ('research.html','research','전공별 연구','Research across KUBS',render_research_index(globals())),
     ('placements.html','placements','졸업생 진로','Graduate Careers',render_placements(globals())),
