@@ -25,7 +25,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091833365543.gif",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091833365543.gif",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -49,7 +49,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "gif"
+    "photo_image_format": "gif",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-28a2d7b77809",
@@ -69,15 +70,15 @@
     ],
     "title_ko": "전략/조교수",
     "title_en": "Strategy/Assistant Professor",
-    "interests_ko": null,
-    "interests_en": null,
+    "interests_ko": "조직 지위, 플랫폼 전략, 중국 시장",
+    "interests_en": "Organizational status, Platform strategy, Chinese market",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=jb28UrXQWDDJHBKk6tzTsw&refer=%2Fprofessor%2Fprofessor_list1.html",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=jb28UrXQWDDJHBKk6tzTsw&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20250304082413327840.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20250304082413327840.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -97,7 +98,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-06e051393457",
@@ -131,7 +133,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919103179380507.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919103179380507.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -157,7 +159,8 @@
     "is_area_chair": true,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-96e0edda80e3",
@@ -177,15 +180,15 @@
     ],
     "title_ko": "회계학/조교수",
     "title_en": "Accounting/Assistant Professor",
-    "interests_ko": "Financial Accounting; Management Accounting",
-    "interests_en": "Financial Accounting; Management Accounting",
+    "interests_ko": "자본시장, 기업공시, 규제",
+    "interests_en": "Capital Markets, Disclosure, Regulation",
     "url": "https://sites.google.com/view/minjaekoo",
     "url_en": "https://sites.google.com/view/minjaekoo",
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20250305113692186688.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20250305113692186688.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -207,7 +210,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-6743004d7f83",
@@ -235,7 +239,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20251210093576018580.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20251210093576018580.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M01",
@@ -259,7 +263,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-741337f3546e",
@@ -280,14 +285,14 @@
     "title_ko": "경영관리/교수",
     "title_en": "Management/Professor",
     "interests_ko": "인사관리, 조직행동, 조직문화",
-    "interests_en": "Managing Human Resources Globally, Team Effectiveness, Organizational Culture and Climate, Workforce",
+    "interests_en": "Human Resource Management, Performance Management, Leadership Development",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=XYoiCQfk_zAbjK0pYAeCzQ&refer=%2Fprofessor%2Fprofessor_list1.html",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=XYoiCQfk_zAbjK0pYAeCzQ&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D3",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191021155599080143.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20191021155599080143.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M01",
@@ -311,7 +316,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-3d41b11df5f1",
@@ -345,7 +351,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190924210184650830.jpg",
     "photo": "assets/faculty/20190924210184650830.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -378,7 +384,8 @@
     "personal_url": "https://sites.google.com/view/kihoon",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-05cbdb24a964",
@@ -406,7 +413,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191021155745045722.jpg",
     "photo": "assets/faculty/20191021155745045722.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -434,7 +441,8 @@
     "research_summary_note": "Summarized from public faculty profile or official introduction.",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-fe2e7d2c1c8b",
@@ -454,15 +462,15 @@
     ],
     "title_ko": "LSOM/교수",
     "title_en": "LSOM/Professor",
-    "interests_ko": "생산관리, 공급사슬관리",
-    "interests_en": "Supply Chain Management",
+    "interests_ko": "생산·공급망, 리스크, 지속가능성·ESG",
+    "interests_en": "Operations , Supply Chain",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=1TxHq7bIQTFnVVTg77mWJA&refer=%2Fprofessor%2Fprofessor_list1.html",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=1TxHq7bIQTFnVVTg77mWJA&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20210902204755769693.jpeg",
     "photo": "assets/faculty/20210902204755769693.jpeg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -490,7 +498,8 @@
     "research_summary_note": "Summarized from public faculty profile or official introduction.",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-a3c7220681e3",
@@ -518,7 +527,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20250113161856306171.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20250113161856306171.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -542,7 +551,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-86aa21891bcc",
@@ -576,7 +586,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20230130230954206700.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20230130230954206700.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -606,7 +616,8 @@
     "is_area_chair": true,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-7d90b34cc2ae",
@@ -634,7 +645,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20240905144938469847.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20240905144938469847.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -658,7 +669,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-15c3da54d272",
@@ -684,15 +696,15 @@
     ],
     "title_ko": "LSOM/Business Analytics/교수",
     "title_en": "LSOM/Business Analytics/Professor",
-    "interests_ko": "AI 전략, 디지털 트랜스포메이션, 디지털 기술 상업화",
-    "interests_en": "AI Strategy, Digital Transformation, Digital Technology Commercialization",
+    "interests_ko": "AX 전략, 디지털 트랜스포메이션, 디지털 기술 상업화",
+    "interests_en": "AX Strategy, Digital Transformation, Digital Technology Commercialization",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=VsxnTRrzanMAW8pgfJ5f9g&refer=%2Fprofessor%2Fprofessor_list1.html",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=VsxnTRrzanMAW8pgfJ5f9g&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919111283028995.jpg",
     "photo": "assets/faculty/20190919111283028995.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -726,7 +738,8 @@
     "research_summary_note": "Summarized from public faculty profile or official introduction.",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-000fbecedd3b",
@@ -746,15 +759,15 @@
     ],
     "title_ko": "마케팅/교수",
     "title_en": "Marketing/Professor",
-    "interests_ko": "마케팅 모델링, 유통경로관리, 판매촉진, 인터넷마케팅",
-    "interests_en": "Marketing Modeling, Channel Management, Internet Marketing",
+    "interests_ko": "마케팅 모델링과 계량분석, 온라인 프로모션, 마케팅유통채널",
+    "interests_en": "Quantitative Analysis and Modeling, Online Promotions, Marketing Channels",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=dlKN5/SAvzqwC993UELSng&refer=%2Fprofessor%2Fprofessor_list1.html",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=dlKN5/SAvzqwC993UELSng&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D3",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919111313455323.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919111313455323.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -778,7 +791,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-c413dae6e633",
@@ -798,15 +812,15 @@
     ],
     "title_ko": "전략/교수",
     "title_en": "Strategy/Professor",
-    "interests_ko": "경영전략, 경쟁전략, 전략실행과 과정 연구",
-    "interests_en": "Strategic Management, Competitive Strategy, Strategy Implementation and Process",
+    "interests_ko": "경쟁전략, 전략실행과 과정 연구, 이노베이션",
+    "interests_en": "Competitive Strategy, Strategy Implementation and Process, Innovation",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=tG8F3zZeGHTbC39HFEjKwg&refer=%2Fprofessor%2Fprofessor_list1.html",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=tG8F3zZeGHTbC39HFEjKwg&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20201103204962616383.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20201103204962616383.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -830,7 +844,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-585696933067",
@@ -858,7 +873,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20240327102339514690.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20240327102339514690.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -882,7 +897,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-fdcdafc56a3a",
@@ -910,7 +926,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20210105141765993718.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20210105141765993718.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -932,7 +948,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-357a83c37ace",
@@ -960,7 +977,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20260401154569054868.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20260401154569054868.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -984,7 +1001,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-47cc9829a235",
@@ -1012,7 +1030,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191021155354377833.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20191021155354377833.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -1036,7 +1054,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-11686597c89f",
@@ -1062,15 +1081,15 @@
     ],
     "title_ko": "마케팅/Business Analytics/교수",
     "title_en": "Marketing/Business Analytics/Professor",
-    "interests_ko": "마케팅 모델링/애널리틱스",
-    "interests_en": "Quantitative Marketing/Analytics, Methodology",
+    "interests_ko": "마케팅 모델링, 뮤직 애널리틱스, 베이지안 방법론",
+    "interests_en": "Quantitative Marketing, Music Analytics, Bayesian Methods",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=bBUuezTO/PIaDdVYcmhS1g&refer=%2Fprofessor%2Fprofessor_list1.html",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=bBUuezTO/PIaDdVYcmhS1g&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D3",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20260131180635661983.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20260131180635661983.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -1100,7 +1119,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-27cc39d50220",
@@ -1126,15 +1146,15 @@
     ],
     "title_ko": "LSOM/Business Analytics/부교수",
     "title_en": "LSOM/Business Analytics/Associate Professor",
-    "interests_ko": null,
-    "interests_en": null,
+    "interests_ko": "사법 운영 · 대기행렬 · 인공지능 운영 전략",
+    "interests_en": "Justice operations · Queueing · AI operations strategy",
     "url": "https://sites.google.com/site/jeunghyunkim/",
     "url_en": "https://sites.google.com/site/jeunghyunkim/",
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20201216102555100008.jpg",
     "photo": "assets/faculty/20201216102555100008.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -1165,7 +1185,8 @@
     "personal_url": "https://sites.google.com/site/jeunghyunkim/",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-c3ef18ef1962",
@@ -1193,7 +1214,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20240909092153165567.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20240909092153165567.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -1217,7 +1238,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-259ec2f19aaf",
@@ -1245,7 +1267,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022163397867302.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022163397867302.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -1269,7 +1291,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-728a9418aa99",
@@ -1297,7 +1320,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091853554550.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091853554550.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -1321,7 +1344,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-6e146577244f",
@@ -1349,7 +1373,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20211216104510627844.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20211216104510627844.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M01",
@@ -1373,7 +1397,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-bdfc476dc52e",
@@ -1401,7 +1426,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919111455347658.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919111455347658.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -1425,7 +1450,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-730c0de6580c",
@@ -1453,7 +1479,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091807208677.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091807208677.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -1477,7 +1503,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-63fcd643fa7e",
@@ -1497,15 +1524,15 @@
     ],
     "title_ko": "전략/교수",
     "title_en": "Strategy/Professor",
-    "interests_ko": "경영전략, 스타트업, 벤처, IPO, 혁신",
-    "interests_en": "New venture, Innovation, International entrepreneurship, Corporate governance",
+    "interests_ko": "기업가정신, 벤처투자, 신사업전략",
+    "interests_en": "Entrepreneurship, Venture Capital, New Business Strategy",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=rCLp138NRguLVrnh3er2Rw&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=rCLp138NRguLVrnh3er2Rw&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20201126150969423583.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20201126150969423583.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -1529,7 +1556,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-ddca4f402092",
@@ -1549,15 +1577,15 @@
     ],
     "title_ko": "LSOM/조교수",
     "title_en": "LSOM/Assistant Professor",
-    "interests_ko": null,
-    "interests_en": null,
+    "interests_ko": "플랫폼 비즈니스, 사이버보안, 게임이론",
+    "interests_en": "Platform Business, Cybersecurity, Game Theory",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=UgwAYDQ7L/St7GrepUEg_w&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=UgwAYDQ7L/St7GrepUEg_w&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20250910111602629510.jpg",
     "photo": "assets/faculty/20250910111602629510.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -1581,7 +1609,8 @@
     "research_summary_note": "Summarized from public faculty profile or official introduction.",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-5965053325d6",
@@ -1607,15 +1636,15 @@
     ],
     "title_ko": "LSOM/부교수",
     "title_en": "LSOM/Associate Professor",
-    "interests_ko": "LSOM",
-    "interests_en": "LSOM",
+    "interests_ko": "의약품공급망/헬스케어 운영, 지속가능 운영, AI기반 운영",
+    "interests_en": "Pharmaceutical Supply Chains/Healthcare Operations, Sustainable Operations, AI-Enabled Operations",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=CO3y1NJ7LSCMK0WlppRKNg&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=CO3y1NJ7LSCMK0WlppRKNg&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20240304111044383029.png",
     "photo": "assets/faculty/20240304111044383029.png",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -1651,7 +1680,8 @@
     "research_summary_note": "Editorial summary of published work; faculty confirmation pending.",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "png"
+    "photo_image_format": "png",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-9a5c93e067ab",
@@ -1679,7 +1709,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20260902144519160743.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20260902144519160743.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -1703,7 +1733,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-3b0c0d3fb25b",
@@ -1731,7 +1762,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022162140128998.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022162140128998.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -1755,7 +1786,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-2739c6bc0148",
@@ -1789,7 +1821,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20210712191041519426.png",
     "photo": "assets/faculty/20210712191041519426.png",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -1823,7 +1855,8 @@
     "research_summary_note": "Summarized from public faculty profile or official introduction.",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "png"
+    "photo_image_format": "png",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-b84982c50d04",
@@ -1843,15 +1876,15 @@
     ],
     "title_ko": "글로벌비즈니스/조교수",
     "title_en": "Global Business/Assistant Professor",
-    "interests_ko": null,
-    "interests_en": null,
+    "interests_ko": "국제무역",
+    "interests_en": "International Business, Global Strategy, Supply Chain Management",
     "url": null,
     "url_en": null,
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": null,
     "photo": null,
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M02",
@@ -1862,7 +1895,8 @@
     "profile_urls_en": [],
     "interests_source_variants_ko": [],
     "interests_source_variants_en": [],
-    "is_area_chair": false
+    "is_area_chair": false,
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-d6d1c419e820",
@@ -1890,7 +1924,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091874714258.gif",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091874714258.gif",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -1914,7 +1948,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "gif"
+    "photo_image_format": "gif",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-c54c0f6508b6",
@@ -1942,7 +1977,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091826034311.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091826034311.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -1966,7 +2001,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-6ca8ced8f541",
@@ -1986,15 +2022,15 @@
     ],
     "title_ko": "경영관리/교수",
     "title_en": "Management/Professor",
-    "interests_ko": "경영철학, 전략적 인적자원관리",
-    "interests_en": "Philosophy of Management, Strategic Human Resource Management",
+    "interests_ko": "경영철학, 전략적 인적자원관리, 경영과 공동선",
+    "interests_en": "Philosophy of Management, Strategic Human Resource Management,  Management and Common Good",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=QX0oYHAznIugGGPcqdwf8A&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=QX0oYHAznIugGGPcqdwf8A&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20200821124351109529.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20200821124351109529.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M01",
@@ -2018,7 +2054,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-e3f322507067",
@@ -2046,7 +2083,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022162309172002.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022162309172002.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -2070,7 +2107,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-2b827fef05a5",
@@ -2098,7 +2136,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20211203132195892049.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20211203132195892049.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=2",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -2122,7 +2160,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-dd4dd009a803",
@@ -2134,15 +2173,15 @@
     "areas": [],
     "title_ko": "부교수",
     "title_en": "Associate Professor",
-    "interests_ko": "Global MBA director",
-    "interests_en": "Global MBA director",
+    "interests_ko": null,
+    "interests_en": null,
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=kImysk2CD3SmME2w1XENmw&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D3",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=kImysk2CD3SmME2w1XENmw&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20240814155244659149.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20240814155244659149.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/eng/professor/professor_list1.html"
@@ -2163,7 +2202,8 @@
     "affiliation_note": "Listed in the official full-time directory without an assigned major filter.",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-8c6b842020fd",
@@ -2191,7 +2231,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20241024124322150347.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20241024124322150347.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M02",
@@ -2213,7 +2253,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-9d9ab5ed4a82",
@@ -2241,7 +2282,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091881028575.gif",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091881028575.gif",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -2265,7 +2306,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "gif"
+    "photo_image_format": "gif",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-2b87abd950a5",
@@ -2293,7 +2335,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022162802348201.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022162802348201.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -2317,7 +2359,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-da9e6e55864b",
@@ -2337,15 +2380,15 @@
     ],
     "title_ko": "글로벌비즈니스/부교수",
     "title_en": "Global Business/Associate Professor",
-    "interests_ko": null,
-    "interests_en": null,
+    "interests_ko": "지속가능경영, 조직이론, 문화, 질적연구 방법론",
+    "interests_en": "Corporate sustainability, Organizational theory, Culture, Qualitative research methods",
     "url": "https://www.songhc.com",
     "url_en": "https://www.songhc.com",
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20260608141250047651.jpeg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20260608141250047651.jpeg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M02",
@@ -2363,7 +2406,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-68b16310c83e",
@@ -2391,7 +2435,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191004184629622061.png",
     "photo": "assets/faculty/20191004184629622061.png",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -2419,7 +2463,8 @@
     "research_summary_note": "Summarized from public faculty profile or official introduction.",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "png"
+    "photo_image_format": "png",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-f7b1b782f27b",
@@ -2447,7 +2492,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20220905114672168892.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20220905114672168892.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -2471,7 +2516,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-4f1133e10ab6",
@@ -2499,7 +2545,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20260305152672220288.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20260305152672220288.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -2521,7 +2567,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-c1ac76299820",
@@ -2549,7 +2596,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20241217153549934465.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20241217153549934465.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -2573,7 +2620,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-d765244208e9",
@@ -2599,7 +2647,7 @@
     ],
     "title_ko": "마케팅/Business Analytics/교수",
     "title_en": "Marketing/Business Analytics/Professor",
-    "interests_ko": "마케팅성과측정, 고객자산, 시계열분석",
+    "interests_ko": "계량 마케팅모델, 고객자산, 마케팅의 재무적 효과",
     "interests_en": "Quantitative Marketing Models, Customer Equity, Marketing-Finance Interface",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=iLKe/Wfl/IHUfngWl4Sccg&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D3",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=iLKe/Wfl/IHUfngWl4Sccg&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D5",
@@ -2607,7 +2655,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20220211140582426591.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20220211140582426591.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -2637,7 +2685,8 @@
     "is_area_chair": true,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-e5ce3cc7c5dd",
@@ -2665,7 +2714,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20200221140346517816.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20200221140346517816.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -2689,7 +2738,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-fadfcb741b90",
@@ -2717,7 +2767,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022112724592405.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022112724592405.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -2741,7 +2791,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-01cbc7001018",
@@ -2769,7 +2820,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20200816155622579964.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20200816155622579964.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -2793,7 +2844,8 @@
     "is_area_chair": true,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-2a5f48e884e3",
@@ -2821,7 +2873,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091863102360.gif",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091863102360.gif",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -2845,7 +2897,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "gif"
+    "photo_image_format": "gif",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-b73930e286e5",
@@ -2865,15 +2918,15 @@
     ],
     "title_ko": "마케팅/Marketing/교수",
     "title_en": "Marketing/Marketing/Professor",
-    "interests_ko": "소비자 행동, 행동선택 이론",
-    "interests_en": "Consumer Behavior, Consumer Choice and Decision-Making",
+    "interests_ko": "소비자 심리, 디지털 소비자행동, AI-소비자 상호작용",
+    "interests_en": "Consumer Psychology, Digital Consumer Behavior, AI-Consumer Interaction",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=ftXcuVeMbffW34l8QRcjSw&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D3",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=ftXcuVeMbffW34l8QRcjSw&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D5",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091840152375.gif",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091840152375.gif",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -2897,7 +2950,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "gif"
+    "photo_image_format": "gif",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-5445cfeeab62",
@@ -2931,7 +2985,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20200310132530327648.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20200310132530327648.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -2961,7 +3015,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-6b46fe85985d",
@@ -2995,7 +3050,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20230308204365028348.png",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20230308204365028348.png",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -3025,7 +3080,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "png"
+    "photo_image_format": "png",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-f71f4a09617f",
@@ -3053,7 +3109,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20211227162026473285.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20211227162026473285.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M01",
@@ -3077,7 +3133,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-3e363fc63cb8",
@@ -3105,7 +3162,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20210930063493356338.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20210930063493356338.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -3129,7 +3186,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-55f89d9a0ac0",
@@ -3157,7 +3215,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20240722171400770236.png",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20240722171400770236.png",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=3",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -3179,7 +3237,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "png"
+    "photo_image_format": "png",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-68765100ac5e",
@@ -3207,7 +3266,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190924210715873114.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190924210715873114.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -3229,7 +3288,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-eeb8160eb1b3",
@@ -3257,7 +3317,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191011073168804456.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20191011073168804456.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -3279,7 +3339,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-bcbfe0b31f6f",
@@ -3299,15 +3360,15 @@
     ],
     "title_ko": "전략/부교수",
     "title_en": "Strategy/Associate Professor",
-    "interests_ko": "벤처경영, 조직이론",
-    "interests_en": "Entrepreneurship, Organizational Theory, Organizational Change, Corporate Entrepreneurship, M&A stra",
+    "interests_ko": "벤처경영, 신사업전략, 창업가정신, 경영전략, 조직이론",
+    "interests_en": "Entrepreneurship, New Business Strategy, Strategic Management, Organizational Theory",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=KQq2G1TKTPIlS4_m/lVdZA&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=KQq2G1TKTPIlS4_m/lVdZA&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20251103142921105625.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20251103142921105625.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -3331,7 +3392,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-f7cf5df91dfe",
@@ -3351,15 +3413,15 @@
     ],
     "title_ko": "전략/교수",
     "title_en": "Strategy/Professor",
-    "interests_ko": "지속가능성/ESG경영/CSR&SDG/글로벌전략/경영전략",
-    "interests_en": "Sustainability, ESG, CSR & SDG, Global Strategic, Strategic Management",
+    "interests_ko": "지속가능성, ESG경영, 경영전략",
+    "interests_en": "Sustainability, ESG Management, Strategic Management",
     "url": "http://jayrhee.com",
     "url_en": "http://jayrhee.com",
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190920103069980327.jpeg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190920103069980327.jpeg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -3381,7 +3443,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-38f18229ddb6",
@@ -3401,15 +3464,15 @@
     ],
     "title_ko": "마케팅/교수",
     "title_en": "Marketing/Professor",
-    "interests_ko": "마케팅 전략(혁신, High-tech, ESG, 기업 성과)",
-    "interests_en": "Marketing Strategy (Innovation, High-tech, ESG, Firm Performance)",
+    "interests_ko": "마케팅 전략, 혁신, 하이테크 마케팅",
+    "interests_en": "Marketing Strategy, Innovation, High-tech Marketing",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=6kM8gu1j7pBpN4DHJa3rRg&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=6kM8gu1j7pBpN4DHJa3rRg&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20230410153721031001.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20230410153721031001.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -3433,7 +3496,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-0146c3050feb",
@@ -3453,7 +3517,7 @@
     ],
     "title_ko": "경영관리/조교수",
     "title_en": "Management/Assistant Professor",
-    "interests_ko": "Organizational Theory, Sustainable Management",
+    "interests_ko": "조직이론, 지속가능경영",
     "interests_en": "Organizational Theory, Sustainable Management",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=QOgDh9tcxYlrF3BKamrZFA&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=QOgDh9tcxYlrF3BKamrZFA&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
@@ -3461,7 +3525,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20250908092606910151.jpeg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20250908092606910151.jpeg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M01",
@@ -3485,7 +3549,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-c644713436fa",
@@ -3505,15 +3570,15 @@
     ],
     "title_ko": "회계학/교수",
     "title_en": "Accounting/Professor",
-    "interests_ko": "조세 및 금융 관련 국제회계 기준과 감사",
-    "interests_en": "Capital market research in accounting and auditing",
+    "interests_ko": "자본시장회계, 기업거버넌스, 회계감사",
+    "interests_en": "Capital market research in accounting and auditing, Corporate Governance",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=fLUkV0GOnWEIcTCu/slt4A&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=fLUkV0GOnWEIcTCu/slt4A&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D5",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20220727160560685291.PNG",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20220727160560685291.PNG",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -3537,7 +3602,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "png"
+    "photo_image_format": "png",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-e33dc13d4c63",
@@ -3565,7 +3631,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20240911154588115327.jpeg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20240911154588115327.jpeg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -3585,7 +3651,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-7aacf1915e00",
@@ -3611,15 +3678,15 @@
     ],
     "title_ko": "LSOM/Business Analytics/부교수",
     "title_en": "LSOM/Business Analytics/Associate Professor",
-    "interests_ko": "비즈니스 애널리틱스, 서비스(리테일, 헬스케어)운영관리, 운영관리",
-    "interests_en": "Business Analytics, Service (Retail, Healthcare) Operations, Operations Management",
+    "interests_ko": "헬스케어 운영관리,  리테일·디지털 운영관리, 인과추론",
+    "interests_en": "Healthcare Operations, Retail & Digital Operations, Causal Inference",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=BEkcJR5dlf3gtXpnevPPig&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=BEkcJR5dlf3gtXpnevPPig&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20260714164165394266.jpg",
     "photo": "assets/faculty/20260714164165394266.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -3658,7 +3725,8 @@
     "photo_http_status": 200,
     "photo_image_format": "jpeg",
     "personal_url_source": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=BEkcJR5dlf3gtXpnevPPig&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
-    "personal_url_official_href": "http://hyunseoklee.com"
+    "personal_url_official_href": "http://hyunseoklee.com",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-f50625b56d72",
@@ -3686,7 +3754,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20200812120930868537.png",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20200812120930868537.png",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -3704,7 +3772,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "png"
+    "photo_image_format": "png",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-0b305eb436e9",
@@ -3732,7 +3801,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091876485574.jpg",
     "photo": "assets/faculty/20190903091876485574.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M06",
@@ -3760,7 +3829,8 @@
     "research_summary_note": "Summarized from public faculty profile or official introduction.",
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-c99d85ab393a",
@@ -3780,7 +3850,7 @@
     ],
     "title_ko": "경영관리/부교수",
     "title_en": "Management/Associate Professor",
-    "interests_ko": "조직행동, 협상",
+    "interests_ko": "조직행동, 집단역학, 협력과 경쟁",
     "interests_en": "Organizational Behavior, Negotiation",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=SJJY14iUmG7bWhF1gAg8oA&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=SJJY14iUmG7bWhF1gAg8oA&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html",
@@ -3788,7 +3858,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20200819142814000814.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20200819142814000814.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M01",
@@ -3812,7 +3882,8 @@
     "is_area_chair": true,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-e3a67581f73e",
@@ -3840,7 +3911,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091822788084.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091822788084.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M01",
@@ -3864,7 +3935,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-d3010d95ad46",
@@ -3885,14 +3957,14 @@
     "title_ko": "Information Systems/부교수",
     "title_en": "Information Systems/Associate Professor",
     "interests_ko": "Economics of IS, Digital Platform",
-    "interests_en": null,
+    "interests_en": "Economics of IS, Digital Platform",
     "url": "https://sites.google.com/view/kyungsung",
     "url_en": "https://sites.google.com/view/kyungsung",
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20250226161533614514.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20250226161533614514.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -3912,7 +3984,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-079dca1c96c5",
@@ -3940,7 +4013,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091840016489.gif",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091840016489.gif",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -3964,7 +4037,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "gif"
+    "photo_image_format": "gif",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-2d60bda15bcb",
@@ -3992,7 +4066,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20250902084226891216.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20250902084226891216.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M01",
@@ -4016,7 +4090,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-a79c5a306a21",
@@ -4036,15 +4111,15 @@
     ],
     "title_ko": "글로벌비즈니스/교수",
     "title_en": "Global Business/Professor",
-    "interests_ko": "글로벌 마케팅, 글로벌 브랜드, 글로벌 상품 개발",
-    "interests_en": "Global marketing, Global brand, Global product management",
+    "interests_ko": "글로벌 마케팅, 글로벌 브랜드 관리, 글로벌 제품전략",
+    "interests_en": "Global marketing, Global brand management, Global product strategy",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=sDhJUw6qJTLmhSo7qtPS7Q&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D4",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=sDhJUw6qJTLmhSo7qtPS7Q&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20210217160527817079.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20210217160527817079.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M02",
@@ -4068,7 +4143,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-775561043cc2",
@@ -4096,7 +4172,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190920103155829944.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190920103155829944.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M02",
@@ -4120,7 +4196,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-ca26cb80642f",
@@ -4141,14 +4218,14 @@
     "title_ko": "재무금융/교수",
     "title_en": "Finance/Professor",
     "interests_ko": "자산운용(사모/헤지/뮤추얼펀드) 및 기업재무",
-    "interests_en": "Private Equity, Hedge Funds, Mutual Funds, Corporate Finance",
+    "interests_en": "Asset Managment(Private Equity/Hedge/Mutual Funds), Corporate Finance",
     "url": "https://chung-jiwoong.github.io/",
     "url_en": "https://chung-jiwoong.github.io/",
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190924210913917100.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190924210913917100.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -4170,7 +4247,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-36c116cf9a8b",
@@ -4198,7 +4276,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919112024554541.JPG",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919112024554541.JPG",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=4",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -4222,7 +4300,8 @@
     "is_area_chair": true,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-b20ff8ca8887",
@@ -4250,7 +4329,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919112101929904.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919112101929904.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M02",
@@ -4274,7 +4353,8 @@
     "is_area_chair": true,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-7e97c19bcef7",
@@ -4302,7 +4382,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20240304162994693785.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20240304162994693785.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -4320,7 +4400,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-81bd48c5020b",
@@ -4341,14 +4422,14 @@
     "title_ko": "전략/교수",
     "title_en": "Strategy/Professor",
     "interests_ko": "기업전략, 글로벌 전략, M&A전략",
-    "interests_en": "Corporate Strategy, Global Strategy, M&A Strategy",
+    "interests_en": "Corporate Govenance, Growth Strategy, M&A",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=Q9_jl_/QRHaTA958R_pB2g&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D5",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=Q9_jl_/QRHaTA958R_pB2g&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091850073200.gif",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091850073200.gif",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -4372,7 +4453,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "gif"
+    "photo_image_format": "gif",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-f231f4eff7cf",
@@ -4400,7 +4482,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20251111133638534472.png",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20251111133638534472.png",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M09",
@@ -4424,7 +4506,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "png"
+    "photo_image_format": "png",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-49de90e5de2b",
@@ -4452,7 +4535,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20220919165597081153.JPG",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20220919165597081153.JPG",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -4476,7 +4559,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-f6b548d1b6f7",
@@ -4496,15 +4580,15 @@
     ],
     "title_ko": "Information Systems/조교수",
     "title_en": "Information Systems/Assistant Professor",
-    "interests_ko": null,
-    "interests_en": null,
+    "interests_ko": "Digital entrepreneurship, Digital innovation, Business Value of IT/AI, Economics of IS/AI",
+    "interests_en": "Digital entrepreneurship, Digital innovation, Business Value of IT/AI, Economics of IS/AI",
     "url": null,
     "url_en": null,
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20260901153593796460.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20260901153593796460.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -4518,7 +4602,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-2ac7ba870abf",
@@ -4546,7 +4631,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20250829141967272588.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20250829141967272588.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -4570,7 +4655,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-f40ff4150ee1",
@@ -4598,7 +4684,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022163130402143.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20191022163130402143.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -4622,7 +4708,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-a989b9b04286",
@@ -4642,15 +4729,15 @@
     ],
     "title_ko": "회계학/조교수",
     "title_en": "Accounting/Assistant Professor",
-    "interests_ko": null,
-    "interests_en": null,
+    "interests_ko": "성과측정 및 평가, 기업지배구조, 데이터 분석 기반 관리통제시스템",
+    "interests_en": "Performance Measurement and Evaluation, Corporate Governance, and Data Analytics-Based Management Control Systems",
     "url": null,
     "url_en": null,
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20260902093487629610.png",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20260902093487629610.png",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -4664,7 +4751,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "png"
+    "photo_image_format": "png",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-da93dadb094a",
@@ -4692,7 +4780,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091878547324.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091878547324.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -4716,7 +4804,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-23d22a6064ca",
@@ -4744,7 +4833,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919112216749099.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190919112216749099.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M02",
@@ -4766,7 +4855,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-e872b4561de4",
@@ -4794,7 +4884,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20210905154396765202.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20210905154396765202.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M03",
@@ -4818,7 +4908,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-5f2afde5a15a",
@@ -4846,7 +4937,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091835796675.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091835796675.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M05",
@@ -4870,7 +4961,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-f0f3c49d9d74",
@@ -4898,7 +4990,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20200115161093625745.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20200115161093625745.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M02",
@@ -4922,7 +5014,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-e7bf23353847",
@@ -4950,7 +5043,7 @@
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091895167699.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20190903091895167699.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M07",
@@ -4974,7 +5067,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-2d4bfb4d92e2",
@@ -4994,15 +5088,15 @@
     ],
     "title_ko": "재무금융/조교수",
     "title_en": "Finance/Assistant Professor",
-    "interests_ko": null,
-    "interests_en": null,
+    "interests_ko": "기업재무: 노동금융, 창업금융, 지속가능금융",
+    "interests_en": "Corporate Finance: Labor Finance, Entrepreneurial Finance, Sustainable Finance",
     "url": "http://www.sunwoohwang.com",
     "url_en": "http://www.sunwoohwang.com",
     "profile_source_type": "personal_site_linked_by_official_directory",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20240704140062956800.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20240704140062956800.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -5020,7 +5114,8 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   },
   {
     "id": "faculty-7ef0d4864621",
@@ -5046,15 +5141,15 @@
     ],
     "title_ko": "재무금융/Business Analytics/교수",
     "title_en": "Finance/Business Analytics/Professor",
-    "interests_ko": "재무관리, 기업재무",
-    "interests_en": "Financial Management, Corporate Finance",
+    "interests_ko": "기업재무,기업지배구조, 행동재무학, 금융시장",
+    "interests_en": "Corporate Finance, Corporate Governance, Behavioral Finance, Financial Markets",
     "url": "https://biz.korea.ac.kr/professor/professor_view.html?pinfo=2KETUSrqiLK7cU1GC2VCTg&refer=%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D5",
     "url_en": "https://biz.korea.ac.kr/eng/professor/professor_view.html?pinfo=2KETUSrqiLK7cU1GC2VCTg&refer=%2Feng%2Fprofessor%2Fprofessor_list1.html%3Fpage%3D2",
     "profile_source_type": "official_kubs",
     "photo_source": "https://biz.korea.ac.kr/ft_board/upload/professor/20260831140751730589.jpg",
     "photo": "https://biz.korea.ac.kr/ft_board/upload/professor/20260831140751730589.jpg",
     "verified_at": "2026-09-06",
-    "keywords_note": "Verbatim research field text from the official Korean and English full-time faculty directories; blank fields remain null. Language follows the source, so some Korean-page fields contain English.",
+    "keywords_note": "Research keywords supplied for website publication on 2026-09-15; original wording and keyword counts preserved. Blank cells and missing-data markers remain null.",
     "directory_sources": [
       "https://biz.korea.ac.kr/professor/professor_list1.html?page=5",
       "https://biz.korea.ac.kr/professor/professor_list1.html?major=M04",
@@ -5084,6 +5179,7 @@
     "is_area_chair": false,
     "photo_verified_at": "2026-09-06",
     "photo_http_status": 200,
-    "photo_image_format": "jpeg"
+    "photo_image_format": "jpeg",
+    "keywords_updated_at": "2026-09-15"
   }
 ]
