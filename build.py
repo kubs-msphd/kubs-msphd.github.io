@@ -19,7 +19,7 @@ DIRECTORY = 'https://biz.korea.ac.kr/professor/professor_list1.html'
 SITE = 'https://kubs-msphd.github.io/'
 SITE_NAME_KO = '고려대학교 대학원 경영학과'
 SITE_NAME_EN = 'Department of Business Administration, Graduate School, Korea University'
-UPDATED = '2026-09-15'
+UPDATED = '2026-09-16'
 
 def attr(value):
     return escape(str(value), quote=True)
