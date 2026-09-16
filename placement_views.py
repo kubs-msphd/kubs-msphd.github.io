@@ -15,11 +15,13 @@ def summarize_outcomes(summary, degree):
     denominator = summary['total_records'] - statuses.get('unknown', 0)
     if degree == 'masters':
         categories = [
-            ('research', '연구기관', 'Research institutes', counts.get('research_institute', 0)),
             ('domestic', '국내기업', 'Korean companies', counts.get('domestic_company', 0)),
             ('international', '해외/외국계 기업', 'Overseas & foreign companies', counts.get('international_company', 0)),
+            ('research', '연구기관', 'Research institutes', counts.get('research_institute', 0)),
             ('public', '공공/비영리기관', 'Public & nonprofit organizations', counts.get('public_nonprofit', 0)),
+            ('university', '대학·교육기관', 'Universities & education', sum(counts.get(key, 0) for key in ['faculty', 'academic_research', 'teaching', 'university_other'])),
             ('study', '박사/유학 진학·진학예정', 'Doctoral / overseas study & study plans', statuses.get('further_study', 0)),
+            ('employer_unknown', '기업구분 미확인', 'Company type unclassified', counts.get('employer_unknown', 0)),
         ]
         other = denominator - sum(row[3] for row in categories)
         categories.append(('other', '기타', 'Other paths', other))
@@ -66,7 +68,8 @@ def render_outcome_summary(summary, degree, context):
             else:
                 explanation = t('취업·임용 예정, 진로 준비 등', 'Job / appointment plans, career preparation & other paths', 'span', 'outcome-category-note')
         rows.append(f'<tr data-outcome-category="{category["id"]}"><th scope="row">{t(category["label_ko"],category["label_en"])}{explanation}<span class="outcome-track" aria-hidden="true"><span style="width:{share:.5f}%"></span></span></th><td>{t(f"{count:,}명",f"{count:,}")}</td><td>{share:.1f}%</td></tr>')
-    table = f'''<table class="outcome-table"><caption>{t('진로 정보가 있는 동문 기준','Among alumni with recorded career information')}</caption><thead><tr><th scope="col">{t('진출 분야','Career path')}</th><th scope="col">{t('인원','Count')}</th><th scope="col">{t('비중','Share')}</th></tr></thead><tbody>{''.join(rows)}</tbody></table>'''
+    denominator = display['denominator']
+    table = f'''<table class="outcome-table"><caption>{t(f'진로정보가 확인된 {denominator:,}건 기준',f'Based on {denominator:,} records with career information')}</caption><thead><tr><th scope="col">{t('진출 분야','Career path')}</th><th scope="col">{t('인원','Count')}</th><th scope="col">{t('비중','Share')}</th></tr></thead><tbody>{''.join(rows)}</tbody></table>'''
     return f'<article class="outcome-card" data-outcome-degree="{degree}">{t(*title,"h3")}{table}</article>'
 
 
@@ -91,7 +94,7 @@ def render_alumni_contacts(person, context):
     if person.get('email') and not dated_email:
         links.append(alumni_link('mailto:' + person['email'], person['email'], person['email'], person, 'source-link alumni-email'))
     if person.get('profile_url'):
-        links.append(alumni_link(person['profile_url'], '대학 프로필 ↗', 'University profile ↗', person))
+        links.append(alumni_link(person['profile_url'], '공식 프로필 ↗', 'Official profile ↗', person))
     if person.get('website_url') and person['website_url'] != person.get('profile_url'):
         links.append(alumni_link(person['website_url'], '개인 홈페이지 ↗', 'Personal website ↗', person))
     return '<div class="alumni-contacts">' + ''.join(links) + '</div>' if links else ''
@@ -103,7 +106,7 @@ def render_placements(context):
     for alumni in sorted(context['PLACEMENTS']['alumni'], key=lambda row: row['name']):
         name = t(alumni.get('name_ko'), alumni.get('name_en'))
         area = context['AREA_MAP'][alumni['area_code']]
-        degree_ko, degree_en = {'PhD': (' · 박사', ' · PhD'), 'MS': (' · 석사', ' · MS')}.get(alumni.get('degree'), ('', ''))
+        degree_ko, degree_en = {'PhD': (' · 박사', ' · PhD'), 'MS': (' · 석사', ' · MS'), 'MS-PhD': (' · 석박사통합', ' · Integrated MS/PhD')}.get(alumni.get('degree'), ('', ''))
         meta = t(area['name_ko'] + degree_ko, area['name_en'] + degree_en, 'p', 'placement-meta')
         career_labels = {'faculty': ('교수직', 'Faculty'), 'research': ('연구직 · 박사후연구 등', 'Research · Postdoctoral roles'), 'teaching': ('강의 · 겸임 등', 'Teaching · Adjunct roles')}
         if alumni.get('career_group') in career_labels:
