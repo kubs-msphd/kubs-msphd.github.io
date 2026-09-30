@@ -1,7 +1,7 @@
 {
-  "verified_at": "2026-09-16",
-  "profile_checked_at": "2026-09-16",
-  "administrative_updated_at": "2026-09-16",
+  "verified_at": "2026-09-30",
+  "profile_checked_at": "2026-09-30",
+  "administrative_updated_at": "2026-09-30",
   "affiliation_note": "Reviewed official profiles are public. Deferred records, opt-outs and hourly lecturers are withheld. Previously verified historical alumni retain their original verification dates. Career statistics count degree records independently.",
   "sources": [
     {
@@ -37,6 +37,13 @@
       "label_en": "2014–2026 degree roster and official profile review",
       "url": null,
       "checked_at": "2026-09-16"
+    },
+    {
+      "id": "FOLLOWUP",
+      "label_ko": "2026년 9월 공식 프로필 후속 확인",
+      "label_en": "September 2026 official profile follow-up",
+      "url": null,
+      "checked_at": "2026-09-30"
     }
   ],
   "alumni": [
@@ -897,6 +904,63 @@
       }
     },
     {
+      "id": "reviewed-f2727d9d911d",
+      "name": "구윤모",
+      "name_ko": "구윤모",
+      "name_en": null,
+      "institution_ko": "부산연구원",
+      "institution_en": "Busan Development Institute",
+      "department_ko": "경제·산업연구실",
+      "department_en": null,
+      "position_ko": "책임연구위원",
+      "position_en": "Senior Research Fellow",
+      "profile_url": "https://www.bdi.re.kr/www/staffsearch",
+      "email": "ymkooh@bdi.re.kr",
+      "career_group": "research",
+      "area": "IS",
+      "area_code": "M07",
+      "degree": "PhD",
+      "graduation_year": 2017,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "박사",
+          "major": "IS",
+          "year": 2017
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "FOLLOWUP",
+      "source_url": "https://www.bdi.re.kr/www/staffsearch",
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "verified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://www.bdi.re.kr/www/staffsearch",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "position"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "부산연구원",
+        "institution_en": "Busan Development Institute",
+        "department_ko": "경제·산업연구실",
+        "department_en": null,
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
       "id": "admin-036",
       "name": "구지은",
       "name_ko": "구지은",
@@ -949,6 +1013,63 @@
         "department_ko": "국제통상학부 / 국제경영학",
         "department_en": null,
         "checked_at": "2026-09-16"
+      }
+    },
+    {
+      "id": "admin-150",
+      "name": "권미진",
+      "name_ko": "권미진",
+      "name_en": "Mijin Kwon",
+      "institution_ko": "전북대학교",
+      "institution_en": "Jeonbuk National University",
+      "department_ko": "경상대학 경영학과",
+      "department_en": null,
+      "position_ko": "조교수",
+      "position_en": "Assistant Professor",
+      "email": "mijinkwon@jbnu.ac.kr",
+      "profile_url": "https://business.jbnu.ac.kr/jbnuProfl/business/224/9480/artclView.do",
+      "career_group": "faculty",
+      "area": "마케팅",
+      "area_code": "M03",
+      "degree": "PhD",
+      "graduation_year": 2022,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "박사",
+          "major": "마케팅",
+          "year": 2022
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "ADMIN",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "verified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://business.jbnu.ac.kr/jbnuProfl/business/224/9480/artclView.do",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "position"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "전북대학교",
+        "institution_en": "Jeonbuk National University",
+        "department_ko": "경상대학 경영학과",
+        "department_en": null,
+        "checked_at": "2026-09-30"
       }
     },
     {
@@ -1059,6 +1180,65 @@
         "department_ko": "경제학과",
         "department_en": null,
         "checked_at": "2026-09-16"
+      }
+    },
+    {
+      "id": "admin-115",
+      "name": "권혜정",
+      "name_ko": "권혜정",
+      "name_en": null,
+      "institution_ko": "경북대학교",
+      "institution_en": "Kyungpook National University",
+      "department_ko": "경상대학 경영학부",
+      "department_en": null,
+      "position_ko": null,
+      "position_en": null,
+      "profile_url": "https://home.knu.ac.kr/HOME/kbiz/sub.htm?nav_code=kbi1624498866",
+      "email": "gwon_hj@knu.ac.kr",
+      "career_group": "teaching",
+      "appointment_ko": "초빙교수",
+      "appointment_en": "Visiting Professor",
+      "area": "LSOM",
+      "area_code": "M06",
+      "degree": "MS-PhD",
+      "graduation_year": 2020,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "석박통합",
+          "major": "LSOM",
+          "year": 2020
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "ADMIN",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "appointment_only",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://home.knu.ac.kr/HOME/kbiz/sub.htm?nav_code=kbi1624498866",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "appointment"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "경북대학교",
+        "institution_en": "Kyungpook National University",
+        "department_ko": "경상대학 경영학부",
+        "department_en": null,
+        "checked_at": "2026-09-30"
       }
     },
     {
@@ -1564,6 +1744,84 @@
         "department_ko": "경영학부 (회계학)",
         "department_en": null,
         "checked_at": "2026-09-16"
+      }
+    },
+    {
+      "id": "lsom-014",
+      "name": "김미금",
+      "name_ko": "김미금",
+      "name_en": null,
+      "institution_ko": "서경대학교",
+      "institution_en": "Seokyeong University",
+      "department_ko": "미래융합대학 미래융합학부1 글로벌비즈니스전공",
+      "department_en": "School of Future Convergence 1, Major of Global Business",
+      "position_ko": "조교수",
+      "position_en": "Assistant Professor",
+      "profile_url": "https://gb.skuniv.ac.kr/gb_professor",
+      "email": "mkkim01@skuniv.ac.kr",
+      "career_group": "faculty",
+      "area": "LSOM",
+      "area_code": "M06",
+      "degree": "PhD",
+      "graduation_year": 2023,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "박사",
+          "major": "LSOM",
+          "year": 2023
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "LSOM",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "verified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://gb.skuniv.ac.kr/gb_professor",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "position"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "서경대학교",
+        "institution_en": "Seokyeong University",
+        "department_ko": "미래융합대학 미래융합학부1 글로벌비즈니스전공",
+        "department_en": "School of Future Convergence 1, Major of Global Business",
+        "checked_at": "2026-09-30"
+      },
+      "original_listing": {
+        "name": "김미금",
+        "institution_ko": "서경대학교",
+        "institution_en": "Seokyeong University",
+        "graduation_year": null,
+        "first_placement": null,
+        "id": "lsom-014",
+        "name_ko": "김미금",
+        "name_en": null,
+        "area": "LSOM",
+        "area_code": "M06",
+        "degree": "PhD",
+        "current_affiliation": null,
+        "position_ko": "교수",
+        "position_en": "University faculty",
+        "affiliation_status": "programme_supplied",
+        "source_id": "LSOM",
+        "source_url": null,
+        "verified_at": "2026-09-06",
+        "rank_was_verified": false
       }
     },
     {
@@ -2192,6 +2450,115 @@
       },
       "record_basis": "public_profile",
       "career_group": "faculty"
+    },
+    {
+      "id": "admin-275",
+      "name": "김송희",
+      "name_ko": "김송희",
+      "name_en": null,
+      "institution_ko": "중소벤처기업연구원",
+      "institution_en": "Korea SMEs and Startups Institute",
+      "department_ko": null,
+      "department_en": null,
+      "position_ko": null,
+      "position_en": null,
+      "email": null,
+      "profile_url": "https://www.kosi.re.kr/front/functionDisplay?menuFrontNo=181465601601509486362729421005166528452&menuFrontURL=front/researchersIntroDetail?recid=59781336934087276577132578293702588440",
+      "career_group": "research",
+      "area": "재무금융",
+      "area_code": "M04",
+      "degree": "PhD",
+      "graduation_year": 2025,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "박사",
+          "major": "재무금융",
+          "year": 2025
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "ADMIN",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "unverified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://www.kosi.re.kr/front/functionDisplay?menuFrontNo=181465601601509486362729421005166528452&menuFrontURL=front/researchersIntroDetail?recid=59781336934087276577132578293702588440",
+            "fields": [
+              "institution",
+              "profile"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "중소벤처기업연구원",
+        "institution_en": "Korea SMEs and Startups Institute",
+        "department_ko": null,
+        "department_en": null,
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "id": "admin-011",
+      "name": "김영신",
+      "name_ko": "김영신",
+      "name_en": "Youngshin Kim",
+      "institution_ko": "서울신학대학교",
+      "institution_en": "Seoul Theological University",
+      "department_ko": "관광경영학과",
+      "department_en": null,
+      "position_ko": null,
+      "position_en": null,
+      "email": null,
+      "profile_url": "https://tourism.stu.ac.kr/CmsHome/prf_01.eznic",
+      "career_group": "faculty",
+      "area": "경영관리",
+      "area_code": "M01",
+      "degree": "PhD",
+      "graduation_year": 2014,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "박사",
+          "major": "경영관리",
+          "year": 2014
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "ADMIN",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "unverified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://tourism.stu.ac.kr/CmsHome/prf_01.eznic",
+            "fields": [
+              "institution",
+              "profile",
+              "department"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "서울신학대학교",
+        "institution_en": "Seoul Theological University",
+        "department_ko": "관광경영학과",
+        "department_en": null,
+        "checked_at": "2026-09-30"
+      }
     },
     {
       "id": "admin-009",
@@ -5027,6 +5394,68 @@
       }
     },
     {
+      "id": "admin-361",
+      "name": "박정우",
+      "name_ko": "박정우",
+      "name_en": null,
+      "institution_ko": "고려대학교",
+      "institution_en": "Korea University",
+      "department_ko": "대학원혁신본부 대학원혁신팀",
+      "department_en": null,
+      "position_ko": "박사후연구원",
+      "position_en": "Postdoctoral Researcher",
+      "email": "korean_park@korea.ac.kr",
+      "profile_url": "https://graduate.korea.ac.kr/about/organization.html",
+      "career_group": "research",
+      "area": "LSOM",
+      "area_code": "M06",
+      "degree": "PhD",
+      "graduation_year": 2026,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "석사",
+          "major": "LSOM",
+          "year": 2019
+        },
+        {
+          "degree": "박사",
+          "major": "LSOM",
+          "year": 2026
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "ADMIN",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "verified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://graduate.korea.ac.kr/about/organization.html",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "position"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "고려대학교",
+        "institution_en": "Korea University",
+        "department_ko": "대학원혁신본부 대학원혁신팀",
+        "department_en": null,
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
       "id": "admin-276",
       "name": "박준민",
       "name_ko": "박준민",
@@ -5189,6 +5618,141 @@
         "department_ko": "기업경영연구원 / Information Systems",
         "department_en": null,
         "checked_at": "2026-09-16"
+      }
+    },
+    {
+      "id": "reviewed-468a37fac67b",
+      "name": "박지훈",
+      "name_ko": "박지훈",
+      "name_en": "Park Jihun",
+      "institution_ko": "한국국방연구원",
+      "institution_en": "Korea Institute for Defense Analyses",
+      "department_ko": "군사발전연구센터 전략기획연구실",
+      "department_en": null,
+      "position_ko": "책임연구위원",
+      "position_en": "Senior Research Fellow",
+      "profile_url": "https://www.kida.re.kr/frt/rscenter/frtResearchCenterLab.do?depth=3&sidx=342",
+      "email": "jhpark@kida.re.kr",
+      "career_group": "research",
+      "area": "IS",
+      "area_code": "M07",
+      "degree": "PhD",
+      "graduation_year": 2017,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "박사",
+          "major": "IS",
+          "year": 2017
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "FOLLOWUP",
+      "source_url": "https://www.kida.re.kr/frt/rscenter/frtResearchCenterLab.do?depth=3&sidx=342",
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "verified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://www.kida.re.kr/frt/rscenter/frtResearchCenterLab.do?depth=3&sidx=342",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "position"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "한국국방연구원",
+        "institution_en": "Korea Institute for Defense Analyses",
+        "department_ko": "군사발전연구센터 전략기획연구실",
+        "department_en": null,
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "id": "lsom-006",
+      "name": "박진수",
+      "name_ko": "박진수",
+      "name_en": "Jinsoo Park",
+      "institution_ko": "국립군산대학교",
+      "institution_en": "Kunsan National University",
+      "department_ko": "경영학부",
+      "department_en": null,
+      "position_ko": "조교수",
+      "position_en": "Assistant Professor",
+      "email": "jsp@ksnu.ac.kr",
+      "profile_url": "https://www.kunsan.ac.kr/business/index.kunsan?menuCd=DOM_000006301004006000",
+      "career_group": "faculty",
+      "area": "LSOM",
+      "area_code": "M06",
+      "degree": "MS-PhD",
+      "graduation_year": 2016,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "석박통합",
+          "major": "LSOM",
+          "year": 2016
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "LSOM",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "verified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://www.kunsan.ac.kr/business/index.kunsan?menuCd=DOM_000006301004006000",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "position"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "국립군산대학교",
+        "institution_en": "Kunsan National University",
+        "department_ko": "경영학부",
+        "department_en": null,
+        "checked_at": "2026-09-30"
+      },
+      "original_listing": {
+        "name": "박진수",
+        "institution_ko": "전주대학교",
+        "institution_en": "Jeonju University",
+        "graduation_year": null,
+        "first_placement": null,
+        "id": "lsom-006",
+        "name_ko": "박진수",
+        "name_en": null,
+        "area": "LSOM",
+        "area_code": "M06",
+        "degree": "PhD",
+        "current_affiliation": null,
+        "position_ko": "교수",
+        "position_en": "University faculty",
+        "affiliation_status": "programme_supplied",
+        "source_id": "LSOM",
+        "source_url": null,
+        "verified_at": "2026-09-06",
+        "rank_was_verified": false
       }
     },
     {
@@ -5522,6 +6086,65 @@
         "department_ko": "Marketing",
         "department_en": "Marketing",
         "checked_at": "2026-09-16"
+      }
+    },
+    {
+      "id": "admin-082",
+      "name": "서지영",
+      "name_ko": "서지영",
+      "name_en": null,
+      "institution_ko": "한양대학교",
+      "institution_en": "Hanyang University",
+      "department_ko": "경영대학",
+      "department_en": null,
+      "position_ko": null,
+      "position_en": null,
+      "email": "jyseo1@hanyang.ac.kr",
+      "profile_url": "https://biz.hanyang.ac.kr/-12",
+      "career_group": "teaching",
+      "appointment_ko": "겸임교수",
+      "appointment_en": "Adjunct Professor",
+      "area": "마케팅",
+      "area_code": "M03",
+      "degree": "PhD",
+      "graduation_year": 2018,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "박사",
+          "major": "마케팅",
+          "year": 2018
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "ADMIN",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "appointment_only",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://biz.hanyang.ac.kr/-12",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "appointment"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "한양대학교",
+        "institution_en": "Hanyang University",
+        "department_ko": "경영대학",
+        "department_en": null,
+        "checked_at": "2026-09-30"
       }
     },
     {
@@ -7100,6 +7723,63 @@
       "appointment_en": "Concurrent appointment in the Graduate School of Technology and Innovation Management",
       "record_basis": "public_profile",
       "career_group": "faculty"
+    },
+    {
+      "id": "admin-174",
+      "name": "유은솔",
+      "name_ko": "유은솔",
+      "name_en": "Eunsol Yoo",
+      "institution_ko": "고려대학교",
+      "institution_en": "Korea University",
+      "department_ko": "BK21 경영학교육연구단 / LSOM",
+      "department_en": null,
+      "position_ko": "연구교수",
+      "position_en": "Research Professor",
+      "email": "graceat@korea.ac.kr",
+      "profile_url": "https://biz.korea.ac.kr/professor/professor_view?pinfo=BumfNvgl3jtX52t7IQftsA",
+      "career_group": "research",
+      "area": "LSOM",
+      "area_code": "M06",
+      "degree": "MS-PhD",
+      "graduation_year": 2023,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "석박통합",
+          "major": "LSOM",
+          "year": 2023
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "ADMIN",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "verified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://biz.korea.ac.kr/professor/professor_view?pinfo=BumfNvgl3jtX52t7IQftsA",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "position"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "고려대학교",
+        "institution_en": "Korea University",
+        "department_ko": "BK21 경영학교육연구단 / LSOM",
+        "department_en": null,
+        "checked_at": "2026-09-30"
+      }
     },
     {
       "id": "admin-129",
@@ -9878,6 +10558,62 @@
       }
     },
     {
+      "id": "admin-080",
+      "name": "정경철",
+      "name_ko": "정경철",
+      "name_en": null,
+      "institution_ko": "경북대학교",
+      "institution_en": "Kyungpook National University",
+      "department_ko": "경상대학 경영학부",
+      "department_en": null,
+      "position_ko": null,
+      "position_en": null,
+      "email": "kcjung@knu.ac.kr",
+      "profile_url": "https://home.knu.ac.kr/HOME/kbiz/sub.htm?nav_code=kbi1698891497",
+      "career_group": "faculty",
+      "area": "회계학",
+      "area_code": "M05",
+      "degree": "PhD",
+      "graduation_year": 2017,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "박사",
+          "major": "회계학",
+          "year": 2017
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "ADMIN",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "unverified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://home.knu.ac.kr/HOME/kbiz/sub.htm?nav_code=kbi1698891497",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "경북대학교",
+        "institution_en": "Kyungpook National University",
+        "department_ko": "경상대학 경영학부",
+        "department_en": null,
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
       "id": "alumni-e0687816fda0",
       "name": "정광화",
       "name_ko": "정광화",
@@ -12183,6 +12919,63 @@
         "department_ko": "상경학부 경영학전공 (회계학)",
         "department_en": null,
         "checked_at": "2026-09-16"
+      }
+    },
+    {
+      "id": "admin-071",
+      "name": "허우경",
+      "name_ko": "허우경",
+      "name_en": "Heo Woo Kyeong",
+      "institution_ko": "홍익대학교 세종캠퍼스",
+      "institution_en": "Hongik University, Sejong Campus",
+      "department_ko": "상경대학 회계학전공",
+      "department_en": null,
+      "position_ko": "조교수",
+      "position_en": "Assistant Professor",
+      "email": "wkheo@hongik.ac.kr",
+      "profile_url": "https://business.hongik.ac.kr/business/0202.do?mode=view&deptCd=BAB122&S1=2018&S2=10035",
+      "career_group": "faculty",
+      "area": "회계학",
+      "area_code": "M05",
+      "degree": "PhD",
+      "graduation_year": 2017,
+      "first_placement": null,
+      "kubs_degrees": [
+        {
+          "degree": "박사",
+          "major": "회계학",
+          "year": 2017
+        }
+      ],
+      "website_url": null,
+      "record_basis": "public_profile",
+      "affiliation_status": "profile_checked",
+      "verified_at": "2026-09-30",
+      "source_id": "ADMIN",
+      "source_url": null,
+      "profile_verification": {
+        "status": "verified",
+        "rank_status": "verified",
+        "checked_at": "2026-09-30",
+        "sources": [
+          {
+            "url": "https://business.hongik.ac.kr/business/0202.do?mode=view&deptCd=BAB122&S1=2018&S2=10035",
+            "fields": [
+              "institution",
+              "profile",
+              "department",
+              "email",
+              "position"
+            ]
+          }
+        ]
+      },
+      "current_affiliation": {
+        "institution_ko": "홍익대학교 세종캠퍼스",
+        "institution_en": "Hongik University, Sejong Campus",
+        "department_ko": "상경대학 회계학전공",
+        "department_en": null,
+        "checked_at": "2026-09-30"
       }
     },
     {
