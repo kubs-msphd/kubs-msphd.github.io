@@ -1,8 +1,4 @@
-"""Public graduate-career views; source and verification notes stay in data files.
-
-The rendering context is build.py's namespace. Original administrative records
-and verification objects are deliberately not serialized by this module.
-"""
+"""Public graduate-career views use publication-approved directory data and aggregate outcomes."""
 def summarize_outcomes(summary, degree):
     """Map recorded career outcomes to visitor-facing groups without losing rows.
 
